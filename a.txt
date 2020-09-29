@@ -1,0 +1,131 @@
+[0m[ INFO] [1601201781.244814787]: Initializing nodelet with 4 worker threads.[0m
+[0m[ INFO] [1601201781.324373383]: [32m[Kinect2Bridge::initialize] [0mparameter:
+        base_name: [36mkinect2[0m
+           sensor: [36mdefault[0m
+        fps_limit: [36m-1[0m
+       calib_path: [36m/home/free/catkin_kinect2/src/iai_kinect2/kinect2_bridge/data/[0m
+          use_png: [36mfalse[0m
+     jpeg_quality: [36m90[0m
+        png_level: [36m1[0m
+     depth_method: [36mdefault[0m
+     depth_device: [36m-1[0m
+       reg_method: [36mdefault[0m
+       reg_device: [36m-1[0m
+        max_depth: [36m12[0m
+        min_depth: [36m0.1[0m
+       queue_size: [36m5[0m
+ bilateral_filter: [36mtrue[0m
+edge_aware_filter: [36mtrue[0m
+       publish_tf: [36mfalse[0m
+     base_name_tf: [36mkinect2[0m
+   worker_threads: [36m4[0m[0m[0m
+[Info] [CudaDepthPacketProcessorImpl] device 0: GeForce 940M @ 980MHz Memory 982MB
+[Info] [CudaDepthPacketProcessorImpl] selected device 0
+[Info] [Freenect2Impl] enumerating devices...
+[Info] [Freenect2Impl] 11 usb devices connected
+[Info] [Freenect2Impl] found valid Kinect v2 @3:3 with serial 019469645147
+[Info] [Freenect2Impl] found 1 devices
+[0m[ INFO] [1601201782.312317458]: [32m[Kinect2Bridge::initDevice] [0mKinect2 devices found: [0m[0m
+[0m[ INFO] [1601201782.312368890]: [32m[Kinect2Bridge::initDevice] [0m  0: [36m019469645147[33m (selected)[0m[0m[0m
+[Info] [Freenect2DeviceImpl] opening...
+[Info] [Freenect2DeviceImpl] transfer pool sizes rgb: 20*16384 ir: 60*8*33792
+[Info] [Freenect2DeviceImpl] opened
+[0m[ INFO] [1601201782.417782393]: [32m[Kinect2Bridge::initDevice] [0mstarting kinect2[0m[0m
+[Info] [Freenect2DeviceImpl] starting...
+[Info] [Freenect2DeviceImpl] submitting rgb transfers...
+[Info] [Freenect2DeviceImpl] submitting depth transfers...
+[Info] [Freenect2DeviceImpl] started
+[0m[ INFO] [1601201782.769772118]: [32m[Kinect2Bridge::initDevice] [0mdevice serial: [36m019469645147[0m[0m[0m
+[0m[ INFO] [1601201782.769862130]: [32m[Kinect2Bridge::initDevice] [0mdevice firmware: [36m4.0.3916.0[0m[0m[0m
+[Info] [Freenect2DeviceImpl] stopping...
+[Info] [Freenect2DeviceImpl] canceling rgb transfers...
+[Info] [Freenect2DeviceImpl] canceling depth transfers...
+[Info] [Freenect2DeviceImpl] stopped
+[0m[ INFO] [1601201783.040014238]: [32m[DepthRegistration::New] [0mUsing OpenCL registration method![0m[0m
+[0m[ INFO] [1601201783.040115757]: [32m[DepthRegistration::New] [0mUsing OpenCL registration method![0m[0m
+[0m[ INFO] [1601201783.122556500]: [32m[DepthRegistrationOpenCL::init] [0mdevices:[0m[0m
+[0m[ INFO] [1601201783.122963551]: [32m[DepthRegistrationOpenCL::init] [0m  0: [36mGeForce 940M[0m
+[0m[ INFO] [1601201783.122989963]: [32m[DepthRegistrationOpenCL::init] [0m  1: [36mIntel(R) HD Graphics 5500 BroadWell U-Processor GT2[0m
+[0m[ INFO] [1601201783.123243764]: [32m[DepthRegistrationOpenCL::init] [0mselected device: [33mGeForce 940M[0m
+[0m[ INFO] [1601201783.250541618]: [32m[DepthRegistrationOpenCL::init] [0mdevices:[0m[0m
+[0m[ INFO] [1601201783.250761963]: [32m[DepthRegistrationOpenCL::init] [0m  0: [36mGeForce 940M[0m
+[0m[ INFO] [1601201783.250785592]: [32m[DepthRegistrationOpenCL::init] [0m  1: [36mIntel(R) HD Graphics 5500 BroadWell U-Processor GT2[0m
+[0m[ INFO] [1601201783.250925802]: [32m[DepthRegistrationOpenCL::init] [0mselected device: [33mGeForce 940M[0m
+[0m[ INFO] [1601201783.388859368]: [32m[Kinect2Bridge::main] [0mwaiting for clients to connect[0m[0m
+[Info] [Freenect2DeviceImpl] closing...
+[Info] [Freenect2DeviceImpl] releasing usb interfaces...
+[Info] [Freenect2DeviceImpl] deallocating usb transfer pools...
+[Info] [Freenect2DeviceImpl] closing usb device...
+[Info] [Freenect2DeviceImpl] closed
+[0m[ INFO] [1601201781.200754617]: Loading nodelet /kinect2_bridge of type kinect2_bridge/kinect2_bridge_nodelet to manager kinect2 with the following remappings:[0m
+[0m[ INFO] [1601201781.205604781]: waitForService: Service [/kinect2/load_nodelet] has not been advertised, waiting...[0m
+[0m[ INFO] [1601201781.250427143]: waitForService: Service [/kinect2/load_nodelet] is now available.[0m
+[0m[ INFO] [1601201787.292727049]: Unloading nodelet /kinect2_bridge from manager kinect2[0m
+[Info] [Freenect2DeviceImpl] closing...
+[Info] [Freenect2DeviceImpl] already closed, doing nothing
+... logging to /home/free/.ros/log/7cb74260-00aa-11eb-b81b-4c3488c8e169/roslaunch-free-ThinkPad-T450-5588.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/free/catkin_kinect2/src/iai_kinect2/kinect2_bridge/launch/kinect2_bridge.launch
+[1mstarted roslaunch server http://free-ThinkPad-T450:38407/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /kinect2_bridge/base_name: kinect2
+ * /kinect2_bridge/base_name_tf: kinect2
+ * /kinect2_bridge/bilateral_filter: True
+ * /kinect2_bridge/calib_path: /home/free/catkin...
+ * /kinect2_bridge/depth_device: -1
+ * /kinect2_bridge/depth_method: default
+ * /kinect2_bridge/edge_aware_filter: True
+ * /kinect2_bridge/fps_limit: -1.0
+ * /kinect2_bridge/jpeg_quality: 90
+ * /kinect2_bridge/max_depth: 12.0
+ * /kinect2_bridge/min_depth: 0.1
+ * /kinect2_bridge/png_level: 1
+ * /kinect2_bridge/publish_tf: False
+ * /kinect2_bridge/queue_size: 5
+ * /kinect2_bridge/reg_device: -1
+ * /kinect2_bridge/reg_method: default
+ * /kinect2_bridge/sensor: 
+ * /kinect2_bridge/use_png: False
+ * /kinect2_bridge/worker_threads: 4
+ * /kinect2_points_xyzrgb_hd/queue_size: 5
+ * /kinect2_points_xyzrgb_qhd/queue_size: 5
+ * /kinect2_points_xyzrgb_sd/queue_size: 5
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.16
+
+NODES
+  /
+    kinect2 (nodelet/nodelet)
+    kinect2_bridge (nodelet/nodelet)
+    kinect2_points_xyzrgb_hd (nodelet/nodelet)
+    kinect2_points_xyzrgb_qhd (nodelet/nodelet)
+    kinect2_points_xyzrgb_sd (nodelet/nodelet)
+
+auto-starting new master
+[1mprocess[master]: started with pid [5598][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/free/catkin_kinect2/src/iai_kinect2/kinect2_bridge/launch/kinect2_bridge.launch http://localhost:11311
+[1msetting /run_id to 7cb74260-00aa-11eb-b81b-4c3488c8e169[0m
+[1mprocess[rosout-1]: started with pid [5612][0m
+started core service [/rosout]
+[1mprocess[kinect2-2]: started with pid [5620][0m
+[1mprocess[kinect2_bridge-3]: started with pid [5630][0m
+[1mprocess[kinect2_points_xyzrgb_sd-4]: started with pid [5631][0m
+[1mprocess[kinect2_points_xyzrgb_qhd-5]: started with pid [5639][0m
+[1mprocess[kinect2_points_xyzrgb_hd-6]: started with pid [5650][0m
+[kinect2_points_xyzrgb_hd-6] killing on exit
+[kinect2_points_xyzrgb_qhd-5] killing on exit
+[kinect2_points_xyzrgb_sd-4] killing on exit
+[kinect2_bridge-3] killing on exit
+[kinect2-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m

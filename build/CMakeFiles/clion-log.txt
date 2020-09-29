@@ -1,0 +1,80 @@
+/snap/clion/126/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCATKIN_DEVEL_PREFIX=/home/free/catkin_kinect2/devel -DCMAKE_INSTALL_PREFIX=/home/free/catkin_kinect2/install -G "CodeBlocks - Unix Makefiles" /home/free/catkin_kinect2/src
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/free/catkin_kinect2/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/kinetic
+-- This workspace overlays: /opt/ros/kinetic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.12", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/free/catkin_kinect2/build/test_results
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.12") 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.20
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 6 packages in topological order:
+-- ~~  - iai_kinect2 (metapackage)
+-- ~~  - obj_detected
+-- ~~  - kinect2_registration
+-- ~~  - kinect2_bridge
+-- ~~  - kinect2_calibration
+-- ~~  - kinect2_viewer
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin metapackage: 'iai_kinect2'
+-- ==> add_subdirectory(iai_kinect2/iai_kinect2)
+-- +++ processing catkin package: 'obj_detected'
+-- ==> add_subdirectory(obj_detected)
+-- Could NOT find std_msg (missing: std_msg_DIR)
+-- Could not find the required component 'std_msg'. The following CMake error indicates that you either need to install the package with the same name or change your environment so that it can be found.
+CMake Error at /opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by "std_msg" with any
+  of the following names:
+
+    std_msgConfig.cmake
+    std_msg-config.cmake
+
+  Add the installation prefix of "std_msg" to CMAKE_PREFIX_PATH or set
+  "std_msg_DIR" to a directory containing one of the above files.  If
+  "std_msg" provides a separate development package or SDK, be sure it has
+  been installed.
+Call Stack (most recent call first):
+  obj_detected/CMakeLists.txt:10 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/free/catkin_kinect2/build/CMakeFiles/CMakeOutput.log".
+See also "/home/free/catkin_kinect2/build/CMakeFiles/CMakeError.log".

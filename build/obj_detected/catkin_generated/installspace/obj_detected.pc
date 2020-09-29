@@ -1,0 +1,8 @@
+prefix=/home/free/catkin_kinect2/install
+
+Name: obj_detected
+Description: Description of obj_detected
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msg message_runtime
