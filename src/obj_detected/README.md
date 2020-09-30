@@ -1,10 +1,16 @@
-[toc]
-
 # obj_detected
+[toc]
+## 一些新的修改
 
+- 将时间由ms改为us/1000，也就是说原来是int型的毫秒，现在是小数点后还有数值的毫秒。
+- README新增加了**深度处理**和**cameraInfo**的内容。
+- callback中增加了一句ROS_INFO，唯一的作用就是查看两次callback之间到底隔了多少，是图像获取慢的问题还是处理慢的问题
+
+## 说明
 - 应该是需要创建package，然后把src里的内容和msg，xml，CMakeLists复制过去，然后注释掉CMakeLists.txt里的`add_executable()`，然后`catkin_make`以生成头文件，然后再放开`add_executable`的注释，`catkin_make`。
 - 当然也可以调用其他包已经编译好的`ball_pose.msg`所生成的头文件。参考[这里](https://www.cnblogs.com/long5683/p/11450472.html)。
 - 程序源文件 `src/obj_detected.cpp`
+
 
 ## 一些信息
 
@@ -49,7 +55,7 @@ rostopic echo /obj_detect/tennis_pose
 ```
 或者使用下列命令将其重定向到文件output.txt中，并同时在屏幕输出
 ```
-rostopic echo /obj_detect/tennis_pose > &1 | tee output.txt
+rostopic echo /obj_detect/tennis_pose >&1 | tee output.txt
 ```
 
 ## 手眼标定相关
@@ -67,6 +73,48 @@ rostopic echo /obj_detect/tennis_pose > &1 | tee output.txt
   coord_{world} = A*coord_{camera}\tag{1}
   $$
   
+
+## 深度处理
+
+新增深度处理，圆心为中心点，半径×2为变长的矩形内的深度信息进行遍历，并选出最小的，实际实验过程中发现会出现0的情况，没太搞懂为什么，又加了一步判断，代码中直接搜`最小深度`可达，**我将最小深度的赋值注释掉了**(我又给他取消注释了)，两个误差小的时候2～3，大的时候10+。
+
+- `obj_output.txt`为obj_detected程序在控制台输出的内容，`topic_send`是obj_detected发送的topic，b.txt是另一个obj_detected程序在控制台输出的内容。其中`obj_output.txt`和`topic_send`是同步的。
+
+- `obj_output.txt`中detected_frame_count: 44 47 48的位置可以看出他确实有个很好的矫正。
+- **但是，确实还存在整个矩形的深度都在背景板上的情况**，比如`b.txt`中的detected_frame_count: 78。但是基本上是小概率事件，有可能使因为我的实验环境导致网球发白，识别面积太小，全都跑偏了。
+
+## cameraInfo
+
+viewer中有一步是readCameraInfo()，这个就是在读你标定的信息，topic所广播的是`D,K,R,P`，分别对应`calib_color.yaml`中的
+
+topic:`/kinect2/hd/camera_info` :`1920*1080`
+
+```
+D - distortionCoefficients
+K - cameraMatrix
+R - rotation
+P - projection
+```
+
+topic:`/kinect2/hd/camera_info`:`960*540`
+
+```
+D - distortionCoefficients
+K - cameraMatrix/2
+R - rotation
+P - projection/2
+```
+
+topic:`/kinect2/hd/camera_info`:`512*424`
+
+这个对应`calib_ir.yaml`中的。。。这个怎么不一样？为啥呢
+
+```
+D - distortionCoefficients
+K - cameraMatrix
+R - rotation
+P - projection
+```
 
 ## 编译报错
 

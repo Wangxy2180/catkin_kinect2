@@ -1,0 +1,10294 @@
+[0m[ INFO] [1601380692.181270278]: ---recv topic color: /kinect2/qhd/image_color_rect ---
+[0m
+[0m[ INFO] [1601380692.181308075]: ---recv topic depth: /kinect2/qhd/image_depth_rect ---
+[0m
+[0m[ INFO] [1601380692.181315943]: ---publ topic world: /obj_detect/tennis_pose ---
+[0m
+[0m[ INFO] [1601380692.224582535]: starting...[0m
+fx    is 528.616
+cx xy is 478.067  274.312
+手眼标定文件路径是：/home/free/catkin_kinect2/src/obj_detected/hand_eye_calib.txt
+**check** hand eye calib is:
+   0.02211   -0.10229    0.99441    -1829.3
+   -0.9995 -0.0026826   0.021945    -900.63
+0.00042352   -0.99458   -0.10229     735.18
+         0          0          0          1
+center:[483, 528] radius:18
+detect once: 0.021643s
+firstle
+elapsed is 0s
+detected_frame_count: 1
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[596, 530] radius:30
+detect once: 0.02625s
+elapsed is 0.053178s
+detected_frame_count: 2
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[823, 417] radius:97
+detect once: 0.026808s
+elapsed is 0.11842s
+detected_frame_count: 3
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[348, 530] radius:7
+detect once: 0.022776s
+elapsed is 1.50428s
+detected_frame_count: 4
+center depthValue: 864
+min    depthValue: 861
+123
+camera_coord
+-212.589
+ 419.346
+     864
+       1
+world_coord 
+-1017.73
+-670.311
+ 229.638
+       1
+--------------------------------------
+center:[348, 511] radius:10
+detect once: 0.024023s
+elapsed is 1.55012s
+detected_frame_count: 5
+center depthValue: 902
+min    depthValue: 898
+123
+camera_coord
+-221.939
+ 405.258
+     902
+       1
+world_coord 
+-978.703
+-660.094
+ 239.759
+       1
+--------------------------------------
+center:[353, 480] radius:11
+detect once: 0.022286s
+elapsed is 1.60503s
+detected_frame_count: 6
+center depthValue: 972
+min    depthValue: 963
+123
+camera_coord
+-229.969
+  379.51
+     972
+       1
+world_coord 
+-906.638
+-650.463
+ 258.203
+       1
+--------------------------------------
+center:[352, 465] radius:3
+detect once: 0.024039s
+elapsed is 1.67058s
+detected_frame_count: 7
+center depthValue: 1805
+min    depthValue: 1028
+123
+camera_coord
+-430.466
+ 653.355
+    1805
+       1
+world_coord 
+-110.739
+-432.521
+-99.4495
+       1
+--------------------------------------
+center:[317, 302] radius:3
+detect once: 0.020523s
+elapsed is 2.3208s
+detected_frame_count: 8
+center depthValue: 1077
+min    depthValue: 1075
+123
+camera_coord
+-328.158
+ 56.6053
+    1077
+       1
+world_coord 
+-771.366
+-549.153
+ 568.576
+       1
+--------------------------------------
+center:[315, 302] radius:3
+detect once: 0.021006s
+elapsed is 2.36254s
+detected_frame_count: 9
+center depthValue: 1074
+min    depthValue: 1071
+123
+camera_coord
+-331.307
+ 56.4476
+    1074
+       1
+world_coord 
+-774.403
+-546.071
+ 569.039
+       1
+--------------------------------------
+center:[314, 302] radius:4
+detect once: 0.027274s
+elapsed is 2.40981s
+detected_frame_count: 10
+center depthValue: 1065
+min    depthValue: 1063
+123
+camera_coord
+-330.546
+ 55.9746
+    1065
+       1
+world_coord 
+-783.287
+-547.028
+  570.43
+       1
+--------------------------------------
+center:[309, 329] radius:5
+detect once: 0.021974s
+elapsed is 2.98982s
+detected_frame_count: 11
+center depthValue: 1025
+min    depthValue: 1025
+123
+camera_coord
+-327.826
+ 106.406
+    1025
+       1
+world_coord 
+-828.162
+ -550.76
+ 524.365
+       1
+--------------------------------------
+center:[308, 331] radius:3
+detect once: 0.02496s
+elapsed is 3.03816s
+detected_frame_count: 12
+center depthValue: 1030
+min    depthValue: 1027
+123
+camera_coord
+-331.373
+ 110.835
+    1030
+       1
+world_coord 
+-823.722
+-547.116
+ 519.447
+       1
+--------------------------------------
+center:[308, 332] radius:5
+detect once: 0.027191s
+elapsed is 3.08791s
+detected_frame_count: 13
+center depthValue: 1030
+min    depthValue: 1027
+123
+camera_coord
+-331.373
+  112.79
+    1030
+       1
+world_coord 
+-823.922
+-547.121
+ 517.502
+       1
+--------------------------------------
+center:[304, 334] radius:3
+detect once: 0.026953s
+elapsed is 3.14779s
+detected_frame_count: 14
+center depthValue: 1024
+min    depthValue: 1022
+123
+camera_coord
+-337.192
+ 116.021
+    1024
+       1
+world_coord 
+-830.347
+-541.447
+   514.9
+       1
+--------------------------------------
+center:[295, 349] radius:5
+detect once: 0.026293s
+elapsed is 3.21261s
+detected_frame_count: 15
+center depthValue: 1011
+min    depthValue: 1002
+123
+camera_coord
+-350.124
+ 143.335
+    1011
+       1
+world_coord 
+-846.354
+-528.879
+ 489.059
+       1
+--------------------------------------
+center:[288, 365] radius:8
+detect once: 0.022501s
+elapsed is 3.28242s
+detected_frame_count: 16
+center depthValue: 998
+min    depthValue: 997
+123
+camera_coord
+-358.837
+ 171.802
+     998
+       1
+world_coord 
+-862.386
+-520.532
+ 462.071
+       1
+--------------------------------------
+center:[286, 369] radius:5
+detect once: 0.027117s
+elapsed is 3.37308s
+detected_frame_count: 17
+center depthValue: 982
+min    depthValue: 976
+123
+camera_coord
+ -356.8
+176.504
+    982
+      1
+world_coord 
+-878.733
+-522.932
+ 459.033
+       1
+--------------------------------------
+center:[292, 369] radius:7
+detect once: 0.02581s
+elapsed is 3.44438s
+detected_frame_count: 18
+center depthValue: 973
+min    depthValue: 966
+123
+camera_coord
+-342.486
+ 174.887
+     973
+       1
+world_coord 
+-887.201
+-537.432
+ 461.568
+       1
+--------------------------------------
+center:[292, 365] radius:5
+detect once: 0.026626s
+elapsed is 3.51247s
+detected_frame_count: 19
+center depthValue: 968
+min    depthValue: 963
+123
+camera_coord
+-340.726
+ 166.638
+     968
+       1
+world_coord 
+ -891.29
+-539.279
+ 470.284
+       1
+--------------------------------------
+center:[290, 369] radius:7
+detect once: 0.017562s
+elapsed is 3.59767s
+detected_frame_count: 20
+center depthValue: 970
+min    depthValue: 966
+123
+camera_coord
+ -345.1
+174.347
+    970
+      1
+world_coord 
+-890.187
+-534.884
+  462.41
+       1
+--------------------------------------
+center:[278, 370] radius:5
+detect once: 0.021524s
+elapsed is 3.65521s
+detected_frame_count: 21
+center depthValue: 1000
+min    depthValue: 999
+123
+camera_coord
+-378.474
+ 181.638
+    1000
+       1
+world_coord 
+-861.838
+-500.888
+ 452.076
+       1
+--------------------------------------
+center:[280, 371] radius:6
+detect once: 0.021725s
+elapsed is 3.6949s
+detected_frame_count: 22
+center depthValue: 1031
+min    depthValue: 1022
+123
+camera_coord
+-386.306
+ 189.226
+    1031
+       1
+world_coord 
+-831.96
+ -492.4
+441.355
+      1
+--------------------------------------
+center:[293, 377] radius:3
+detect once: 0.032262s
+elapsed is 3.74506s
+detected_frame_count: 23
+center depthValue: 1048
+min    depthValue: 1044
+123
+camera_coord
+-366.902
+ 204.282
+    1048
+       1
+world_coord 
+-816.167
+-511.461
+  424.65
+       1
+--------------------------------------
+center:[326, 388] radius:3
+detect once: 0.023633s
+elapsed is 3.89057s
+detected_frame_count: 24
+center depthValue: 1046
+min    depthValue: 1044
+123
+camera_coord
+-300.903
+ 225.733
+    1046
+       1
+world_coord 
+ -818.89
+-577.528
+ 403.548
+       1
+--------------------------------------
+center:[318, 398] radius:6
+detect once: 0.022111s
+elapsed is 3.94379s
+detected_frame_count: 25
+center depthValue: 1036
+min    depthValue: 1033
+123
+camera_coord
+-313.705
+ 243.241
+    1036
+       1
+world_coord 
+-830.908
+-564.999
+ 387.153
+       1
+--------------------------------------
+center:[324, 306] radius:4
+detect once: 0.032561s
+elapsed is 4.5511s
+detected_frame_count: 26
+center depthValue: 1037
+min    depthValue: 1031
+123
+camera_coord
+-302.238
+ 62.3768
+    1037
+       1
+world_coord 
+ -811.16
+-575.954
+ 566.939
+       1
+--------------------------------------
+center:[318, 305] radius:6
+detect once: 0.022382s
+elapsed is 4.60393s
+detected_frame_count: 27
+center depthValue: 1020
+min    depthValue: 1015
+123
+camera_coord
+-308.861
+  59.418
+    1020
+       1
+world_coord 
+-827.909
+-569.699
+ 571.617
+       1
+--------------------------------------
+center:[313, 304] radius:5
+detect once: 0.020952s
+elapsed is 4.65107s
+detected_frame_count: 28
+center depthValue: 1007
+min    depthValue: 1001
+123
+camera_coord
+-314.449
+ 56.7492
+    1007
+       1
+world_coord 
+-840.687
+-564.392
+ 575.599
+       1
+--------------------------------------
+center:[308, 304] radius:6
+detect once: 0.023517s
+elapsed is 4.6972s
+detected_frame_count: 29
+center depthValue: 989
+min    depthValue: 986
+123
+camera_coord
+-318.183
+ 55.7348
+     989
+       1
+world_coord 
+-858.565
+-561.052
+ 578.448
+       1
+--------------------------------------
+center:[278, 321] radius:6
+detect once: 0.021517s
+elapsed is 4.84249s
+detected_frame_count: 30
+center depthValue: 926
+min    depthValue: 921
+123
+camera_coord
+-350.467
+ 82.0664
+     926
+       1
+world_coord 
+ -924.62
+-530.238
+ 558.689
+       1
+--------------------------------------
+center:[278, 326] radius:7
+detect once: 0.026103s
+elapsed is 4.93411s
+detected_frame_count: 31
+center depthValue: 923
+min    depthValue: 918
+123
+camera_coord
+-349.331
+ 90.5609
+     923
+       1
+world_coord 
+-928.447
+-531.461
+ 550.548
+       1
+--------------------------------------
+center:[280, 324] radius:8
+detect once: 0.031071s
+elapsed is 4.98234s
+detected_frame_count: 32
+center depthValue: 921
+min    depthValue: 918
+123
+camera_coord
+-345.09
+86.8681
+    921
+      1
+world_coord 
+-929.964
+-535.734
+ 554.427
+       1
+--------------------------------------
+center:[281, 319] radius:8
+detect once: 0.023901s
+elapsed is 5.03527s
+detected_frame_count: 33
+center depthValue: 925
+min    depthValue: 920
+123
+camera_coord
+-344.839
+ 78.4661
+     925
+       1
+world_coord 
+-925.122
+-535.875
+ 562.375
+       1
+--------------------------------------
+center:[280, 313] radius:4
+detect once: 0.023797s
+elapsed is 5.09224s
+detected_frame_count: 34
+center depthValue: 935
+min    depthValue: 932
+123
+camera_coord
+-350.335
+ 68.6653
+     935
+       1
+world_coord 
+-914.296
+-530.135
+ 571.097
+       1
+--------------------------------------
+center:[308, 324] radius:5
+detect once: 0.025353s
+elapsed is 5.56336s
+detected_frame_count: 35
+center depthValue: 1044
+min    depthValue: 1035
+123
+camera_coord
+-335.878
+ 98.4694
+    1044
+       1
+world_coord 
+-808.635
+-542.274
+ 530.311
+       1
+--------------------------------------
+center:[299, 308] radius:5
+detect once: 0.022681s
+elapsed is 5.62415s
+detected_frame_count: 36
+center depthValue: 998
+min    depthValue: 993
+123
+camera_coord
+-338.07
+63.8198
+    998
+      1
+world_coord 
+-850.882
+-540.999
+ 569.478
+       1
+--------------------------------------
+center:[295, 306] radius:7
+detect once: 0.025445s
+elapsed is 5.67268s
+detected_frame_count: 37
+center depthValue: 972
+min    depthValue: 968
+123
+camera_coord
+-336.618
+  58.467
+     972
+       1
+world_coord 
+-876.157
+-543.007
+ 577.461
+       1
+--------------------------------------
+center:[294, 306] radius:10
+detect once: 0.023975s
+elapsed is 5.73727s
+detected_frame_count: 38
+center depthValue: 928
+min    depthValue: 924
+123
+camera_coord
+-323.135
+ 55.8203
+     928
+       1
+world_coord 
+-919.342
+-557.441
+   584.6
+       1
+--------------------------------------
+center:[274, 324] radius:5
+detect once: 0.024666s
+elapsed is 5.81161s
+detected_frame_count: 39
+center depthValue: 911
+min    depthValue: 909
+123
+camera_coord
+-351.683
+ 85.9249
+     911
+       1
+world_coord 
+-939.958
+-529.361
+ 556.386
+       1
+--------------------------------------
+center:[270, 326] radius:13
+detect once: 0.022987s
+elapsed is 5.89059s
+detected_frame_count: 40
+center depthValue: 919
+min    depthValue: 916
+123
+camera_coord
+-361.725
+ 90.1684
+     919
+       1
+world_coord 
+-932.658
+ -519.16
+ 551.343
+       1
+--------------------------------------
+center:[266, 317] radius:5
+detect once: 0.024849s
+elapsed is 5.93544s
+detected_frame_count: 41
+center depthValue: 914
+min    depthValue: 910
+123
+camera_coord
+-366.674
+  74.063
+     914
+       1
+world_coord 
+-936.092
+-514.281
+  567.87
+       1
+--------------------------------------
+center:[272, 314] radius:6
+detect once: 0.020944s
+elapsed is 6.00506s
+detected_frame_count: 42
+center depthValue: 914
+min    depthValue: 909
+123
+camera_coord
+-356.299
+  68.858
+     914
+       1
+world_coord 
+-935.331
+-524.636
+ 573.051
+       1
+--------------------------------------
+center:[291, 316] radius:3
+detect once: 0.027888s
+elapsed is 6.5011s
+detected_frame_count: 43
+center depthValue: 958
+min    depthValue: 954
+123
+camera_coord
+-339.018
+ 75.8099
+     958
+       1
+world_coord 
+-891.906
+-540.961
+ 561.644
+       1
+--------------------------------------
+center:[286, 311] radius:6
+detect once: 0.022204s
+elapsed is 6.56126s
+detected_frame_count: 44
+center depthValue: 935
+min    depthValue: 933
+123
+camera_coord
+-339.723
+ 65.1156
+     935
+       1
+world_coord 
+-913.699
+-540.733
+ 574.632
+       1
+--------------------------------------
+center:[278, 302] radius:6
+detect once: 0.025455s
+elapsed is 6.67405s
+detected_frame_count: 45
+center depthValue: 905
+min    depthValue: 895
+123
+camera_coord
+-342.519
+ 47.5653
+     905
+       1
+world_coord 
+-941.798
+ -538.55
+ 595.155
+       1
+--------------------------------------
+center:[300, 310] radius:10
+detect once: 0.026688s
+elapsed is 6.73205s
+detected_frame_count: 46
+center depthValue: 895
+min    depthValue: 824
+123
+camera_coord
+-301.486
+  60.631
+     895
+       1
+world_coord 
+-952.171
+-579.817
+   583.2
+       1
+--------------------------------------
+center:[266, 327] radius:3
+detect once: 0.024078s
+elapsed is 6.79138s
+detected_frame_count: 47
+center depthValue: 862
+min    depthValue: 859
+123
+camera_coord
+-345.812
+ 86.2121
+     862
+       1
+world_coord 
+-988.583
+-536.305
+ 561.115
+       1
+--------------------------------------
+center:[262, 329] radius:4
+detect once: 0.023954s
+elapsed is 6.84568s
+detected_frame_count: 48
+center depthValue: 865
+min    depthValue: 862
+123
+camera_coord
+-353.561
+  89.796
+     865
+       1
+world_coord 
+-986.138
+-528.504
+  557.24
+       1
+--------------------------------------
+center:[268, 338] radius:4
+detect once: 0.026838s
+elapsed is 6.89891s
+detected_frame_count: 49
+center depthValue: 872
+min    depthValue: 868
+123
+camera_coord
+-346.525
+  105.42
+     872
+       1
+world_coord 
+ -980.62
+-535.425
+ 540.988
+       1
+--------------------------------------
+center:[268, 336] radius:6
+detect once: 0.025219s
+elapsed is 6.97113s
+detected_frame_count: 50
+center depthValue: 866
+min    depthValue: 858
+123
+camera_coord
+-344.141
+ 101.407
+     866
+       1
+world_coord 
+-986.123
+-537.929
+ 545.594
+       1
+--------------------------------------
+center:[259, 340] radius:7
+detect once: 0.024891s
+elapsed is 7.036s
+detected_frame_count: 51
+center depthValue: 880
+min    depthValue: 875
+123
+camera_coord
+-364.687
+ 109.728
+     880
+       1
+world_coord 
+-973.507
+-517.108
+ 535.877
+       1
+--------------------------------------
+center:[256, 336] radius:7
+detect once: 0.024852s
+elapsed is 7.11255s
+detected_frame_count: 52
+center depthValue: 901
+min    depthValue: 895
+123
+camera_coord
+-378.503
+ 105.505
+     901
+       1
+world_coord 
+-952.497
+-502.827
+ 537.923
+       1
+--------------------------------------
+center:[258, 334] radius:7
+detect once: 0.021977s
+elapsed is 7.16585s
+detected_frame_count: 53
+center depthValue: 923
+min    depthValue: 919
+123
+camera_coord
+-384.253
+ 104.577
+     923
+       1
+world_coord 
+-930.653
+-496.595
+ 536.593
+       1
+--------------------------------------
+center:[260, 332] radius:5
+detect once: 0.024077s
+elapsed is 7.23791s
+detected_frame_count: 54
+center depthValue: 938
+min    depthValue: 932
+123
+camera_coord
+-386.948
+ 102.716
+     938
+       1
+world_coord 
+-915.606
+-493.566
+ 536.909
+       1
+--------------------------------------
+center:[268, 332] radius:6
+detect once: 0.021096s
+elapsed is 7.30493s
+detected_frame_count: 55
+center depthValue: 961
+min    depthValue: 959
+123
+camera_coord
+-381.893
+ 105.234
+     961
+       1
+world_coord 
+ -892.88
+-498.121
+ 532.054
+       1
+--------------------------------------
+center:[275, 336] radius:4
+detect once: 0.019883s
+elapsed is 7.36011s
+detected_frame_count: 56
+center depthValue: 971
+min    depthValue: 967
+123
+camera_coord
+-373.009
+ 113.702
+     971
+       1
+world_coord 
+-883.606
+-506.804
+ 522.612
+       1
+--------------------------------------
+center:[260, 308] radius:3
+detect once: 0.028569s
+elapsed is 8.27507s
+detected_frame_count: 57
+center depthValue: 915
+min    depthValue: 912
+123
+camera_coord
+-377.46
+58.5121
+    915
+      1
+world_coord 
+-933.746
+-503.436
+  583.23
+       1
+--------------------------------------
+center:[258, 308] radius:4
+detect once: 0.023761s
+elapsed is 8.33303s
+detected_frame_count: 58
+center depthValue: 917
+min    depthValue: 910
+123
+camera_coord
+-381.755
+   58.64
+     917
+       1
+world_coord 
+-931.865
+  -499.1
+ 582.896
+       1
+--------------------------------------
+center:[258, 308] radius:4
+detect once: 0.024644s
+elapsed is 8.40216s
+detected_frame_count: 59
+center depthValue: 909
+min    depthValue: 906
+123
+camera_coord
+-378.424
+ 58.1284
+     909
+       1
+world_coord 
+-939.694
+-502.603
+ 584.225
+       1
+--------------------------------------
+center:[256, 312] radius:5
+detect once: 0.024237s
+elapsed is 8.46728s
+detected_frame_count: 60
+center depthValue: 901
+min    depthValue: 898
+123
+camera_coord
+-378.503
+ 64.4581
+     901
+       1
+world_coord 
+-948.299
+-502.717
+ 578.748
+       1
+--------------------------------------
+center:[255, 314] radius:5
+detect once: 0.021756s
+elapsed is 8.52784s
+detected_frame_count: 61
+center depthValue: 905
+min    depthValue: 901
+123
+camera_coord
+-381.895
+   68.18
+     905
+       1
+world_coord 
+-944.777
+-499.248
+ 574.635
+       1
+--------------------------------------
+center:[254, 322] radius:6
+detect once: 0.022481s
+elapsed is 8.58059s
+detected_frame_count: 62
+center depthValue: 901
+min    depthValue: 897
+123
+camera_coord
+-381.912
+ 81.5611
+     901
+       1
+world_coord 
+-950.124
+-499.356
+ 561.736
+       1
+--------------------------------------
+center:[254, 326] radius:6
+detect once: 0.027101s
+elapsed is 8.66965s
+detected_frame_count: 63
+center depthValue: 892
+min    depthValue: 891
+123
+camera_coord
+-378.097
+ 87.5193
+     892
+       1
+world_coord 
+-959.598
+-503.382
+ 556.732
+       1
+--------------------------------------
+center:[252, 328] radius:7
+detect once: 0.021946s
+elapsed is 8.73153s
+detected_frame_count: 64
+center depthValue: 889
+min    depthValue: 883
+123
+camera_coord
+-380.189
+    90.6
+     889
+       1
+world_coord 
+-962.943
+-501.365
+ 553.974
+       1
+--------------------------------------
+center:[250, 328] radius:9
+detect once: 0.023271s
+elapsed is 8.79074s
+detected_frame_count: 65
+center depthValue: 889
+min    depthValue: 876
+123
+camera_coord
+-383.552
+    90.6
+     889
+       1
+world_coord 
+-963.017
+-498.004
+ 553.973
+       1
+--------------------------------------
+center:[251, 330] radius:10
+detect once: 0.026234s
+elapsed is 8.83977s
+detected_frame_count: 66
+center depthValue: 888
+min    depthValue: 881
+123
+camera_coord
+-381.441
+ 93.8693
+     888
+       1
+world_coord 
+-964.299
+-500.144
+ 550.824
+       1
+--------------------------------------
+center:[250, 326] radius:9
+detect once: 0.02889s
+elapsed is 8.90264s
+detected_frame_count: 67
+center depthValue: 891
+min    depthValue: 887
+123
+camera_coord
+-384.415
+ 87.4211
+     891
+       1
+world_coord 
+-960.722
+-497.089
+ 556.929
+       1
+--------------------------------------
+center:[252, 326] radius:8
+detect once: 0.030232s
+elapsed is 8.98983s
+detected_frame_count: 68
+center depthValue: 895
+min    depthValue: 886
+123
+camera_coord
+-382.755
+ 87.8136
+     895
+       1
+world_coord 
+-956.748
+-498.661
+ 556.131
+       1
+--------------------------------------
+center:[254, 325] radius:8
+detect once: 0.025999s
+elapsed is 9.07897s
+detected_frame_count: 69
+center depthValue: 905
+min    depthValue: 901
+123
+camera_coord
+-383.607
+ 87.0769
+     905
+       1
+world_coord 
+-946.748
+-497.588
+  555.84
+       1
+--------------------------------------
+center:[256, 328] radius:8
+detect once: 0.025146s
+elapsed is 9.13843s
+detected_frame_count: 70
+center depthValue: 904
+min    depthValue: 895
+123
+camera_coord
+-379.763
+ 92.1286
+     904
+       1
+world_coord 
+-948.174
+-501.466
+  550.92
+       1
+--------------------------------------
+center:[256, 323] radius:10
+detect once: 0.025648s
+elapsed is 9.18188s
+detected_frame_count: 71
+center depthValue: 903
+min    depthValue: 899
+123
+camera_coord
+-379.343
+ 83.4562
+     903
+       1
+world_coord 
+-948.272
+-501.884
+ 559.648
+       1
+--------------------------------------
+center:[258, 320] radius:10
+detect once: 0.023841s
+elapsed is 9.23523s
+detected_frame_count: 72
+center depthValue: 902
+min    depthValue: 896
+123
+camera_coord
+-375.51
+78.2272
+    902
+      1
+world_coord 
+-948.647
+-505.723
+ 564.952
+       1
+--------------------------------------
+center:[256, 322] radius:10
+detect once: 0.025978s
+elapsed is 9.30934s
+detected_frame_count: 73
+center depthValue: 898
+min    depthValue: 893
+123
+camera_coord
+-377.243
+ 81.2895
+     898
+       1
+world_coord 
+-952.976
+-504.088
+ 562.315
+       1
+--------------------------------------
+center:[254, 325] radius:8
+detect once: 0.02595s
+elapsed is 9.37399s
+detected_frame_count: 74
+center depthValue: 895
+min    depthValue: 893
+123
+camera_coord
+-379.368
+ 86.1147
+     895
+       1
+world_coord 
+  -956.5
+-502.041
+ 557.822
+       1
+--------------------------------------
+center:[254, 339] radius:10
+detect once: 0.021622s
+elapsed is 9.4684s
+detected_frame_count: 75
+center depthValue: 1899
+min    depthValue: 850
+123
+camera_coord
+-804.939
+ 233.183
+    1899
+       1
+world_coord 
+17.4349
+-55.045
+308.671
+      1
+--------------------------------------
+center:[256, 376] radius:17
+detect once: 0.019681s
+elapsed is 9.51874s
+detected_frame_count: 76
+center depthValue: 1902
+min    depthValue: 785
+123
+camera_coord
+-799.015
+ 367.138
+    1902
+       1
+world_coord 
+ 6.84705
+-61.2602
+ 175.138
+       1
+--------------------------------------
+center:[235, 480] radius:17
+detect once: 0.026745s
+elapsed is 9.57713s
+detected_frame_count: 77
+center depthValue: 777
+min    depthValue: 747
+123
+camera_coord
+-357.279
+ 303.374
+     777
+       1
+world_coord 
+-1095.58
+-527.292
+  353.82
+       1
+--------------------------------------
+center:[221, 532] radius:12
+detect once: 0.027397s
+elapsed is 9.63655s
+detected_frame_count: 78
+center depthValue: 1736
+min    depthValue: 1721
+123
+camera_coord
+-844.221
+ 849.166
+    1736
+       1
+world_coord 
+-208.531
+-21.0123
+-287.316
+       1
+--------------------------------------
+center:[268, 531] radius:4
+detect once: 0.021203s
+elapsed is 10.8491s
+detected_frame_count: 79
+center depthValue: 839
+min    depthValue: 828
+123
+camera_coord
+-333.411
+ 408.805
+     839
+       1
+world_coord 
+-1044.18
+ -550.07
+ 242.628
+       1
+--------------------------------------
+center:[262, 508] radius:3
+detect once: 0.026656s
+elapsed is 10.8947s
+detected_frame_count: 80
+center depthValue: 853
+min    depthValue: 846
+123
+camera_coord
+-348.656
+ 378.385
+     853
+       1
+world_coord 
+-1027.48
+-534.444
+ 271.445
+       1
+--------------------------------------
+center:[279, 492] radius:7
+detect once: 0.024973s
+elapsed is 10.9666s
+detected_frame_count: 81
+center depthValue: 1783
+min    depthValue: 1777
+123
+camera_coord
+-671.446
+ 736.774
+    1783
+       1
+world_coord 
+-146.477
+-192.368
+-180.268
+       1
+--------------------------------------
+center:[281, 443] radius:12
+detect once: 0.025252s
+elapsed is 11.0294s
+detected_frame_count: 82
+center depthValue: 1823
+min    depthValue: 1804
+123
+camera_coord
+-679.612
+  583.74
+    1823
+       1
+world_coord 
+-91.2275
+-182.918
+-32.1587
+       1
+--------------------------------------
+center:[280, 393] radius:7
+detect once: 0.019344s
+elapsed is 11.1137s
+detected_frame_count: 83
+center depthValue: 1855
+min    depthValue: 1846
+123
+camera_coord
+-695.051
+ 417.926
+    1855
+       1
+world_coord 
+-42.7867
+ -166.34
+ 129.477
+       1
+--------------------------------------
+center:[298, 318] radius:7
+detect once: 0.020344s
+elapsed is 11.1632s
+detected_frame_count: 84
+center depthValue: 869
+min    depthValue: 825
+123
+camera_coord
+-296.015
+ 72.0661
+     869
+       1
+world_coord 
+-979.074
+-585.886
+ 574.489
+       1
+--------------------------------------
+center:[310, 296] radius:9
+detect once: 0.02278s
+elapsed is 11.2056s
+detected_frame_count: 85
+center depthValue: 874
+min    depthValue: 825
+123
+camera_coord
+-277.878
+ 35.9816
+     874
+       1
+world_coord 
+ -970.01
+-603.807
+ 609.874
+       1
+--------------------------------------
+center:[329, 257] radius:10
+detect once: 0.025083s
+elapsed is 11.256s
+detected_frame_count: 86
+center depthValue: 865
+min    depthValue: 831
+123
+camera_coord
+-243.926
+-28.4256
+     865
+       1
+world_coord 
+-971.621
+-637.767
+ 674.867
+       1
+--------------------------------------
+center:[338, 246] radius:11
+detect once: 0.029455s
+elapsed is 11.3018s
+detected_frame_count: 87
+center depthValue: 856
+min    depthValue: 835
+123
+camera_coord
+-226.814
+-46.0036
+     856
+       1
+world_coord 
+-978.394
+-655.021
+ 693.278
+       1
+--------------------------------------
+center:[354, 226] radius:11
+detect once: 0.023478s
+elapsed is 11.3987s
+detected_frame_count: 88
+center depthValue: 2007
+min    depthValue: 826
+123
+camera_coord
+-471.047
+-184.056
+    2007
+       1
+world_coord 
+ 174.893
+-385.281
+ 712.743
+       1
+--------------------------------------
+center:[368, 206] radius:10
+detect once: 0.021303s
+elapsed is 11.459s
+detected_frame_count: 89
+center depthValue: 823
+min    depthValue: 814
+123
+camera_coord
+-171.363
+ -106.72
+     823
+       1
+world_coord 
+-1003.77
+-711.005
+ 757.064
+       1
+--------------------------------------
+center:[384, 194] radius:15
+detect once: 0.025233s
+elapsed is 11.5152s
+detected_frame_count: 90
+center depthValue: 804
+min    depthValue: 796
+123
+camera_coord
+-143.072
+ -122.57
+     804
+       1
+world_coord 
+-1020.42
+-739.657
+ 774.784
+       1
+--------------------------------------
+center:[384, 184] radius:11
+detect once: 0.019717s
+elapsed is 11.5635s
+detected_frame_count: 91
+center depthValue: 793
+min    depthValue: 782
+123
+camera_coord
+-141.114
+-135.946
+     793
+       1
+world_coord 
+-1029.95
+-741.819
+ 789.214
+       1
+--------------------------------------
+center:[394, 172] radius:15
+detect once: 0.019651s
+elapsed is 11.6187s
+detected_frame_count: 92
+center depthValue: 775
+min    depthValue: 770
+123
+camera_coord
+ -123.25
+-150.514
+     775
+       1
+world_coord 
+-1045.96
+ -760.03
+ 805.551
+       1
+--------------------------------------
+center:[395, 169] radius:15
+detect once: 0.024159s
+elapsed is 11.6625s
+detected_frame_count: 93
+center depthValue: 769
+min    depthValue: 766
+123
+camera_coord
+-120.841
+-153.728
+     769
+       1
+world_coord 
+-1051.55
+-762.561
+ 809.362
+       1
+--------------------------------------
+center:[399, 166] radius:18
+detect once: 0.026014s
+elapsed is 11.7144s
+detected_frame_count: 94
+center depthValue: 768
+min    depthValue: 763
+123
+camera_coord
+-114.873
+-157.901
+     768
+       1
+world_coord 
+-1051.98
+-768.537
+ 813.618
+       1
+--------------------------------------
+center:[398, 163] radius:18
+detect once: 0.023367s
+elapsed is 11.7731s
+detected_frame_count: 95
+center depthValue: 767
+min    depthValue: 764
+123
+camera_coord
+-116.174
+-162.064
+     767
+       1
+world_coord 
+-1052.58
+-767.247
+  817.86
+       1
+--------------------------------------
+center:[390, 168] radius:18
+detect once: 0.02554s
+elapsed is 11.8182s
+detected_frame_count: 96
+center depthValue: 768
+min    depthValue: 764
+123
+camera_coord
+-127.949
+-154.986
+     768
+       1
+world_coord 
+-1052.57
+-755.476
+ 810.713
+       1
+--------------------------------------
+center:[383, 172] radius:16
+detect once: 0.025077s
+elapsed is 11.8604s
+detected_frame_count: 97
+center depthValue: 775
+min    depthValue: 772
+123
+camera_coord
+-139.377
+-150.514
+     775
+       1
+world_coord 
+-1046.32
+-743.911
+ 805.544
+       1
+--------------------------------------
+center:[374, 180] radius:15
+detect once: 0.030821s
+elapsed is 11.9185s
+detected_frame_count: 98
+center depthValue: 777
+min    depthValue: 774
+123
+camera_coord
+-152.966
+-139.103
+     777
+       1
+world_coord 
+ -1045.8
+-730.316
+ 793.985
+       1
+--------------------------------------
+center:[343, 205] radius:13
+detect once: 0.022108s
+elapsed is 11.9975s
+detected_frame_count: 99
+center depthValue: 799
+min    depthValue: 781
+123
+camera_coord
+-204.153
+-105.124
+     799
+       1
+world_coord 
+-1028.53
+-678.763
+ 757.918
+       1
+--------------------------------------
+center:[310, 240] radius:13
+detect once: 0.019291s
+elapsed is 12.0457s
+detected_frame_count: 100
+center depthValue: 791
+min    depthValue: 787
+123
+camera_coord
+-251.489
+-51.5193
+     791
+       1
+world_coord 
+-1043.01
+ -631.77
+ 705.402
+       1
+--------------------------------------
+center:[276, 292] radius:14
+detect once: 0.023992s
+elapsed is 12.1031s
+detected_frame_count: 101
+center depthValue: 788
+min    depthValue: 785
+123
+camera_coord
+-301.219
+ 26.4579
+     788
+       1
+world_coord 
+-1055.07
+ -582.34
+ 628.133
+       1
+--------------------------------------
+center:[260, 322] radius:15
+detect once: 0.024548s
+elapsed is 12.1558s
+detected_frame_count: 102
+center depthValue: 782
+min    depthValue: 769
+123
+camera_coord
+-322.595
+ 70.7889
+     782
+       1
+world_coord 
+-1066.04
+-561.226
+ 584.647
+       1
+--------------------------------------
+center:[239, 378] radius:17
+detect once: 0.025602s
+elapsed is 12.2392s
+detected_frame_count: 103
+center depthValue: 1865
+min    depthValue: 762
+123
+camera_coord
+-843.449
+ 367.076
+    1865
+       1
+world_coord 
+-30.9224
+-17.6603
+ 178.965
+       1
+--------------------------------------
+center:[230, 438] radius:18
+detect once: 0.024386s
+elapsed is 12.2896s
+detected_frame_count: 104
+center depthValue: 1816
+min    depthValue: 750
+123
+camera_coord
+-852.207
+ 564.263
+    1816
+       1
+world_coord 
+-100.012
+-10.5107
+-12.1439
+       1
+--------------------------------------
+center:[239, 496] radius:19
+detect once: 0.019819s
+elapsed is 12.3486s
+detected_frame_count: 105
+center depthValue: 1769
+min    depthValue: 733
+123
+camera_coord
+-800.033
+ 744.421
+    1769
+       1
+world_coord 
+-164.024
+-64.1737
+-186.496
+       1
+--------------------------------------
+center:[248, 530] radius:9
+detect once: 0.023538s
+elapsed is 12.9787s
+detected_frame_count: 106
+center depthValue: 698
+min    depthValue: 687
+123
+camera_coord
+-303.788
+ 338.777
+     698
+       1
+world_coord 
+-1176.57
+-582.586
+ 326.712
+       1
+--------------------------------------
+center:[250, 499] radius:23
+detect once: 0.026193s
+elapsed is 13.0281s
+detected_frame_count: 107
+center depthValue: 716
+min    depthValue: 692
+123
+camera_coord
+-308.913
+ 305.381
+     716
+       1
+world_coord 
+-1155.37
+-576.978
+ 358.084
+       1
+--------------------------------------
+center:[244, 410] radius:21
+detect once: 0.025761s
+elapsed is 13.0916s
+detected_frame_count: 108
+center depthValue: 736
+min    depthValue: 706
+123
+camera_coord
+-325.895
+ 189.569
+     736
+       1
+world_coord 
+-1124.01
+-559.255
+ 471.215
+       1
+--------------------------------------
+center:[259, 328] radius:15
+detect once: 0.028185s
+elapsed is 13.1771s
+detected_frame_count: 109
+center depthValue: 760
+min    depthValue: 740
+123
+camera_coord
+-314.957
+ 77.4533
+     760
+       1
+world_coord 
+-1088.43
+ -569.36
+ 580.273
+       1
+--------------------------------------
+center:[274, 298] radius:15
+detect once: 0.0231s
+elapsed is 13.2478s
+detected_frame_count: 110
+center depthValue: 1925
+min    depthValue: 1909
+123
+camera_coord
+-743.128
+ 86.5584
+    1925
+       1
+world_coord 
+ 59.6545
+-115.861
+ 451.868
+       1
+--------------------------------------
+center:[322, 233] radius:15
+detect once: 0.019733s
+elapsed is 13.2973s
+detected_frame_count: 111
+center depthValue: 1993
+min    depthValue: 793
+123
+camera_coord
+-588.408
+ -156.29
+    1993
+       1
+world_coord 
+155.536
+-268.36
+ 686.51
+      1
+--------------------------------------
+center:[350, 219] radius:14
+detect once: 0.019437s
+elapsed is 13.3466s
+detected_frame_count: 112
+center depthValue: 2007
+min    depthValue: 792
+123
+camera_coord
+-486.234
+-210.724
+    2007
+       1
+world_coord 
+177.285
+-370.03
+ 739.26
+      1
+--------------------------------------
+center:[360, 217] radius:9
+detect once: 0.022086s
+elapsed is 13.4048s
+detected_frame_count: 113
+center depthValue: 2007
+min    depthValue: 804
+123
+camera_coord
+-448.267
+-218.344
+    2007
+       1
+world_coord 
+ 178.904
+-407.958
+ 746.854
+       1
+--------------------------------------
+center:[372, 222] radius:9
+detect once: 0.024777s
+elapsed is 13.4496s
+detected_frame_count: 114
+center depthValue: 2005
+min    depthValue: 800
+123
+camera_coord
+-402.305
+-199.096
+    2005
+       1
+world_coord 
+ 175.963
+-453.992
+ 727.935
+       1
+--------------------------------------
+center:[384, 216] radius:11
+detect once: 0.023599s
+elapsed is 13.5002s
+detected_frame_count: 115
+center depthValue: 806
+min    depthValue: 798
+123
+camera_coord
+-143.428
+-89.2156
+     806
+       1
+world_coord 
+-1021.85
+-739.347
+ 741.406
+       1
+--------------------------------------
+center:[393, 212] radius:12
+detect once: 0.025799s
+elapsed is 13.6154s
+detected_frame_count: 116
+center depthValue: 789
+min    depthValue: 783
+123
+camera_coord
+-126.969
+-93.3247
+     789
+       1
+world_coord 
+-1037.97
+-756.159
+ 747.238
+       1
+--------------------------------------
+center:[396, 209] radius:11
+detect once: 0.020397s
+elapsed is 13.6785s
+detected_frame_count: 117
+center depthValue: 777
+min    depthValue: 772
+123
+camera_coord
+-120.629
+-96.3301
+     777
+       1
+world_coord 
+-1049.46
+-762.752
+ 751.458
+       1
+--------------------------------------
+center:[394, 213] radius:16
+detect once: 0.0284s
+elapsed is 13.737s
+detected_frame_count: 118
+center depthValue: 766
+min    depthValue: 764
+123
+camera_coord
+-121.819
+-89.1501
+     766
+       1
+world_coord 
+-1061.16
+-761.823
+ 745.441
+       1
+--------------------------------------
+center:[385, 220] radius:17
+detect once: 0.029901s
+elapsed is 13.8008s
+detected_frame_count: 119
+center depthValue: 761
+min    depthValue: 757
+123
+camera_coord
+ -133.98
+-78.4564
+     761
+       1
+world_coord 
+-1067.49
+-749.806
+ 735.312
+       1
+--------------------------------------
+center:[358, 236] radius:9
+detect once: 0.026074s
+elapsed is 13.8659s
+detected_frame_count: 120
+center depthValue: 753
+min    depthValue: 748
+123
+camera_coord
+-171.033
+-54.7617
+     753
+       1
+world_coord 
+-1078.69
+-713.011
+ 712.548
+       1
+--------------------------------------
+center:[340, 264] radius:18
+detect once: 0.019973s
+elapsed is 13.9367s
+detected_frame_count: 121
+center depthValue: 739
+min    depthValue: 733
+123
+camera_coord
+-193.017
+-14.4655
+     739
+       1
+world_coord 
+-1097.22
+-691.454
+ 673.893
+       1
+--------------------------------------
+center:[314, 298] radius:17
+detect once: 0.022791s
+elapsed is 14.0426s
+detected_frame_count: 122
+center depthValue: 736
+min    depthValue: 705
+123
+camera_coord
+-228.433
+ 33.0945
+     736
+       1
+world_coord 
+-1105.85
+-656.248
+ 626.883
+       1
+--------------------------------------
+center:[288, 349] radius:19
+detect once: 0.02278s
+elapsed is 14.091s
+detected_frame_count: 123
+center depthValue: 721
+min    depthValue: 678
+123
+camera_coord
+-259.24
+ 102.22
+    721
+      1
+world_coord 
+-1128.52
+-625.971
+ 559.653
+       1
+--------------------------------------
+center:[245, 440] radius:21
+detect once: 0.027426s
+elapsed is 14.1434s
+detected_frame_count: 124
+center depthValue: 657
+min    depthValue: 655
+123
+camera_coord
+-289.672
+ 206.636
+     657
+       1
+world_coord 
+-1203.51
+-597.239
+ 462.337
+       1
+--------------------------------------
+center:[237, 470] radius:21
+detect once: 0.022013s
+elapsed is 14.2049s
+detected_frame_count: 125
+center depthValue: 650
+min    depthValue: 647
+123
+camera_coord
+-296.423
+ 241.449
+     650
+       1
+world_coord 
+-1214.19
+-590.739
+ 428.425
+       1
+--------------------------------------
+center:[240, 498] radius:29
+detect once: 0.026944s
+elapsed is 14.245s
+detected_frame_count: 126
+center depthValue: 676
+min    depthValue: 622
+123
+camera_coord
+-304.443
+ 287.037
+     676
+       1
+world_coord 
+-1193.17
+-582.274
+ 380.422
+       1
+--------------------------------------
+center:[252, 531] radius:13
+detect once: 0.021774s
+elapsed is 14.9455s
+detected_frame_count: 127
+center depthValue: 1730
+min    depthValue: 630
+123
+camera_coord
+-739.85
+842.947
+   1730
+      1
+world_coord 
+-211.554
+-125.447
+-280.473
+       1
+--------------------------------------
+center:[246, 516] radius:28
+detect once: 0.022438s
+elapsed is 14.9949s
+detected_frame_count: 128
+center depthValue: 624
+min    depthValue: 588
+123
+camera_coord
+-273.942
+ 286.278
+     624
+       1
+world_coord 
+-1244.13
+-613.899
+ 386.508
+       1
+--------------------------------------
+center:[242, 470] radius:26
+detect once: 0.022632s
+elapsed is 15.0363s
+detected_frame_count: 129
+center depthValue: 621
+min    depthValue: 595
+123
+camera_coord
+-277.324
+ 230.677
+     621
+       1
+world_coord 
+ -1241.5
+-610.436
+ 442.114
+       1
+--------------------------------------
+center:[252, 380] radius:24
+detect once: 0.023348s
+elapsed is 15.0949s
+detected_frame_count: 130
+center depthValue: 635
+min    depthValue: 611
+123
+camera_coord
+-271.563
+ 127.394
+     635
+       1
+world_coord 
+-1216.89
+-615.609
+ 543.408
+       1
+--------------------------------------
+center:[282, 302] radius:22
+detect once: 0.02678s
+elapsed is 15.1602s
+detected_frame_count: 131
+center depthValue: 655
+min    depthValue: 634
+123
+camera_coord
+-242.944
+ 34.4257
+     655
+       1
+world_coord 
+-1186.85
+-643.526
+ 633.838
+       1
+--------------------------------------
+center:[320, 247] radius:22
+detect once: 0.025827s
+elapsed is 15.2297s
+detected_frame_count: 132
+center depthValue: 677
+min    depthValue: 664
+123
+camera_coord
+-202.437
+-35.0986
+     677
+       1
+world_coord 
+-1156.97
+-683.343
+ 700.752
+       1
+--------------------------------------
+center:[364, 211] radius:21
+detect once: 0.027623s
+elapsed is 15.2973s
+detected_frame_count: 133
+center depthValue: 690
+min    depthValue: 680
+123
+camera_coord
+-148.891
+-82.9245
+     690
+       1
+world_coord 
+-1137.97
+-736.448
+ 747.012
+       1
+--------------------------------------
+center:[399, 196] radius:21
+detect once: 0.023197s
+elapsed is 15.3656s
+detected_frame_count: 134
+center depthValue: 701
+min    depthValue: 699
+123
+camera_coord
+-104.851
+-104.206
+     701
+       1
+world_coord 
+-1123.88
+-780.168
+ 767.072
+       1
+--------------------------------------
+center:[424, 181] radius:21
+detect once: 0.023818s
+elapsed is 15.4272s
+detected_frame_count: 135
+center depthValue: 715
+min    depthValue: 704
+123
+camera_coord
+-73.1307
+-126.646
+     715
+       1
+world_coord 
+-1106.96
+-811.505
+ 787.971
+       1
+--------------------------------------
+center:[439, 174] radius:21
+detect once: 0.025579s
+elapsed is 15.493s
+detected_frame_count: 136
+center depthValue: 722
+min    depthValue: 720
+123
+camera_coord
+-53.3592
+ -137.48
+     722
+       1
+world_coord 
+-1098.45
+-831.084
+ 798.038
+       1
+--------------------------------------
+center:[444, 172] radius:21
+detect once: 0.02191s
+elapsed is 15.5643s
+detected_frame_count: 137
+center depthValue: 724
+min    depthValue: 723
+123
+camera_coord
+ -46.659
+-140.609
+     724
+       1
+world_coord 
+   -1096
+-837.729
+ 800.949
+       1
+--------------------------------------
+center:[453, 173] radius:16
+detect once: 0.027043s
+elapsed is 15.6329s
+detected_frame_count: 138
+center depthValue: 726
+min    depthValue: 718
+123
+camera_coord
+-34.4273
+-139.619
+     726
+       1
+world_coord 
+-1093.84
+-849.913
+ 799.765
+       1
+--------------------------------------
+center:[444, 176] radius:21
+detect once: 0.024628s
+elapsed is 15.6888s
+detected_frame_count: 139
+center depthValue: 720
+min    depthValue: 713
+123
+camera_coord
+-46.4012
+-134.365
+     720
+       1
+world_coord 
+-1100.61
+-838.091
+ 795.149
+       1
+--------------------------------------
+center:[424, 193] radius:12
+detect once: 0.02691s
+elapsed is 15.7618s
+detected_frame_count: 140
+center depthValue: 720
+min    depthValue: 701
+123
+camera_coord
+-73.6422
+-111.131
+     720
+       1
+world_coord 
+-1103.59
+-810.926
+ 772.029
+       1
+--------------------------------------
+center:[399, 203] radius:21
+detect once: 0.02072s
+elapsed is 15.8266s
+detected_frame_count: 141
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+-0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[342, 264] radius:21
+detect once: 0.022108s
+elapsed is 15.918s
+detected_frame_count: 142
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+-0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[302, 325] radius:23
+detect once: 0.023195s
+elapsed is 15.9698s
+detected_frame_count: 143
+center depthValue: 1921
+min    depthValue: 625
+123
+camera_coord
+-639.832
+ 184.834
+    1921
+       1
+world_coord 
+ 47.9082
+-219.458
+ 354.578
+       1
+--------------------------------------
+center:[260, 418] radius:28
+detect once: 0.028931s
+elapsed is 16.0208s
+detected_frame_count: 144
+center depthValue: 614
+min    depthValue: 603
+123
+camera_coord
+-253.29
+ 167.47
+    614
+      1
+world_coord 
+-1241.46
+-634.441
+ 505.704
+       1
+--------------------------------------
+center:[244, 469] radius:29
+detect once: 0.023553s
+elapsed is 16.0989s
+detected_frame_count: 145
+center depthValue: 1792
+min    depthValue: 577
+123
+camera_coord
+-793.485
+ 662.256
+    1792
+       1
+world_coord 
+-132.604
+-69.9933
+-107.126
+       1
+--------------------------------------
+center:[236, 533] radius:13
+detect once: 0.019778s
+elapsed is 16.1632s
+detected_frame_count: 146
+center depthValue: 1729
+min    depthValue: 1716
+123
+camera_coord
+-791.755
+ 849.024
+    1729
+       1
+world_coord 
+-214.318
+-73.6055
+-286.437
+       1
+--------------------------------------
+center:[280, 534] radius:4
+detect once: 0.026224s
+elapsed is 16.8853s
+detected_frame_count: 147
+center depthValue: 669
+min    depthValue: 661
+123
+camera_coord
+-250.668
+ 329.782
+     669
+       1
+world_coord 
+-1203.32
+-636.291
+ 338.648
+       1
+--------------------------------------
+center:[259, 508] radius:25
+detect once: 0.021747s
+elapsed is 16.946s
+detected_frame_count: 148
+center depthValue: 642
+min    depthValue: 612
+123
+camera_coord
+-266.056
+ 284.787
+     642
+       1
+world_coord 
+ -1225.9
+-621.383
+ 386.154
+       1
+--------------------------------------
+center:[254, 476] radius:26
+detect once: 0.021041s
+elapsed is 16.9957s
+detected_frame_count: 149
+center depthValue: 647
+min    depthValue: 612
+123
+camera_coord
+-274.247
+ 247.704
+     647
+       1
+world_coord 
+-1217.32
+-612.986
+ 422.521
+       1
+--------------------------------------
+center:[250, 396] radius:23
+detect once: 0.028245s
+elapsed is 17.0625s
+detected_frame_count: 150
+center depthValue: 658
+min    depthValue: 629
+123
+camera_coord
+-283.889
+ 151.993
+     658
+       1
+world_coord 
+ -1196.8
+-602.851
+ 516.584
+       1
+--------------------------------------
+center:[271, 313] radius:22
+detect once: 0.025277s
+elapsed is 17.1241s
+detected_frame_count: 151
+center depthValue: 675
+min    depthValue: 656
+123
+camera_coord
+-264.408
+ 49.5712
+     675
+       1
+world_coord 
+-1168.99
+-621.674
+  616.72
+       1
+--------------------------------------
+center:[308, 250] radius:20
+detect once: 0.026115s
+elapsed is 17.1993s
+detected_frame_count: 152
+center depthValue: 696
+min    depthValue: 680
+123
+camera_coord
+-223.918
+-32.1201
+     696
+       1
+world_coord 
+-1138.86
+-661.464
+ 695.837
+       1
+--------------------------------------
+center:[347, 214] radius:20
+detect once: 0.02708s
+elapsed is 17.2741s
+detected_frame_count: 153
+center depthValue: 710
+min    depthValue: 705
+123
+camera_coord
+ -176.04
+-81.2849
+     710
+       1
+world_coord 
+-1118.85
+-708.879
+ 743.324
+       1
+--------------------------------------
+center:[381, 203] radius:20
+detect once: 0.02187s
+elapsed is 17.3439s
+detected_frame_count: 154
+center depthValue: 726
+min    depthValue: 721
+123
+camera_coord
+-133.312
+-98.2759
+     726
+       1
+world_coord 
+-1100.25
+-751.189
+ 758.604
+       1
+--------------------------------------
+center:[404, 198] radius:20
+detect once: 0.020098s
+elapsed is 17.3894s
+detected_frame_count: 155
+center depthValue: 724
+min    depthValue: 720
+123
+camera_coord
+-101.444
+-104.877
+     724
+       1
+world_coord 
+-1100.86
+-783.068
+ 765.387
+       1
+--------------------------------------
+center:[416, 192] radius:20
+detect once: 0.022174s
+elapsed is 17.4358s
+detected_frame_count: 156
+center depthValue: 722
+min    depthValue: 720
+123
+camera_coord
+-84.7734
+ -112.81
+     722
+       1
+world_coord 
+-1101.67
+-799.752
+ 773.489
+       1
+--------------------------------------
+center:[420, 191] radius:20
+detect once: 0.023107s
+elapsed is 17.5007s
+detected_frame_count: 157
+center depthValue: 720
+min    depthValue: 719
+123
+camera_coord
+-79.0903
+-113.864
+     720
+       1
+world_coord 
+-1103.43
+-805.473
+ 774.745
+       1
+--------------------------------------
+center:[420, 190] radius:21
+detect once: 0.023325s
+elapsed is 17.5495s
+detected_frame_count: 158
+center depthValue: 718
+min    depthValue: 716
+123
+camera_coord
+-78.8706
+-114.911
+     718
+       1
+world_coord 
+ -1105.3
+-805.734
+ 775.991
+       1
+--------------------------------------
+center:[405, 202] radius:20
+detect once: 0.021954s
+elapsed is 17.6079s
+detected_frame_count: 159
+center depthValue: 711
+min    depthValue: 706
+123
+camera_coord
+ -98.277
+-97.5951
+     711
+       1
+world_coord 
+-1114.46
+-786.537
+ 759.476
+       1
+--------------------------------------
+center:[394, 211] radius:20
+detect once: 0.027951s
+elapsed is 17.6597s
+detected_frame_count: 160
+center depthValue: 707
+min    depthValue: 703
+123
+camera_coord
+-112.436
+-84.9676
+     707
+       1
+world_coord 
+-1120.05
+-772.507
+  747.32
+       1
+--------------------------------------
+center:[364, 241] radius:20
+detect once: 0.025661s
+elapsed is 17.7148s
+detected_frame_count: 161
+center depthValue: 720
+min    depthValue: 699
+123
+camera_coord
+-155.365
+-45.5282
+     720
+       1
+world_coord 
+-1112.1
+-729.42
+706.747
+      1
+--------------------------------------
+center:[330, 290] radius:21
+detect once: 0.026547s
+elapsed is 17.7757s
+detected_frame_count: 162
+center depthValue: 676
+min    depthValue: 667
+123
+camera_coord
+-189.35
+ 20.131
+    676
+      1
+world_coord 
+-1163.32
+-696.594
+  645.93
+       1
+--------------------------------------
+center:[309, 323] radius:22
+detect once: 0.024187s
+elapsed is 17.8335s
+detected_frame_count: 163
+center depthValue: 663
+min    depthValue: 653
+123
+camera_coord
+-212.047
+ 61.2752
+     663
+       1
+world_coord 
+-1180.96
+-674.304
+ 606.329
+       1
+--------------------------------------
+center:[266, 418] radius:25
+detect once: 0.026228s
+elapsed is 17.9071s
+detected_frame_count: 164
+center depthValue: 631
+min    depthValue: 620
+123
+camera_coord
+-253.141
+ 172.107
+     631
+       1
+world_coord 
+-1225.03
+ -634.23
+ 499.354
+       1
+--------------------------------------
+center:[230, 521] radius:26
+detect once: 0.02468s
+elapsed is 17.9928s
+detected_frame_count: 165
+center depthValue: 1738
+min    depthValue: 1713
+123
+camera_coord
+-815.603
+ 813.854
+    1738
+       1
+world_coord 
+-202.298
+-49.4773
+-252.388
+       1
+--------------------------------------
+center:[241, 528] radius:10
+detect once: 0.026442s
+elapsed is 18.8236s
+detected_frame_count: 166
+center depthValue: 623
+min    depthValue: 605
+123
+camera_coord
+-279.396
+ 300.011
+     623
+       1
+world_coord 
+-1246.65
+-608.507
+ 372.951
+       1
+--------------------------------------
+center:[243, 447] radius:26
+detect once: 0.023557s
+elapsed is 18.8968s
+detected_frame_count: 167
+center depthValue: 620
+min    depthValue: 593
+123
+camera_coord
+-275.704
+ 203.237
+     620
+       1
+world_coord 
+-1239.65
+-612.003
+ 469.508
+       1
+--------------------------------------
+center:[256, 363] radius:22
+detect once: 0.021461s
+elapsed is 18.9671s
+detected_frame_count: 168
+center depthValue: 635
+min    depthValue: 621
+123
+camera_coord
+-266.758
+ 106.902
+     635
+       1
+world_coord 
+-1214.68
+-620.357
+  563.79
+       1
+--------------------------------------
+center:[286, 300] radius:22
+detect once: 0.026429s
+elapsed is 19.0391s
+detected_frame_count: 169
+center depthValue: 651
+min    depthValue: 646
+123
+camera_coord
+-236.534
+  31.744
+     651
+       1
+world_coord 
+-1190.42
+-650.013
+ 636.917
+       1
+--------------------------------------
+center:[322, 258] radius:22
+detect once: 0.027532s
+elapsed is 19.1048s
+detected_frame_count: 170
+center depthValue: 1967
+min    depthValue: 669
+123
+camera_coord
+-580.732
+-60.9057
+    1967
+       1
+world_coord 
+ 120.094
+-276.859
+ 594.305
+       1
+--------------------------------------
+center:[356, 239] radius:23
+detect once: 0.027288s
+elapsed is 19.161s
+detected_frame_count: 171
+center depthValue: 678
+min    depthValue: 675
+123
+camera_coord
+-156.563
+-45.4464
+     678
+       1
+world_coord 
+ -1153.9
+-729.145
+ 710.961
+       1
+--------------------------------------
+center:[369, 233] radius:22
+detect once: 0.023423s
+elapsed is 19.2168s
+detected_frame_count: 172
+center depthValue: 688
+min    depthValue: 681
+123
+camera_coord
+-141.952
+-53.9526
+     688
+       1
+world_coord 
+-1142.77
+-743.506
+ 718.405
+       1
+--------------------------------------
+center:[383, 218] radius:22
+detect once: 0.027224s
+elapsed is 19.2709s
+detected_frame_count: 173
+center depthValue: 687
+min    depthValue: 681
+123
+camera_coord
+-123.551
+-73.4354
+     687
+       1
+world_coord 
+-1141.36
+-761.867
+ 737.892
+       1
+--------------------------------------
+center:[390, 216] radius:22
+detect once: 0.021891s
+elapsed is 19.3568s
+detected_frame_count: 174
+center depthValue: 688
+min    depthValue: 686
+123
+camera_coord
+-114.621
+-76.1543
+     688
+       1
+world_coord 
+-1139.89
+-770.764
+ 740.497
+       1
+--------------------------------------
+center:[388, 219] radius:22
+detect once: 0.018536s
+elapsed is 19.403s
+detected_frame_count: 175
+center depthValue: 687
+min    depthValue: 678
+123
+camera_coord
+-117.053
+-72.1313
+     687
+       1
+world_coord 
+-1141.35
+-768.366
+ 736.598
+       1
+--------------------------------------
+center:[379, 232] radius:23
+detect once: 0.022163s
+elapsed is 19.4462s
+detected_frame_count: 176
+center depthValue: 679
+min    depthValue: 675
+123
+camera_coord
+-127.251
+-54.5357
+     679
+       1
+world_coord 
+-1151.33
+-758.396
+ 719.911
+       1
+--------------------------------------
+center:[372, 240] radius:23
+detect once: 0.030742s
+elapsed is 19.5018s
+detected_frame_count: 177
+center depthValue: 674
+min    depthValue: 669
+123
+camera_coord
+-135.239
+-43.8989
+     674
+       1
+world_coord 
+-1157.57
+ -750.55
+  709.84
+       1
+--------------------------------------
+center:[356, 267] radius:23
+detect once: 0.024215s
+elapsed is 19.5908s
+detected_frame_count: 178
+center depthValue: 692
+min    depthValue: 647
+123
+camera_coord
+-159.796
+-9.60475
+     692
+       1
+world_coord 
+-1143.72
+-725.703
+  673.88
+       1
+--------------------------------------
+center:[334, 311] radius:25
+detect once: 0.024301s
+elapsed is 19.6428s
+detected_frame_count: 179
+center depthValue: 675
+min    depthValue: 629
+123
+camera_coord
+-183.962
+ 47.0086
+     675
+       1
+world_coord 
+-1166.95
+-702.073
+ 619.303
+       1
+--------------------------------------
+center:[308, 378] radius:25
+detect once: 0.027112s
+elapsed is 19.6901s
+detected_frame_count: 180
+center depthValue: 621
+min    depthValue: 615
+123
+camera_coord
+-199.789
+ 122.227
+     621
+       1
+world_coord 
+-1228.69
+-687.641
+ 550.008
+       1
+--------------------------------------
+center:[282, 471] radius:28
+detect once: 0.024683s
+elapsed is 19.7868s
+detected_frame_count: 181
+center depthValue: 1795
+min    depthValue: 576
+123
+camera_coord
+-665.778
+ 670.179
+    1795
+       1
+world_coord 
+-127.607
+-197.592
+-115.259
+       1
+--------------------------------------
+center:[255, 508] radius:12
+detect once: 0.026677s
+elapsed is 20.8109s
+detected_frame_count: 182
+center depthValue: 631
+min    depthValue: 617
+123
+camera_coord
+-266.272
+ 279.907
+     631
+       1
+world_coord 
+-1236.35
+-621.395
+ 392.132
+       1
+--------------------------------------
+center:[254, 459] radius:6
+detect once: 0.022122s
+elapsed is 20.8714s
+detected_frame_count: 183
+center depthValue: 638
+min    depthValue: 632
+123
+camera_coord
+-270.432
+  223.67
+     638
+       1
+world_coord 
+-1223.72
+-616.932
+ 447.347
+       1
+--------------------------------------
+center:[256, 434] radius:5
+detect once: 0.023525s
+elapsed is 20.9266s
+detected_frame_count: 184
+center depthValue: 643
+min    depthValue: 637
+123
+camera_coord
+-270.119
+ 194.909
+     643
+       1
+world_coord 
+ -1215.8
+-617.058
+ 475.441
+       1
+--------------------------------------
+center:[304, 391] radius:8
+detect once: 0.030054s
+elapsed is 20.9967s
+detected_frame_count: 185
+center depthValue: 670
+min    depthValue: 654
+123
+camera_coord
+-220.623
+ 148.405
+     670
+       1
+world_coord 
+ -1183.1
+-665.812
+ 518.951
+       1
+--------------------------------------
+center:[312, 352] radius:12
+detect once: 0.023746s
+elapsed is 21.0783s
+detected_frame_count: 186
+center depthValue: 651
+min    depthValue: 637
+123
+camera_coord
+-204.515
+ 96.0028
+     651
+       1
+world_coord 
+-1196.28
+-682.189
+  573.02
+       1
+--------------------------------------
+center:[330, 316] radius:13
+detect once: 0.02939s
+elapsed is 21.1283s
+detected_frame_count: 187
+center depthValue: 644
+min    depthValue: 632
+123
+camera_coord
+-180.387
+  50.962
+     644
+       1
+world_coord 
+ -1198.1
+-706.338
+ 618.543
+       1
+--------------------------------------
+center:[360, 283] radius:11
+detect once: 0.021337s
+elapsed is 21.1954s
+detected_frame_count: 188
+center depthValue: 637
+min    depthValue: 618
+123
+camera_coord
+-142.275
+ 10.5054
+     637
+       1
+world_coord 
+-1200.08
+-744.475
+ 659.513
+       1
+--------------------------------------
+center:[382, 254] radius:15
+detect once: 0.025305s
+elapsed is 21.2723s
+detected_frame_count: 189
+center depthValue: 609
+min    depthValue: 597
+123
+camera_coord
+-110.676
+ -23.481
+     609
+       1
+world_coord 
+-1223.75
+-776.582
+ 696.192
+       1
+--------------------------------------
+center:[403, 235] radius:15
+detect once: 0.020548s
+elapsed is 21.3529s
+detected_frame_count: 190
+center depthValue: 586
+min    depthValue: 577
+123
+camera_coord
+-83.2162
+-43.7291
+     586
+       1
+world_coord 
+-1243.94
+-804.478
+ 718.695
+       1
+--------------------------------------
+center:[422, 220] radius:17
+detect once: 0.020561s
+elapsed is 21.4001s
+detected_frame_count: 191
+center depthValue: 578
+min    depthValue: 572
+123
+camera_coord
+-61.3051
+-59.5897
+     578
+       1
+world_coord 
+-1249.79
+-826.511
+ 735.297
+       1
+--------------------------------------
+center:[438, 208] radius:18
+detect once: 0.029541s
+elapsed is 21.4705s
+detected_frame_count: 192
+center depthValue: 577
+min    depthValue: 552
+123
+camera_coord
+-43.7346
+  -72.63
+     577
+       1
+world_coord 
+-1249.06
+ -844.06
+ 748.376
+       1
+--------------------------------------
+center:[444, 202] radius:17
+detect once: 0.018602s
+elapsed is 21.5311s
+detected_frame_count: 193
+center depthValue: 569
+min    depthValue: 552
+123
+camera_coord
+-36.6698
+-78.1035
+     569
+       1
+world_coord 
+ -1256.3
+-851.282
+ 754.642
+       1
+--------------------------------------
+center:[462, 197] radius:18
+detect once: 0.023401s
+elapsed is 21.5869s
+detected_frame_count: 194
+center depthValue: 566
+min    depthValue: 545
+123
+camera_coord
+-17.2035
+-83.0637
+     566
+       1
+world_coord 
+-1258.35
+-870.791
+  759.89
+       1
+--------------------------------------
+center:[463, 195] radius:18
+detect once: 0.025252s
+elapsed is 21.6394s
+detected_frame_count: 195
+center depthValue: 567
+min    depthValue: 544
+123
+camera_coord
+-16.1613
+ -85.363
+     567
+       1
+world_coord 
+ -1257.1
+-871.805
+ 762.075
+       1
+--------------------------------------
+center:[467, 196] radius:18
+detect once: 0.021178s
+elapsed is 21.7045s
+detected_frame_count: 196
+center depthValue: 566
+min    depthValue: 538
+123
+camera_coord
+-11.8499
+-84.1381
+     566
+       1
+world_coord 
+-1258.12
+-876.139
+ 760.961
+       1
+--------------------------------------
+center:[476, 196] radius:19
+detect once: 0.023331s
+elapsed is 21.7494s
+detected_frame_count: 197
+center depthValue: 567
+min    depthValue: 543
+123
+camera_coord
+-2.21734
+-84.2868
+     567
+       1
+world_coord 
+ -1256.9
+-885.745
+ 761.011
+       1
+--------------------------------------
+center:[480, 194] radius:18
+detect once: 0.025819s
+elapsed is 21.8197s
+detected_frame_count: 198
+center depthValue: 565
+min    depthValue: 540
+123
+camera_coord
+  2.0658
+-86.1344
+     565
+       1
+world_coord 
+ -1258.6
+-890.065
+ 763.055
+       1
+--------------------------------------
+center:[480, 194] radius:18
+detect once: 0.027387s
+elapsed is 21.8912s
+detected_frame_count: 199
+center depthValue: 562
+min    depthValue: 540
+123
+camera_coord
+ 2.05483
+-85.6771
+     562
+       1
+world_coord 
+-1261.63
+-890.121
+ 762.907
+       1
+--------------------------------------
+center:[486, 196] radius:18
+detect once: 0.020437s
+elapsed is 21.9625s
+detected_frame_count: 200
+center depthValue: 569
+min    depthValue: 547
+123
+camera_coord
+  8.5388
+-84.5841
+     569
+       1
+world_coord 
+-1254.64
+-896.451
+ 761.106
+       1
+--------------------------------------
+center:[484, 194] radius:19
+detect once: 0.020853s
+elapsed is 22.02s
+detected_frame_count: 201
+center depthValue: 559
+min    depthValue: 531
+123
+camera_coord
+ 6.27378
+-85.2197
+     559
+       1
+world_coord 
+-1264.57
+-894.405
+  762.76
+       1
+--------------------------------------
+center:[489, 196] radius:18
+detect once: 0.018621s
+elapsed is 22.0651s
+detected_frame_count: 202
+center depthValue: 565
+min    depthValue: 537
+123
+camera_coord
+ 11.6853
+-83.9894
+     565
+       1
+world_coord 
+-1258.61
+-899.685
+ 760.925
+       1
+--------------------------------------
+center:[491, 196] radius:18
+detect once: 0.02002s
+elapsed is 22.1199s
+detected_frame_count: 203
+center depthValue: 565
+min    depthValue: 541
+123
+camera_coord
+ 13.8229
+-83.9894
+     565
+       1
+world_coord 
+-1258.56
+-901.822
+ 760.926
+       1
+--------------------------------------
+center:[491, 194] radius:18
+detect once: 0.024661s
+elapsed is 22.1977s
+detected_frame_count: 204
+center depthValue: 561
+min    depthValue: 541
+123
+camera_coord
+ 13.7251
+-85.5246
+     561
+       1
+world_coord 
+-1262.38
+-901.808
+ 762.862
+       1
+--------------------------------------
+center:[492, 196] radius:19
+detect once: 0.022612s
+elapsed is 22.2977s
+detected_frame_count: 205
+center depthValue: 560
+min    depthValue: 537
+123
+camera_coord
+   14.76
+-83.2462
+     560
+       1
+world_coord 
+-1263.59
+ -902.87
+ 760.699
+       1
+--------------------------------------
+center:[497, 197] radius:18
+detect once: 0.028933s
+elapsed is 22.3541s
+detected_frame_count: 206
+center depthValue: 563
+min    depthValue: 544
+123
+camera_coord
+ 20.1643
+-82.6234
+     563
+       1
+world_coord 
+-1260.55
+-908.208
+ 759.775
+       1
+--------------------------------------
+center:[500, 199] radius:18
+detect once: 0.021152s
+elapsed is 22.423s
+detected_frame_count: 207
+center depthValue: 570
+min    depthValue: 545
+123
+camera_coord
+ 23.6498
+-81.4867
+     570
+       1
+world_coord 
+-1253.63
+-911.541
+  757.93
+       1
+--------------------------------------
+center:[497, 198] radius:18
+detect once: 0.01955s
+elapsed is 22.5054s
+detected_frame_count: 208
+center depthValue: 580
+min    depthValue: 562
+123
+camera_coord
+ 20.7731
+-84.0173
+     580
+       1
+world_coord 
+-1243.49
+-908.439
+ 759.423
+       1
+--------------------------------------
+center:[472, 196] radius:18
+detect once: 0.02496s
+elapsed is 22.5552s
+detected_frame_count: 209
+center depthValue: 564
+min    depthValue: 545
+123
+camera_coord
+-6.47335
+-83.8408
+     564
+       1
+world_coord 
+-1260.02
+-881.558
+ 760.872
+       1
+--------------------------------------
+center:[432, 192] radius:18
+detect once: 0.025086s
+elapsed is 22.6023s
+detected_frame_count: 210
+center depthValue: 591
+min    depthValue: 567
+123
+camera_coord
+-51.5038
+-92.3419
+     591
+       1
+world_coord 
+ -1233.3
+-835.935
+ 766.546
+       1
+--------------------------------------
+center:[406, 191] radius:17
+detect once: 0.024732s
+elapsed is 22.6493s
+detected_frame_count: 211
+center depthValue: 595
+min    depthValue: 559
+123
+camera_coord
+-81.1175
+-94.0963
+     595
+       1
+world_coord 
+-1229.79
+-806.243
+ 767.869
+       1
+--------------------------------------
+center:[377, 192] radius:18
+detect once: 0.029065s
+elapsed is 22.7008s
+detected_frame_count: 212
+center depthValue: 603
+min    depthValue: 575
+123
+camera_coord
+-115.289
+-94.2168
+     603
+       1
+world_coord 
+-1222.58
+-771.913
+ 767.156
+       1
+--------------------------------------
+center:[302, 196] radius:22
+detect once: 0.025682s
+elapsed is 22.7708s
+detected_frame_count: 213
+center depthValue: 599
+min    depthValue: 569
+123
+camera_coord
+ -199.51
+-89.0437
+     599
+       1
+world_coord 
+-1228.95
+-687.836
+ 762.385
+       1
+--------------------------------------
+center:[228, 208] radius:22
+detect once: 0.024353s
+elapsed is 22.8558s
+detected_frame_count: 214
+center depthValue: 640
+min    depthValue: 603
+123
+camera_coord
+-302.759
+-80.5601
+     640
+       1
+world_coord 
+-1191.33
+-583.762
+  749.71
+       1
+--------------------------------------
+center:[162, 227] radius:23
+detect once: 0.023093s
+elapsed is 22.9135s
+detected_frame_count: 215
+center depthValue: 675
+min    depthValue: 632
+123
+camera_coord
+-403.592
+-60.6209
+     675
+       1
+world_coord 
+ -1160.8
+-482.264
+ 726.256
+       1
+--------------------------------------
+center:[95, 276] radius:15
+detect once: 0.022907s
+elapsed is 22.9657s
+detected_frame_count: 216
+center depthValue: 666
+min    depthValue: 663
+123
+camera_coord
+-482.624
+  2.1341
+     666
+       1
+world_coord 
+-1177.91
+-403.638
+ 664.728
+       1
+--------------------------------------
+center:[92, 292] radius:14
+detect once: 0.025236s
+elapsed is 23.0191s
+detected_frame_count: 217
+center depthValue: 686
+min    depthValue: 685
+123
+camera_coord
+-501.011
+ 23.0331
+     686
+       1
+world_coord 
+-1160.57
+-384.877
+ 641.889
+       1
+--------------------------------------
+center:[100, 294] radius:14
+detect once: 0.021105s
+elapsed is 23.0665s
+detected_frame_count: 218
+center depthValue: 708
+min    depthValue: 705
+123
+camera_coord
+-506.363
+ 26.4597
+     708
+       1
+world_coord 
+-1139.16
+-379.054
+ 636.228
+       1
+--------------------------------------
+center:[100, 292] radius:11
+detect once: 0.027335s
+elapsed is 23.1162s
+detected_frame_count: 219
+center depthValue: 731
+min    depthValue: 728
+123
+camera_coord
+-522.813
+ 24.5441
+     731
+       1
+world_coord 
+-1116.46
+-362.103
+ 635.774
+       1
+--------------------------------------
+center:[102, 288] radius:11
+detect once: 0.026524s
+elapsed is 23.1693s
+detected_frame_count: 220
+center depthValue: 737
+min    depthValue: 732
+123
+camera_coord
+-524.316
+ 19.1495
+     737
+       1
+world_coord 
+-1109.97
+-360.454
+ 640.524
+       1
+--------------------------------------
+center:[104, 284] radius:11
+detect once: 0.028272s
+elapsed is 23.2186s
+detected_frame_count: 221
+center depthValue: 740
+min    depthValue: 738
+123
+camera_coord
+-523.65
+13.6087
+    740
+      1
+world_coord 
+-1106.41
+-361.039
+ 645.729
+       1
+--------------------------------------
+center:[104, 286] radius:12
+detect once: 0.027804s
+elapsed is 23.2792s
+detected_frame_count: 222
+center depthValue: 752
+min    depthValue: 751
+123
+camera_coord
+-532.142
+ 16.6844
+     752
+       1
+world_coord 
+-1094.98
+-352.296
+ 641.439
+       1
+--------------------------------------
+center:[104, 286] radius:11
+detect once: 0.021748s
+elapsed is 23.3409s
+detected_frame_count: 223
+center depthValue: 758
+min    depthValue: 756
+123
+camera_coord
+-536.388
+ 16.8175
+     758
+       1
+world_coord 
+-1089.12
+-347.921
+ 640.691
+       1
+--------------------------------------
+center:[102, 285] radius:11
+detect once: 0.026984s
+elapsed is 23.4014s
+detected_frame_count: 224
+center depthValue: 757
+min    depthValue: 755
+123
+camera_coord
+-538.544
+ 15.3583
+     757
+       1
+world_coord 
+-1090.01
+-345.784
+ 642.243
+       1
+--------------------------------------
+center:[102, 280] radius:11
+detect once: 0.023884s
+elapsed is 23.4861s
+detected_frame_count: 225
+center depthValue: 752
+min    depthValue: 749
+123
+camera_coord
+-534.987
+ 8.11955
+     752
+       1
+world_coord 
+-1094.16
+ -349.43
+ 649.956
+       1
+--------------------------------------
+center:[95, 276] radius:11
+detect once: 0.019415s
+elapsed is 23.5517s
+detected_frame_count: 226
+center depthValue: 744
+min    depthValue: 737
+123
+camera_coord
+-539.148
+ 2.38404
+     744
+       1
+world_coord 
+-1101.62
+-345.431
+ 656.477
+       1
+--------------------------------------
+center:[89, 268] radius:12
+detect once: 0.022893s
+elapsed is 23.6073s
+detected_frame_count: 227
+center depthValue: 740
+min    depthValue: 733
+123
+camera_coord
+-544.648
+-8.86628
+     740
+       1
+world_coord 
+-1104.57
+-339.991
+ 668.073
+       1
+--------------------------------------
+center:[82, 268] radius:11
+detect once: 0.022265s
+elapsed is 23.6762s
+detected_frame_count: 228
+center depthValue: 737
+min    depthValue: 735
+123
+camera_coord
+  -552.2
+-8.83034
+     737
+       1
+world_coord 
+-1107.73
+-332.509
+ 668.341
+       1
+--------------------------------------
+center:[75, 266] radius:11
+detect once: 0.029957s
+elapsed is 23.7301s
+detected_frame_count: 229
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+-0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[68, 272] radius:11
+detect once: 0.023022s
+elapsed is 23.7887s
+detected_frame_count: 230
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+-0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[62, 282] radius:11
+detect once: 0.023946s
+elapsed is 23.8493s
+detected_frame_count: 231
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[57, 292] radius:10
+detect once: 0.023466s
+elapsed is 23.9069s
+detected_frame_count: 232
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[53, 300] radius:11
+detect once: 0.022243s
+elapsed is 23.9646s
+detected_frame_count: 233
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[52, 303] radius:11
+detect once: 0.025278s
+elapsed is 24.0085s
+detected_frame_count: 234
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[50, 306] radius:11
+detect once: 0.020931s
+elapsed is 24.0679s
+detected_frame_count: 235
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[49, 311] radius:11
+detect once: 0.026473s
+elapsed is 24.109s
+detected_frame_count: 236
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[50, 312] radius:11
+detect once: 0.02349s
+elapsed is 24.1841s
+detected_frame_count: 237
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[52, 314] radius:10
+detect once: 0.023925s
+elapsed is 24.2535s
+detected_frame_count: 238
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[56, 312] radius:11
+detect once: 0.024853s
+elapsed is 24.3082s
+detected_frame_count: 239
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[60, 308] radius:11
+detect once: 0.020325s
+elapsed is 24.3593s
+detected_frame_count: 240
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[64, 302] radius:11
+detect once: 0.019041s
+elapsed is 24.3948s
+detected_frame_count: 241
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[66, 298] radius:11
+detect once: 0.024123s
+elapsed is 24.4474s
+detected_frame_count: 242
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[70, 295] radius:10
+detect once: 0.019704s
+elapsed is 24.4842s
+detected_frame_count: 243
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[76, 292] radius:10
+detect once: 0.016859s
+elapsed is 24.5299s
+detected_frame_count: 244
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[86, 289] radius:11
+detect once: 0.022332s
+elapsed is 24.5733s
+detected_frame_count: 245
+center depthValue: 741
+min    depthValue: 739
+123
+camera_coord
+-549.59
+20.6601
+    741
+      1
+world_coord 
+-1106.71
+-335.109
+ 638.602
+       1
+--------------------------------------
+center:[90, 289] radius:10
+detect once: 0.019544s
+elapsed is 24.6195s
+detected_frame_count: 246
+center depthValue: 741
+min    depthValue: 738
+123
+camera_coord
+-543.983
+ 20.6601
+     741
+       1
+world_coord 
+-1106.58
+-340.714
+ 638.605
+       1
+--------------------------------------
+center:[92, 290] radius:10
+detect once: 0.022486s
+elapsed is 24.6752s
+detected_frame_count: 247
+center depthValue: 749
+min    depthValue: 738
+123
+camera_coord
+-547.022
+ 22.3049
+     749
+       1
+world_coord 
+-1098.86
+-337.505
+ 636.149
+       1
+--------------------------------------
+center:[101, 287] radius:12
+detect once: 0.027705s
+elapsed is 24.7173s
+detected_frame_count: 248
+center depthValue: 740
+min    depthValue: 739
+123
+camera_coord
+-527.85
+17.8228
+    740
+      1
+world_coord 
+-1106.93
+-356.853
+ 641.536
+       1
+--------------------------------------
+center:[108, 285] radius:11
+detect once: 0.025766s
+elapsed is 24.7849s
+detected_frame_count: 249
+center depthValue: 738
+min    depthValue: 737
+123
+camera_coord
+-516.651
+ 14.9728
+     738
+       1
+world_coord 
+-1108.38
+-368.083
+ 644.579
+       1
+--------------------------------------
+center:[117, 284] radius:13
+detect once: 0.02549s
+elapsed is 24.8478s
+detected_frame_count: 250
+center depthValue: 738
+min    depthValue: 737
+123
+camera_coord
+-504.086
+  13.572
+     738
+       1
+world_coord 
+-1107.96
+-380.637
+ 645.978
+       1
+--------------------------------------
+center:[122, 283] radius:12
+detect once: 0.025162s
+elapsed is 24.9049s
+detected_frame_count: 251
+center depthValue: 737
+min    depthValue: 735
+123
+camera_coord
+-496.432
+ 12.1546
+     737
+       1
+world_coord 
+-1108.64
+-388.306
+ 647.493
+       1
+--------------------------------------
+center:[124, 281] radius:12
+detect once: 0.024338s
+elapsed is 24.965s
+detected_frame_count: 252
+center depthValue: 737
+min    depthValue: 734
+123
+camera_coord
+-493.643
+ 9.35658
+     737
+       1
+world_coord 
+-1108.29
+-391.085
+ 650.277
+       1
+--------------------------------------
+center:[127, 280] radius:13
+detect once: 0.029226s
+elapsed is 25.0349s
+detected_frame_count: 253
+center depthValue: 731
+min    depthValue: 729
+123
+camera_coord
+-485.476
+ 7.89281
+     731
+       1
+world_coord 
+-1113.93
+-399.376
+  652.35
+       1
+--------------------------------------
+center:[127, 276] radius:12
+detect once: 0.022618s
+elapsed is 25.1059s
+detected_frame_count: 254
+center depthValue: 730
+min    depthValue: 729
+123
+camera_coord
+-484.812
+ 2.33918
+     730
+       1
+world_coord 
+-1114.34
+-400.047
+ 657.976
+       1
+--------------------------------------
+center:[131, 273] radius:13
+detect once: 0.018777s
+elapsed is 25.1486s
+detected_frame_count: 255
+center depthValue: 731
+min    depthValue: 729
+123
+camera_coord
+-479.944
+-1.82043
+     731
+       1
+world_coord 
+-1112.81
+-404.879
+ 662.013
+       1
+--------------------------------------
+center:[133, 272] radius:14
+detect once: 0.027127s
+elapsed is 25.2016s
+detected_frame_count: 256
+center depthValue: 731
+min    depthValue: 728
+123
+camera_coord
+-477.179
+-3.20803
+     731
+       1
+world_coord 
+-1112.61
+ -407.64
+ 663.395
+       1
+--------------------------------------
+center:[138, 269] radius:16
+detect once: 0.022844s
+elapsed is 25.2437s
+detected_frame_count: 257
+center depthValue: 730
+min    depthValue: 727
+123
+camera_coord
+-469.621
+-7.36076
+     730
+       1
+world_coord 
+-1113.01
+-415.204
+  667.63
+       1
+--------------------------------------
+center:[136, 269] radius:14
+detect once: 0.018886s
+elapsed is 25.2999s
+detected_frame_count: 258
+center depthValue: 728
+min    depthValue: 727
+123
+camera_coord
+-471.089
+ -7.3406
+     728
+       1
+world_coord 
+-1115.03
+-413.781
+ 667.814
+       1
+--------------------------------------
+center:[136, 270] radius:15
+detect once: 0.026597s
+elapsed is 25.3426s
+detected_frame_count: 259
+center depthValue: 726
+min    depthValue: 723
+123
+camera_coord
+-469.794
+-5.94232
+     726
+       1
+world_coord 
+-1117.14
+-415.122
+ 666.629
+       1
+--------------------------------------
+center:[131, 275] radius:14
+detect once: 0.021639s
+elapsed is 25.3934s
+detected_frame_count: 260
+center depthValue: 724
+min    depthValue: 721
+123
+camera_coord
+-475.348
+ 0.94564
+     724
+       1
+world_coord 
+-1119.95
+-409.634
+  659.98
+       1
+--------------------------------------
+center:[124, 288] radius:14
+detect once: 0.028707s
+elapsed is 25.4558s
+detected_frame_count: 261
+center depthValue: 717
+min    depthValue: 714
+123
+camera_coord
+-480.247
+ 18.6299
+     717
+       1
+world_coord 
+-1128.83
+-404.938
+ 643.106
+       1
+--------------------------------------
+center:[118, 297] radius:14
+detect once: 0.028296s
+elapsed is 25.5225s
+detected_frame_count: 262
+center depthValue: 715
+min    depthValue: 706
+123
+camera_coord
+-487.023
+  30.793
+     715
+       1
+world_coord 
+-1132.21
+-398.242
+  631.21
+       1
+--------------------------------------
+center:[103, 324] radius:11
+detect once: 0.024071s
+elapsed is 25.5892s
+detected_frame_count: 263
+center depthValue: 702
+min    depthValue: 696
+123
+camera_coord
+-498.088
+ 66.2122
+     702
+       1
+world_coord 
+-1149.01
+-387.563
+ 597.308
+       1
+--------------------------------------
+center:[88, 368] radius:12
+detect once: 0.019574s
+elapsed is 25.6866s
+detected_frame_count: 264
+center depthValue: 688
+min    depthValue: 680
+123
+camera_coord
+-507.677
+ 122.355
+     688
+       1
+world_coord 
+-1168.89
+-378.437
+ 542.898
+       1
+--------------------------------------
+center:[87, 391] radius:13
+detect once: 0.026919s
+elapsed is 25.7292s
+detected_frame_count: 265
+center depthValue: 689
+min    depthValue: 681
+123
+camera_coord
+-509.719
+ 152.614
+     689
+       1
+world_coord 
+-1171.03
+-376.456
+   512.7
+       1
+--------------------------------------
+center:[85, 410] radius:13
+detect once: 0.021883s
+elapsed is 25.7812s
+detected_frame_count: 266
+center depthValue: 688
+min    depthValue: 671
+123
+camera_coord
+-511.582
+ 177.206
+     688
+       1
+world_coord 
+-1174.58
+-374.681
+ 488.342
+       1
+--------------------------------------
+center:[88, 419] radius:14
+detect once: 0.023696s
+elapsed is 25.8248s
+detected_frame_count: 267
+center depthValue: 690
+min    depthValue: 676
+123
+camera_coord
+-509.153
+ 189.509
+     690
+       1
+world_coord 
+ -1173.8
+-377.098
+ 475.902
+       1
+--------------------------------------
+center:[89, 427] radius:14
+detect once: 0.021986s
+elapsed is 25.8912s
+detected_frame_count: 268
+center depthValue: 696
+min    depthValue: 686
+123
+camera_coord
+-512.264
+ 201.726
+     696
+       1
+world_coord 
+-1169.15
+ -373.89
+ 463.136
+       1
+--------------------------------------
+center:[94, 448] radius:14
+detect once: 0.019405s
+elapsed is 25.9546s
+detected_frame_count: 269
+center depthValue: 694
+min    depthValue: 686
+123
+camera_coord
+-504.228
+ 228.812
+     694
+       1
+world_coord 
+-1173.73
+-382.039
+ 436.406
+       1
+--------------------------------------
+center:[97, 460] radius:14
+detect once: 0.024276s
+elapsed is 26.0012s
+detected_frame_count: 270
+center depthValue: 707
+min    depthValue: 691
+123
+camera_coord
+-509.66
+249.202
+    707
+      1
+world_coord 
+-1163.01
+-376.378
+ 414.794
+       1
+--------------------------------------
+center:[99, 467] radius:13
+detect once: 0.021364s
+elapsed is 26.0638s
+detected_frame_count: 271
+center depthValue: 708
+min    depthValue: 691
+123
+camera_coord
+-507.703
+ 258.962
+     708
+       1
+world_coord 
+-1162.97
+-378.339
+ 404.985
+       1
+--------------------------------------
+center:[101, 472] radius:13
+detect once: 0.019274s
+elapsed is 26.1084s
+detected_frame_count: 272
+center depthValue: 706
+min    depthValue: 695
+123
+camera_coord
+-503.597
+ 264.931
+     706
+       1
+world_coord 
+-1165.48
+-382.502
+ 399.254
+       1
+--------------------------------------
+center:[104, 482] radius:13
+detect once: 0.018263s
+elapsed is 26.1579s
+detected_frame_count: 273
+center depthValue: 708
+min    depthValue: 696
+123
+camera_coord
+-501.006
+ 279.121
+     708
+       1
+world_coord 
+-1164.89
+-385.086
+ 384.938
+       1
+--------------------------------------
+center:[108, 488] radius:13
+detect once: 0.019097s
+elapsed is 26.2084s
+detected_frame_count: 274
+center depthValue: 709
+min    depthValue: 695
+123
+camera_coord
+-496.349
+ 287.591
+     709
+       1
+world_coord 
+-1164.66
+-389.742
+ 376.414
+       1
+--------------------------------------
+center:[107, 490] radius:13
+detect once: 0.021468s
+elapsed is 26.2532s
+detected_frame_count: 275
+center depthValue: 704
+min    depthValue: 689
+123
+camera_coord
+-494.18
+288.235
+    704
+      1
+world_coord 
+-1169.65
+-392.021
+ 376.285
+       1
+--------------------------------------
+center:[107, 492] radius:13
+detect once: 0.022306s
+elapsed is 26.3s
+detected_frame_count: 276
+center depthValue: 703
+min    depthValue: 690
+123
+camera_coord
+-493.478
+ 290.495
+     703
+       1
+world_coord 
+-1170.86
+-392.751
+ 374.141
+       1
+--------------------------------------
+center:[107, 495] radius:13
+detect once: 0.022278s
+elapsed is 26.3497s
+detected_frame_count: 277
+center depthValue: 700
+min    depthValue: 686
+123
+camera_coord
+-491.372
+ 293.241
+     700
+       1
+world_coord 
+-1174.07
+-394.929
+ 371.717
+       1
+--------------------------------------
+center:[107, 498] radius:13
+detect once: 0.023569s
+elapsed is 26.4367s
+detected_frame_count: 278
+center depthValue: 692
+min    depthValue: 683
+123
+camera_coord
+-485.756
+ 293.831
+     692
+       1
+world_coord 
+-1181.96
+-400.719
+ 371.951
+       1
+--------------------------------------
+center:[104, 499] radius:13
+detect once: 0.024061s
+elapsed is 26.5003s
+detected_frame_count: 279
+center depthValue: 695
+min    depthValue: 688
+123
+camera_coord
+-491.807
+ 296.424
+     695
+       1
+world_coord 
+-1179.38
+-394.613
+ 369.063
+       1
+--------------------------------------
+center:[103, 489] radius:14
+detect once: 0.025664s
+elapsed is 26.5639s
+detected_frame_count: 280
+center depthValue: 702
+min    depthValue: 692
+123
+camera_coord
+-498.088
+ 286.084
+     702
+       1
+world_coord 
+ -1171.5
+-388.153
+ 378.628
+       1
+--------------------------------------
+center:[102, 476] radius:13
+detect once: 0.025535s
+elapsed is 26.6182s
+detected_frame_count: 281
+center depthValue: 706
+min    depthValue: 694
+123
+camera_coord
+-502.262
+ 270.292
+     706
+       1
+world_coord 
+   -1166
+-383.851
+ 393.923
+       1
+--------------------------------------
+center:[103, 462] radius:13
+detect once: 0.030159s
+elapsed is 26.6826s
+detected_frame_count: 282
+center depthValue: 711
+min    depthValue: 708
+123
+camera_coord
+-504.474
+ 253.311
+     711
+       1
+world_coord 
+-1159.34
+-381.485
+   410.3
+       1
+--------------------------------------
+center:[101, 425] radius:12
+detect once: 0.027208s
+elapsed is 26.7493s
+detected_frame_count: 283
+center depthValue: 726
+min    depthValue: 714
+123
+camera_coord
+-517.863
+ 207.665
+     726
+       1
+world_coord 
+-1140.05
+-367.651
+ 454.158
+       1
+--------------------------------------
+center:[103, 397] radius:11
+detect once: 0.021838s
+elapsed is 26.8497s
+detected_frame_count: 284
+center depthValue: 736
+min    depthValue: 724
+123
+camera_coord
+-522.212
+ 171.407
+     736
+       1
+world_coord 
+-1126.49
+-362.988
+ 489.195
+       1
+--------------------------------------
+center:[106, 368] radius:10
+detect once: 0.023607s
+elapsed is 26.9035s
+detected_frame_count: 285
+center depthValue: 752
+min    depthValue: 747
+123
+camera_coord
+-529.297
+ 133.737
+     752
+       1
+world_coord 
+-1106.89
+-355.454
+ 525.022
+       1
+--------------------------------------
+center:[109, 353] radius:10
+detect once: 0.019848s
+elapsed is 26.9607s
+detected_frame_count: 286
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[118, 327] radius:10
+detect once: 0.025974s
+elapsed is 27.0017s
+detected_frame_count: 287
+center depthValue: 769
+min    depthValue: 767
+123
+camera_coord
+-523.805
+ 76.9108
+     769
+       1
+world_coord 
+-1084.05
+-360.417
+ 579.803
+       1
+--------------------------------------
+center:[128, 301] radius:11
+detect once: 0.024677s
+elapsed is 27.0554s
+detected_frame_count: 288
+center depthValue: 781
+min    depthValue: 779
+123
+camera_coord
+-517.205
+ 39.5655
+     781
+       1
+world_coord 
+-1068.15
+-366.651
+ 615.721
+       1
+--------------------------------------
+center:[129, 291] radius:9
+detect once: 0.024187s
+elapsed is 27.1042s
+detected_frame_count: 289
+center depthValue: 786
+min    depthValue: 784
+123
+camera_coord
+-519.029
+ 24.8987
+     786
+       1
+world_coord 
+-1061.72
+-364.679
+ 629.796
+       1
+--------------------------------------
+center:[138, 269] radius:9
+detect once: 0.027268s
+elapsed is 27.1569s
+detected_frame_count: 290
+center depthValue: 797
+min    depthValue: 793
+123
+camera_coord
+-512.723
+-8.03634
+     797
+       1
+world_coord 
+-1047.27
+-370.651
+  661.43
+       1
+--------------------------------------
+center:[154, 246] radius:12
+detect once: 0.026859s
+elapsed is 27.2411s
+detected_frame_count: 291
+center depthValue: 803
+min    depthValue: 801
+123
+camera_coord
+-492.278
+-43.1552
+     803
+       1
+world_coord 
+-1037.26
+-390.861
+ 695.754
+       1
+--------------------------------------
+center:[162, 228] radius:10
+detect once: 0.027309s
+elapsed is 27.3032s
+detected_frame_count: 292
+center depthValue: 824
+min    depthValue: 811
+123
+camera_coord
+-492.682
+-72.4383
+     824
+       1
+world_coord 
+-1013.39
+-389.918
+  722.73
+       1
+--------------------------------------
+center:[175, 212] radius:12
+detect once: 0.026029s
+elapsed is 27.3533s
+detected_frame_count: 293
+center depthValue: 815
+min    depthValue: 811
+123
+camera_coord
+-467.258
+   -96.4
+     815
+       1
+world_coord 
+-1019.33
+-415.462
+ 747.493
+       1
+--------------------------------------
+center:[184, 200] radius:14
+detect once: 0.031068s
+elapsed is 27.4292s
+detected_frame_count: 294
+center depthValue: 814
+min    depthValue: 810
+123
+camera_coord
+-452.826
+-114.824
+     814
+       1
+world_coord 
+-1018.12
+ -429.86
+ 765.925
+       1
+--------------------------------------
+center:[186, 193] radius:15
+detect once: 0.025231s
+elapsed is 27.4899s
+detected_frame_count: 295
+center depthValue: 811
+min    depthValue: 807
+123
+camera_coord
+-448.088
+-125.177
+     811
+       1
+world_coord 
+-1019.94
+-434.633
+ 776.531
+       1
+--------------------------------------
+center:[184, 192] radius:15
+detect once: 0.02364s
+elapsed is 27.562s
+detected_frame_count: 296
+center depthValue: 807
+min    depthValue: 803
+123
+camera_coord
+-448.931
+-126.091
+     807
+       1
+world_coord 
+-1023.84
+-433.875
+  777.85
+       1
+--------------------------------------
+center:[179, 195] radius:14
+detect once: 0.020924s
+elapsed is 27.6474s
+detected_frame_count: 297
+center depthValue: 802
+min    depthValue: 797
+123
+camera_coord
+-453.736
+-120.743
+     802
+       1
+world_coord 
+-1029.46
+-429.197
+  773.04
+       1
+--------------------------------------
+center:[176, 199] radius:16
+detect once: 0.021401s
+elapsed is 27.6971s
+detected_frame_count: 298
+center depthValue: 801
+min    depthValue: 795
+123
+camera_coord
+-457.716
+ -114.51
+     801
+       1
+world_coord 
+-1031.18
+-425.258
+ 766.942
+       1
+--------------------------------------
+center:[169, 203] radius:12
+detect once: 0.025315s
+elapsed is 27.739s
+detected_frame_count: 299
+center depthValue: 795
+min    depthValue: 794
+123
+camera_coord
+-464.815
+-107.616
+     795
+       1
+world_coord 
+-1038.01
+-418.313
+ 760.695
+       1
+--------------------------------------
+center:[171, 204] radius:15
+detect once: 0.01967s
+elapsed is 27.7917s
+detected_frame_count: 300
+center depthValue: 797
+min    depthValue: 794
+123
+camera_coord
+-462.969
+-106.374
+     797
+       1
+world_coord 
+-1036.11
+-420.117
+ 759.256
+       1
+--------------------------------------
+center:[170, 205] radius:14
+detect once: 0.022565s
+elapsed is 27.8509s
+detected_frame_count: 301
+center depthValue: 797
+min    depthValue: 793
+123
+camera_coord
+-464.476
+-104.861
+     797
+       1
+world_coord 
+ -1036.3
+-418.614
+ 757.751
+       1
+--------------------------------------
+center:[174, 207] radius:15
+detect once: 0.020365s
+elapsed is 27.9155s
+detected_frame_count: 302
+center depthValue: 794
+min    depthValue: 791
+123
+camera_coord
+ -456.72
+-101.452
+     794
+       1
+world_coord 
+-1039.46
+-426.442
+  754.67
+       1
+--------------------------------------
+center:[179, 206] radius:16
+detect once: 0.024976s
+elapsed is 27.9651s
+detected_frame_count: 303
+center depthValue: 792
+min    depthValue: 790
+123
+camera_coord
+-448.078
+  -102.7
+     792
+       1
+world_coord 
+-1041.13
+ -435.12
+  756.12
+       1
+--------------------------------------
+center:[184, 206] radius:13
+detect once: 0.023973s
+elapsed is 28.0302s
+detected_frame_count: 304
+center depthValue: 791
+min    depthValue: 789
+123
+camera_coord
+-440.031
+ -102.57
+     791
+       1
+world_coord 
+-1041.96
+-443.186
+ 756.097
+       1
+--------------------------------------
+center:[198, 208] radius:15
+detect once: 0.024634s
+elapsed is 28.0849s
+detected_frame_count: 305
+center depthValue: 787
+min    depthValue: 783
+123
+camera_coord
+-416.962
+-99.0637
+     787
+       1
+world_coord 
+-1045.79
+ -466.34
+ 753.028
+       1
+--------------------------------------
+center:[210, 212] radius:15
+detect once: 0.020551s
+elapsed is 28.1557s
+detected_frame_count: 306
+center depthValue: 780
+min    depthValue: 779
+123
+camera_coord
+-395.547
+-92.2601
+     780
+       1
+world_coord 
+-1052.97
+-487.916
+ 746.986
+       1
+--------------------------------------
+center:[221, 215] radius:16
+detect once: 0.026171s
+elapsed is 28.2173s
+detected_frame_count: 307
+center depthValue: 773
+min    depthValue: 769
+123
+camera_coord
+-375.912
+-87.0302
+     773
+       1
+world_coord 
+-1060.03
+-507.709
+ 742.509
+       1
+--------------------------------------
+center:[225, 216] radius:15
+detect once: 0.022639s
+elapsed is 28.287s
+detected_frame_count: 308
+center depthValue: 761
+min    depthValue: 759
+123
+camera_coord
+-364.318
+-84.2346
+     761
+       1
+world_coord 
+-1071.99
+-519.568
+ 740.961
+       1
+--------------------------------------
+center:[240, 220] radius:16
+detect once: 0.03005s
+elapsed is 28.3621s
+detected_frame_count: 309
+center depthValue: 751
+min    depthValue: 747
+123
+camera_coord
+ -338.22
+-77.4254
+     751
+       1
+world_coord 
+-1082.06
+-545.891
+ 735.223
+       1
+--------------------------------------
+center:[250, 220] radius:16
+detect once: 0.021945s
+elapsed is 28.423s
+detected_frame_count: 310
+center depthValue: 744
+min    depthValue: 741
+123
+camera_coord
+-320.993
+-76.7037
+     744
+       1
+world_coord 
+-1088.71
+-563.265
+ 735.228
+       1
+--------------------------------------
+center:[259, 219] radius:17
+detect once: 0.019181s
+elapsed is 28.5224s
+detected_frame_count: 311
+center depthValue: 739
+min    depthValue: 738
+123
+camera_coord
+-306.254
+ -77.591
+     739
+       1
+world_coord 
+-1093.27
+-578.104
+ 736.628
+       1
+--------------------------------------
+center:[268, 218] radius:17
+detect once: 0.019357s
+elapsed is 28.5678s
+detected_frame_count: 312
+center depthValue: 741
+min    depthValue: 738
+123
+camera_coord
+-294.467
+-79.2076
+     741
+       1
+world_coord 
+-1090.85
+-589.837
+ 738.037
+       1
+--------------------------------------
+center:[275, 218] radius:15
+detect once: 0.019468s
+elapsed is 28.6211s
+detected_frame_count: 313
+center depthValue: 741
+min    depthValue: 740
+123
+camera_coord
+-284.654
+-79.2076
+     741
+       1
+world_coord 
+-1090.63
+-599.644
+ 738.041
+       1
+--------------------------------------
+center:[279, 218] radius:15
+detect once: 0.022752s
+elapsed is 28.6655s
+detected_frame_count: 314
+center depthValue: 740
+min    depthValue: 738
+123
+camera_coord
+-278.671
+-79.1007
+     740
+       1
+world_coord 
+-1091.51
+-605.647
+ 738.039
+       1
+--------------------------------------
+center:[282, 225] radius:14
+detect once: 0.024991s
+elapsed is 28.7147s
+detected_frame_count: 315
+center depthValue: 738
+min    depthValue: 737
+123
+camera_coord
+-273.729
+-69.0807
+     738
+       1
+world_coord 
+-1094.41
+-610.657
+  728.28
+       1
+--------------------------------------
+center:[272, 230] radius:15
+detect once: 0.028816s
+elapsed is 28.7844s
+detected_frame_count: 316
+center depthValue: 735
+min    depthValue: 732
+123
+camera_coord
+-286.521
+-61.8239
+     735
+       1
+world_coord 
+-1098.42
+-597.957
+ 721.364
+       1
+--------------------------------------
+center:[234, 227] radius:12
+detect once: 0.026983s
+elapsed is 28.8494s
+detected_frame_count: 317
+center depthValue: 737
+min    depthValue: 727
+123
+camera_coord
+ -340.28
+-66.1891
+     737
+       1
+world_coord 
+-1097.17
+-544.169
+ 725.479
+       1
+--------------------------------------
+center:[194, 224] radius:9
+detect once: 0.027898s
+elapsed is 28.9208s
+detected_frame_count: 318
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+-0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[68, 290] radius:14
+detect once: 0.027385s
+elapsed is 28.9806s
+detected_frame_count: 319
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[64, 306] radius:13
+detect once: 0.025864s
+elapsed is 29.0381s
+detected_frame_count: 320
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[56, 302] radius:13
+detect once: 0.02431s
+elapsed is 29.0956s
+detected_frame_count: 321
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[56, 300] radius:14
+detect once: 0.022341s
+elapsed is 29.1459s
+detected_frame_count: 322
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[57, 301] radius:15
+detect once: 0.021237s
+elapsed is 29.2046s
+detected_frame_count: 323
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[58, 304] radius:13
+detect once: 0.025249s
+elapsed is 29.256s
+detected_frame_count: 324
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[63, 309] radius:12
+detect once: 0.023008s
+elapsed is 29.3076s
+detected_frame_count: 325
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[66, 310] radius:14
+detect once: 0.02499s
+elapsed is 29.3814s
+detected_frame_count: 326
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[70, 312] radius:13
+detect once: 0.020485s
+elapsed is 29.4262s
+detected_frame_count: 327
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[74, 312] radius:12
+detect once: 0.025472s
+elapsed is 29.4824s
+detected_frame_count: 328
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[77, 312] radius:13
+detect once: 0.025972s
+elapsed is 29.5365s
+detected_frame_count: 329
+center depthValue: 767
+min    depthValue: 766
+123
+camera_coord
+-581.932
+ 54.8716
+     767
+       1
+world_coord 
+-1085.07
+-302.304
+ 601.903
+       1
+--------------------------------------
+center:[79, 312] radius:12
+detect once: 0.025084s
+elapsed is 29.6057s
+detected_frame_count: 330
+center depthValue: 772
+min    depthValue: 768
+123
+camera_coord
+-582.805
+ 55.2293
+     772
+       1
+world_coord 
+-1080.15
+-301.323
+ 601.035
+       1
+--------------------------------------
+center:[81, 309] radius:12
+detect once: 0.025632s
+elapsed is 29.6543s
+detected_frame_count: 331
+center depthValue: 773
+min    depthValue: 770
+123
+camera_coord
+-580.635
+ 50.8989
+     773
+       1
+world_coord 
+-1078.67
+-303.458
+ 605.241
+       1
+--------------------------------------
+center:[88, 298] radius:11
+detect once: 0.02458s
+elapsed is 29.7381s
+detected_frame_count: 332
+center depthValue: 774
+min    depthValue: 772
+123
+camera_coord
+-571.137
+ 34.8032
+     774
+       1
+world_coord 
+-1075.81
+-312.887
+ 621.151
+       1
+--------------------------------------
+center:[112, 281] radius:11
+detect once: 0.02452s
+elapsed is 29.7993s
+detected_frame_count: 333
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+-0
+ 0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[149, 274] radius:11
+detect once: 0.030354s
+elapsed is 29.8505s
+detected_frame_count: 334
+center depthValue: 756
+min    depthValue: 755
+123
+camera_coord
+ -470.616
+-0.447624
+      756
+        1
+world_coord 
+-1087.89
+-413.658
+ 658.095
+       1
+--------------------------------------
+center:[186, 277] radius:12
+detect once: 0.022188s
+elapsed is 29.9123s
+detected_frame_count: 335
+center depthValue: 750
+min    depthValue: 748
+123
+camera_coord
+-414.385
+ 3.82694
+     750
+       1
+world_coord 
+-1093.05
+-470.004
+ 654.481
+       1
+--------------------------------------
+center:[216, 282] radius:11
+detect once: 0.020658s
+elapsed is 29.9749s
+detected_frame_count: 336
+center depthValue: 754
+min    depthValue: 751
+123
+camera_coord
+-373.804
+ 11.0037
+     754
+       1
+world_coord 
+-1088.91
+-510.496
+ 646.951
+       1
+--------------------------------------
+center:[236, 285] radius:11
+detect once: 0.027182s
+elapsed is 30.0464s
+detected_frame_count: 337
+center depthValue: 752
+min    depthValue: 751
+123
+camera_coord
+-344.361
+ 15.2569
+     752
+       1
+world_coord 
+-1090.68
+ -539.98
+ 642.938
+       1
+--------------------------------------
+center:[241, 286] radius:9
+detect once: 0.025646s
+elapsed is 30.1086s
+detected_frame_count: 338
+center depthValue: 758
+min    depthValue: 752
+123
+camera_coord
+-339.939
+ 16.8175
+     758
+       1
+world_coord 
+-1084.77
+-544.272
+ 640.774
+       1
+--------------------------------------
+center:[253, 282] radius:11
+detect once: 0.023804s
+elapsed is 30.1775s
+detected_frame_count: 339
+center depthValue: 760
+min    depthValue: 753
+123
+camera_coord
+-323.583
+ 11.0912
+     760
+       1
+world_coord 
+-1081.84
+ -560.56
+ 646.271
+       1
+--------------------------------------
+center:[262, 274] radius:11
+detect once: 0.025518s
+elapsed is 30.2469s
+detected_frame_count: 340
+center depthValue: 758
+min    depthValue: 757
+123
+camera_coord
+ -309.826
+-0.448808
+      758
+        1
+world_coord 
+-1082.34
+-574.323
+ 657.959
+       1
+--------------------------------------
+center:[263, 268] radius:10
+detect once: 0.019906s
+elapsed is 30.3206s
+detected_frame_count: 341
+center depthValue: 760
+min    depthValue: 757
+123
+camera_coord
+-309.206
+-9.10591
+     760
+       1
+world_coord 
+-1079.45
+-574.876
+ 666.365
+       1
+--------------------------------------
+center:[262, 263] radius:10
+detect once: 0.019861s
+elapsed is 30.3761s
+detected_frame_count: 342
+center depthValue: 764
+min    depthValue: 762
+123
+camera_coord
+-312.279
+-16.4051
+     764
+       1
+world_coord 
+ -1074.8
+-571.698
+ 673.214
+       1
+--------------------------------------
+center:[246, 263] radius:10
+detect once: 0.025601s
+elapsed is 30.4236s
+detected_frame_count: 343
+center depthValue: 778
+min    depthValue: 744
+123
+camera_coord
+-341.549
+-16.7057
+     778
+       1
+world_coord 
+-1061.49
+-542.134
+ 672.069
+       1
+--------------------------------------
+center:[190, 282] radius:9
+detect once: 0.02323s
+elapsed is 30.487s
+detected_frame_count: 344
+center depthValue: 771
+min    depthValue: 766
+123
+camera_coord
+-420.154
+ 11.2518
+     771
+       1
+world_coord 
+-1073.05
+-463.797
+ 644.946
+       1
+--------------------------------------
+center:[126, 341] radius:12
+detect once: 0.023327s
+elapsed is 30.5617s
+detected_frame_count: 345
+center depthValue: 787
+min    depthValue: 764
+123
+camera_coord
+-524.156
+ 99.6257
+     787
+       1
+world_coord 
+-1068.48
+-359.733
+  555.37
+       1
+--------------------------------------
+center:[134, 364] radius:11
+detect once: 0.021149s
+elapsed is 30.6269s
+detected_frame_count: 346
+center depthValue: 836
+min    depthValue: 832
+123
+camera_coord
+-544.138
+ 142.328
+     836
+       1
+world_coord 
+-1024.56
+-338.799
+ 507.879
+       1
+--------------------------------------
+center:[139, 352] radius:12
+detect once: 0.024455s
+elapsed is 30.6809s
+detected_frame_count: 347
+center depthValue: 838
+min    depthValue: 830
+123
+camera_coord
+-537.514
+  123.58
+     838
+       1
+world_coord 
+-1020.51
+-345.327
+ 526.324
+       1
+--------------------------------------
+center:[138, 347] radius:10
+detect once: 0.026107s
+elapsed is 30.749s
+detected_frame_count: 348
+center depthValue: 848
+min    depthValue: 845
+123
+camera_coord
+-545.532
+ 117.006
+     848
+       1
+world_coord 
+-1010.07
+-337.075
+ 531.835
+       1
+--------------------------------------
+center:[148, 339] radius:12
+detect once: 0.027354s
+elapsed is 30.825s
+detected_frame_count: 349
+center depthValue: 860
+min    depthValue: 855
+123
+camera_coord
+-536.983
+ 105.602
+     860
+       1
+world_coord 
+-996.782
+-345.326
+ 541.954
+       1
+--------------------------------------
+center:[152, 338] radius:11
+detect once: 0.018318s
+elapsed is 30.9291s
+detected_frame_count: 350
+center depthValue: 869
+min    depthValue: 864
+123
+camera_coord
+-536.027
+ 105.057
+     869
+       1
+world_coord 
+-987.756
+-346.083
+ 541.575
+       1
+--------------------------------------
+center:[154, 336] radius:12
+detect once: 0.024079s
+elapsed is 31.0171s
+detected_frame_count: 351
+center depthValue: 863
+min    depthValue: 856
+123
+camera_coord
+-529.061
+ 101.056
+     863
+       1
+world_coord 
+-993.159
+-353.166
+ 546.172
+       1
+--------------------------------------
+center:[152, 336] radius:12
+detect once: 0.023681s
+elapsed is 31.0677s
+detected_frame_count: 352
+center depthValue: 861
+min    depthValue: 856
+123
+camera_coord
+-531.092
+ 100.821
+     861
+       1
+world_coord 
+-995.169
+-351.179
+ 546.608
+       1
+--------------------------------------
+center:[151, 336] radius:11
+detect once: 0.02515s
+elapsed is 31.1209s
+detected_frame_count: 353
+center depthValue: 857
+min    depthValue: 850
+123
+camera_coord
+-530.246
+ 100.353
+     857
+       1
+world_coord 
+ -999.08
+-352.111
+ 547.484
+       1
+--------------------------------------
+center:[152, 336] radius:12
+detect once: 0.022928s
+elapsed is 31.1801s
+detected_frame_count: 354
+center depthValue: 856
+min    depthValue: 848
+123
+camera_coord
+-528.008
+ 100.236
+     856
+       1
+world_coord 
+-1000.01
+ -354.37
+ 547.703
+       1
+--------------------------------------
+center:[152, 334] radius:11
+detect once: 0.026981s
+elapsed is 31.2233s
+detected_frame_count: 355
+center depthValue: 854
+min    depthValue: 852
+123
+camera_coord
+-526.775
+ 96.7596
+     854
+       1
+world_coord 
+-1001.62
+-355.637
+ 551.366
+       1
+--------------------------------------
+center:[154, 328] radius:11
+detect once: 0.025801s
+elapsed is 31.2827s
+detected_frame_count: 356
+center depthValue: 850
+min    depthValue: 849
+123
+camera_coord
+-521.091
+ 86.6254
+     850
+       1
+world_coord 
+-1004.43
+-361.378
+ 561.857
+       1
+--------------------------------------
+center:[158, 320] radius:10
+detect once: 0.022025s
+elapsed is 31.3285s
+detected_frame_count: 357
+center depthValue: 846
+min    depthValue: 840
+123
+camera_coord
+-512.238
+ 73.3705
+     846
+       1
+world_coord 
+-1006.86
+ -370.28
+ 575.453
+       1
+--------------------------------------
+center:[179, 301] radius:11
+detect once: 0.029769s
+elapsed is 31.4132s
+detected_frame_count: 358
+center depthValue: 1903
+min    depthValue: 824
+123
+camera_coord
+-1076.63
+ 96.4061
+    1903
+       1
+world_coord 
+29.3964
+216.967
+444.183
+      1
+--------------------------------------
+center:[220, 288] radius:12
+detect once: 0.026028s
+elapsed is 31.4817s
+detected_frame_count: 359
+center depthValue: 1923
+min    depthValue: 1907
+123
+camera_coord
+-938.798
+ 49.9655
+    1923
+       1
+world_coord 
+57.0825
+79.7645
+488.384
+      1
+--------------------------------------
+center:[310, 298] radius:10
+detect once: 0.026985s
+elapsed is 31.5387s
+detected_frame_count: 360
+center depthValue: 650
+min    depthValue: 647
+123
+camera_coord
+-206.66
+29.2275
+    650
+      1
+world_coord 
+-1190.49
+-679.888
+ 639.535
+       1
+--------------------------------------
+center:[346, 306] radius:13
+detect once: 0.029101s
+elapsed is 31.5845s
+detected_frame_count: 361
+center depthValue: 619
+min    depthValue: 615
+123
+camera_coord
+-154.648
+ 37.2336
+     619
+       1
+world_coord 
+-1220.99
+-732.575
+ 634.765
+       1
+--------------------------------------
+center:[418, 317] radius:12
+detect once: 0.021057s
+elapsed is 31.6421s
+detected_frame_count: 362
+center depthValue: 651
+min    depthValue: 603
+123
+camera_coord
+-73.9739
+ 52.7516
+     651
+       1
+world_coord 
+-1188.97
+-812.548
+ 616.092
+       1
+--------------------------------------
+center:[525, 313] radius:20
+detect once: 0.026993s
+elapsed is 31.7009s
+detected_frame_count: 363
+center depthValue: 523
+min    depthValue: 487
+123
+camera_coord
+46.4342
+38.4085
+    523
+      1
+world_coord 
+-1312.13
+-935.667
+ 643.502
+       1
+--------------------------------------
+center:[560, 316] radius:29
+detect once: 0.026914s
+elapsed is 31.7632s
+detected_frame_count: 364
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[648, 298] radius:24
+detect once: 0.020515s
+elapsed is 31.8545s
+detected_frame_count: 365
+center depthValue: 470
+min    depthValue: 437
+123
+camera_coord
+ 151.09
+21.1337
+    470
+      1
+world_coord 
+-1360.75
+-1041.39
+ 666.148
+       1
+--------------------------------------
+center:[730, 300] radius:25
+detect once: 0.020793s
+elapsed is 31.903s
+detected_frame_count: 366
+center depthValue: 445
+min    depthValue: 422
+123
+camera_coord
+212.082
+ 21.699
+    445
+      1
+world_coord 
+-1384.32
+ -1102.9
+ 668.169
+       1
+--------------------------------------
+center:[892, 328] radius:6
+detect once: 0.027784s
+elapsed is 32.2405s
+detected_frame_count: 367
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[957, 294] radius:3
+detect once: 0.024809s
+elapsed is 32.3132s
+detected_frame_count: 368
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[958, 282] radius:3
+detect once: 0.020609s
+elapsed is 32.6558s
+detected_frame_count: 369
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[918, 318] radius:3
+detect once: 0.023423s
+elapsed is 32.7621s
+detected_frame_count: 370
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[884, 303] radius:22
+detect once: 0.024975s
+elapsed is 32.8091s
+detected_frame_count: 371
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[858, 297] radius:26
+detect once: 0.021914s
+elapsed is 32.8641s
+detected_frame_count: 372
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[842, 294] radius:25
+detect once: 0.024179s
+elapsed is 32.9164s
+detected_frame_count: 373
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[814, 289] radius:23
+detect once: 0.02687s
+elapsed is 32.9783s
+detected_frame_count: 374
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[794, 290] radius:21
+detect once: 0.023608s
+elapsed is 33.0349s
+detected_frame_count: 375
+center depthValue: 620
+min    depthValue: 525
+123
+camera_coord
+370.549
+18.4633
+    620
+      1
+world_coord 
+-1206.46
+-1257.44
+ 653.554
+       1
+--------------------------------------
+center:[784, 290] radius:17
+detect once: 0.025397s
+elapsed is 33.1095s
+detected_frame_count: 376
+center depthValue: 624
+min    depthValue: 472
+123
+camera_coord
+361.136
+18.5824
+    624
+      1
+world_coord 
+ -1202.7
+-1247.94
+ 653.022
+       1
+--------------------------------------
+center:[780, 290] radius:17
+detect once: 0.028009s
+elapsed is 33.1801s
+detected_frame_count: 377
+center depthValue: 625
+min    depthValue: 456
+123
+camera_coord
+356.985
+18.6122
+    625
+      1
+world_coord 
+ -1201.8
+-1243.77
+ 652.889
+       1
+--------------------------------------
+center:[774, 286] radius:14
+detect once: 0.027627s
+elapsed is 33.2479s
+detected_frame_count: 378
+center depthValue: 631
+min    depthValue: 436
+123
+camera_coord
+ 353.25
+13.9998
+    631
+      1
+world_coord 
+-1195.45
+-1239.89
+ 656.861
+       1
+--------------------------------------
+center:[772, 290] radius:15
+detect once: 0.025422s
+elapsed is 33.3182s
+detected_frame_count: 379
+center depthValue: 628
+min    depthValue: 436
+123
+camera_coord
+349.195
+18.7016
+    628
+      1
+world_coord 
+   -1199
+-1235.92
+  652.49
+       1
+--------------------------------------
+center:[769, 291] radius:13
+detect once: 0.030162s
+elapsed is 33.3897s
+detected_frame_count: 380
+center depthValue: 630
+min    depthValue: 434
+123
+camera_coord
+346.731
+ 19.957
+    630
+      1
+world_coord 
+ -1197.2
+-1233.42
+ 651.035
+       1
+--------------------------------------
+center:[780, 294] radius:17
+detect once: 0.026633s
+elapsed is 33.4736s
+detected_frame_count: 381
+center depthValue: 627
+min    depthValue: 609
+123
+camera_coord
+358.127
+23.4325
+    627
+      1
+world_coord 
+-1200.28
+-1244.88
+  647.89
+       1
+--------------------------------------
+center:[849, 267] radius:23
+detect once: 0.026932s
+elapsed is 33.5306s
+detected_frame_count: 382
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+ 0
+-0
+ 0
+ 1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[882, 275] radius:15
+detect once: 0.024967s
+elapsed is 34.2015s
+detected_frame_count: 383
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[832, 282] radius:16
+detect once: 0.02277s
+elapsed is 34.2532s
+detected_frame_count: 384
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[818, 285] radius:16
+detect once: 0.027846s
+elapsed is 34.3014s
+detected_frame_count: 385
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[812, 289] radius:15
+detect once: 0.024244s
+elapsed is 34.3588s
+detected_frame_count: 386
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[806, 296] radius:14
+detect once: 0.022252s
+elapsed is 34.4017s
+detected_frame_count: 387
+center depthValue: 618
+min    depthValue: 610
+123
+camera_coord
+383.383
+25.4424
+    618
+      1
+world_coord 
+-1208.88
+-1270.33
+ 646.823
+       1
+--------------------------------------
+center:[805, 301] radius:14
+detect once: 0.025559s
+elapsed is 34.4647s
+detected_frame_count: 388
+center depthValue: 619
+min    depthValue: 606
+123
+camera_coord
+382.833
+31.3586
+    619
+      1
+world_coord 
+ -1208.5
+-1269.77
+ 640.836
+       1
+--------------------------------------
+center:[800, 309] radius:14
+detect once: 0.025852s
+elapsed is 34.5235s
+detected_frame_count: 389
+center depthValue: 614
+min    depthValue: 604
+123
+camera_coord
+373.933
+40.4294
+    614
+      1
+world_coord 
+ -1214.6
+-1261.01
+ 632.322
+       1
+--------------------------------------
+center:[794, 316] radius:13
+detect once: 0.026222s
+elapsed is 34.615s
+detected_frame_count: 390
+center depthValue: 609
+min    depthValue: 561
+123
+camera_coord
+363.975
+48.1923
+    609
+      1
+world_coord 
+-1220.59
+-1251.19
+ 625.108
+       1
+--------------------------------------
+center:[796, 321] radius:13
+detect once: 0.025171s
+elapsed is 34.7483s
+detected_frame_count: 391
+center depthValue: 610
+min    depthValue: 599
+123
+camera_coord
+366.881
+ 54.061
+    610
+      1
+world_coord 
+-1220.13
+-1254.09
+  619.17
+       1
+--------------------------------------
+center:[830, 321] radius:15
+detect once: 0.029279s
+elapsed is 34.7775s
+detected_frame_count: 392
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[912, 332] radius:14
+detect once: 0.028091s
+elapsed is 34.8202s
+detected_frame_count: 393
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[895, 386] radius:25
+detect once: 0.022824s
+elapsed is 35.432s
+detected_frame_count: 394
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[868, 388] radius:26
+detect once: 0.021584s
+elapsed is 35.4805s
+detected_frame_count: 395
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[837, 400] radius:17
+detect once: 0.026244s
+elapsed is 35.5327s
+detected_frame_count: 396
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[838, 401] radius:19
+detect once: 0.019916s
+elapsed is 35.6051s
+detected_frame_count: 397
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[840, 404] radius:19
+detect once: 0.025112s
+elapsed is 35.6452s
+detected_frame_count: 398
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[838, 407] radius:19
+detect once: 0.023942s
+elapsed is 35.6981s
+detected_frame_count: 399
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[838, 410] radius:19
+detect once: 0.026061s
+elapsed is 35.7441s
+detected_frame_count: 400
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[838, 408] radius:19
+detect once: 0.024084s
+elapsed is 35.8075s
+detected_frame_count: 401
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[850, 406] radius:20
+detect once: 0.02223s
+elapsed is 35.8568s
+detected_frame_count: 402
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[874, 395] radius:27
+detect once: 0.025608s
+elapsed is 35.9021s
+detected_frame_count: 403
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[897, 392] radius:29
+detect once: 0.020955s
+elapsed is 35.9614s
+detected_frame_count: 404
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[950, 393] radius:14
+detect once: 0.026906s
+elapsed is 36.0108s
+detected_frame_count: 405
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[953, 384] radius:15
+detect once: 0.027385s
+elapsed is 36.5824s
+detected_frame_count: 406
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[899, 373] radius:26
+detect once: 0.02501s
+elapsed is 36.6484s
+detected_frame_count: 407
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[846, 373] radius:21
+detect once: 0.021167s
+elapsed is 36.6998s
+detected_frame_count: 408
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[832, 380] radius:16
+detect once: 0.02688s
+elapsed is 36.7469s
+detected_frame_count: 409
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[823, 385] radius:15
+detect once: 0.026434s
+elapsed is 36.812s
+detected_frame_count: 410
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[824, 388] radius:15
+detect once: 0.026591s
+elapsed is 36.8659s
+detected_frame_count: 411
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[824, 390] radius:16
+detect once: 0.025002s
+elapsed is 36.9225s
+detected_frame_count: 412
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[822, 389] radius:15
+detect once: 0.025622s
+elapsed is 37.0044s
+detected_frame_count: 413
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[818, 390] radius:14
+detect once: 0.026017s
+elapsed is 37.068s
+detected_frame_count: 414
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[818, 390] radius:15
+detect once: 0.022202s
+elapsed is 37.1177s
+detected_frame_count: 415
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[820, 388] radius:14
+detect once: 0.027068s
+elapsed is 37.1788s
+detected_frame_count: 416
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[877, 369] radius:23
+detect once: 0.022408s
+elapsed is 37.2406s
+detected_frame_count: 417
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[956, 364] radius:5
+detect once: 0.021334s
+elapsed is 37.3022s
+detected_frame_count: 418
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[907, 378] radius:25
+detect once: 0.020784s
+elapsed is 37.9676s
+detected_frame_count: 419
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[882, 378] radius:31
+detect once: 0.027069s
+elapsed is 38.0097s
+detected_frame_count: 420
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[840, 396] radius:17
+detect once: 0.029298s
+elapsed is 38.0739s
+detected_frame_count: 421
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[840, 398] radius:17
+detect once: 0.029232s
+elapsed is 38.1251s
+detected_frame_count: 422
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[842, 400] radius:18
+detect once: 0.026361s
+elapsed is 38.1846s
+detected_frame_count: 423
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[840, 400] radius:17
+detect once: 0.020373s
+elapsed is 38.2501s
+detected_frame_count: 424
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[837, 399] radius:17
+detect once: 0.019079s
+elapsed is 38.2972s
+detected_frame_count: 425
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[836, 399] radius:16
+detect once: 0.025768s
+elapsed is 38.3346s
+detected_frame_count: 426
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[836, 400] radius:17
+detect once: 0.021303s
+elapsed is 38.3802s
+detected_frame_count: 427
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[836, 398] radius:17
+detect once: 0.017941s
+elapsed is 38.4297s
+detected_frame_count: 428
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[835, 400] radius:16
+detect once: 0.023923s
+elapsed is 38.4699s
+detected_frame_count: 429
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[836, 400] radius:17
+detect once: 0.025855s
+elapsed is 38.5204s
+detected_frame_count: 430
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[835, 400] radius:18
+detect once: 0.022711s
+elapsed is 38.5858s
+detected_frame_count: 431
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[834, 400] radius:17
+detect once: 0.024209s
+elapsed is 38.6331s
+detected_frame_count: 432
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[834, 401] radius:19
+detect once: 0.025245s
+elapsed is 38.6975s
+detected_frame_count: 433
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[832, 402] radius:17
+detect once: 0.021735s
+elapsed is 38.7605s
+detected_frame_count: 434
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[832, 402] radius:18
+detect once: 0.021698s
+elapsed is 38.8016s
+detected_frame_count: 435
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[832, 401] radius:17
+detect once: 0.023679s
+elapsed is 38.8457s
+detected_frame_count: 436
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[832, 401] radius:17
+detect once: 0.025084s
+elapsed is 38.8931s
+detected_frame_count: 437
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[832, 401] radius:17
+detect once: 0.024826s
+elapsed is 38.9489s
+detected_frame_count: 438
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[832, 400] radius:18
+detect once: 0.023502s
+elapsed is 38.9941s
+detected_frame_count: 439
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[830, 402] radius:18
+detect once: 0.026911s
+elapsed is 39.0455s
+detected_frame_count: 440
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[830, 402] radius:18
+detect once: 0.025763s
+elapsed is 39.1042s
+detected_frame_count: 441
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[828, 402] radius:17
+detect once: 0.022046s
+elapsed is 39.1524s
+detected_frame_count: 442
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[828, 402] radius:18
+detect once: 0.026971s
+elapsed is 39.2131s
+detected_frame_count: 443
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[827, 402] radius:17
+detect once: 0.026803s
+elapsed is 39.2684s
+detected_frame_count: 444
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[826, 401] radius:17
+detect once: 0.023505s
+elapsed is 39.3431s
+detected_frame_count: 445
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[826, 402] radius:18
+detect once: 0.0232s
+elapsed is 39.3876s
+detected_frame_count: 446
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[825, 400] radius:17
+detect once: 0.027438s
+elapsed is 39.4337s
+detected_frame_count: 447
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[825, 400] radius:17
+detect once: 0.021446s
+elapsed is 39.5003s
+detected_frame_count: 448
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[824, 401] radius:17
+detect once: 0.026975s
+elapsed is 39.5402s
+detected_frame_count: 449
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[821, 400] radius:16
+detect once: 0.026643s
+elapsed is 39.6052s
+detected_frame_count: 450
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[819, 400] radius:15
+detect once: 0.022672s
+elapsed is 39.6599s
+detected_frame_count: 451
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[818, 401] radius:16
+detect once: 0.02383s
+elapsed is 39.7068s
+detected_frame_count: 452
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[819, 400] radius:17
+detect once: 0.022131s
+elapsed is 39.7493s
+detected_frame_count: 453
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[818, 400] radius:16
+detect once: 0.021747s
+elapsed is 39.7862s
+detected_frame_count: 454
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[818, 399] radius:15
+detect once: 0.023471s
+elapsed is 39.8412s
+detected_frame_count: 455
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[817, 400] radius:16
+detect once: 0.02232s
+elapsed is 39.8913s
+detected_frame_count: 456
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[816, 399] radius:15
+detect once: 0.02406s
+elapsed is 39.9382s
+detected_frame_count: 457
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[816, 400] radius:15
+detect once: 0.025464s
+elapsed is 39.9807s
+detected_frame_count: 458
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[818, 400] radius:16
+detect once: 0.023496s
+elapsed is 40.0338s
+detected_frame_count: 459
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[818, 398] radius:15
+detect once: 0.029029s
+elapsed is 40.0815s
+detected_frame_count: 460
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[820, 398] radius:16
+detect once: 0.025219s
+elapsed is 40.1518s
+detected_frame_count: 461
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[822, 396] radius:15
+detect once: 0.022314s
+elapsed is 40.2294s
+detected_frame_count: 462
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[822, 396] radius:16
+detect once: 0.027779s
+elapsed is 40.2726s
+detected_frame_count: 463
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[823, 396] radius:16
+detect once: 0.024875s
+elapsed is 40.3355s
+detected_frame_count: 464
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[824, 396] radius:14
+detect once: 0.024859s
+elapsed is 40.3961s
+detected_frame_count: 465
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[828, 396] radius:15
+detect once: 0.02113s
+elapsed is 40.4519s
+detected_frame_count: 466
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[828, 394] radius:15
+detect once: 0.026367s
+elapsed is 40.4945s
+detected_frame_count: 467
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[826, 395] radius:15
+detect once: 0.023219s
+elapsed is 40.5467s
+detected_frame_count: 468
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[824, 394] radius:15
+detect once: 0.021039s
+elapsed is 40.5993s
+detected_frame_count: 469
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[821, 396] radius:16
+detect once: 0.02588s
+elapsed is 40.6468s
+detected_frame_count: 470
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[822, 398] radius:17
+detect once: 0.029049s
+elapsed is 40.7081s
+detected_frame_count: 471
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[822, 400] radius:16
+detect once: 0.029923s
+elapsed is 40.7756s
+detected_frame_count: 472
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[821, 399] radius:16
+detect once: 0.025507s
+elapsed is 40.8513s
+detected_frame_count: 473
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[818, 398] radius:16
+detect once: 0.028796s
+elapsed is 40.921s
+detected_frame_count: 474
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[814, 400] radius:16
+detect once: 0.020789s
+elapsed is 40.9714s
+detected_frame_count: 475
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[812, 400] radius:16
+detect once: 0.023753s
+elapsed is 41.032s
+detected_frame_count: 476
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[808, 398] radius:16
+detect once: 0.025208s
+elapsed is 41.0912s
+detected_frame_count: 477
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[802, 396] radius:15
+detect once: 0.02484s
+elapsed is 41.1591s
+detected_frame_count: 478
+center depthValue: 565
+min    depthValue: 555
+123
+camera_coord
+346.229
+ 130.51
+    565
+      1
+world_coord 
+-1273.15
+-1234.64
+  547.73
+       1
+--------------------------------------
+center:[798, 396] radius:14
+detect once: 0.021204s
+elapsed is 41.2143s
+detected_frame_count: 479
+center depthValue: 562
+min    depthValue: 553
+123
+camera_coord
+340.138
+129.817
+    562
+      1
+world_coord 
+ -1276.2
+-1228.61
+ 548.723
+       1
+--------------------------------------
+center:[786, 394] radius:14
+detect once: 0.027486s
+elapsed is 41.2778s
+detected_frame_count: 480
+center depthValue: 586
+min    depthValue: 548
+123
+camera_coord
+341.361
+133.136
+    586
+      1
+world_coord 
+-1252.65
+-1229.32
+ 542.968
+       1
+--------------------------------------
+center:[780, 392] radius:12
+detect once: 0.023399s
+elapsed is 41.3353s
+detected_frame_count: 481
+center depthValue: 583
+min    depthValue: 560
+123
+camera_coord
+332.996
+130.242
+    583
+      1
+world_coord 
+-1255.52
+-1221.01
+  546.15
+       1
+--------------------------------------
+center:[769, 389] radius:14
+detect once: 0.027826s
+elapsed is 41.4058s
+detected_frame_count: 482
+center depthValue: 605
+min    depthValue: 572
+123
+camera_coord
+332.972
+131.711
+    605
+      1
+world_coord 
+-1233.79
+-1220.51
+ 542.438
+       1
+--------------------------------------
+center:[764, 389] radius:12
+detect once: 0.029442s
+elapsed is 41.4645s
+detected_frame_count: 483
+center depthValue: 610
+min    depthValue: 584
+123
+camera_coord
+329.954
+  132.8
+    610
+      1
+world_coord 
+   -1229
+-1217.39
+ 540.843
+       1
+--------------------------------------
+center:[754, 388] radius:11
+detect once: 0.02629s
+elapsed is 41.5375s
+detected_frame_count: 484
+center depthValue: 632
+min    depthValue: 602
+123
+camera_coord
+329.898
+136.389
+    632
+      1
+world_coord 
+-1207.49
+-1216.86
+ 535.022
+       1
+--------------------------------------
+center:[752, 386] radius:11
+detect once: 0.026545s
+elapsed is 41.6075s
+detected_frame_count: 485
+center depthValue: 633
+min    depthValue: 609
+123
+camera_coord
+328.025
+134.202
+    633
+      1
+world_coord 
+-1206.31
+-1214.96
+ 537.095
+       1
+--------------------------------------
+center:[747, 388] radius:10
+detect once: 0.024924s
+elapsed is 41.6826s
+detected_frame_count: 486
+center depthValue: 655
+min    depthValue: 623
+123
+camera_coord
+333.231
+141.353
+    655
+      1
+world_coord 
+-1185.05
+ -1219.7
+ 527.734
+       1
+--------------------------------------
+center:[746, 386] radius:11
+detect once: 0.030261s
+elapsed is 41.7512s
+detected_frame_count: 487
+center depthValue: 655
+min    depthValue: 625
+123
+camera_coord
+331.992
+138.866
+    655
+      1
+world_coord 
+-1184.83
+-1218.45
+ 530.207
+       1
+--------------------------------------
+center:[744, 387] radius:9
+detect once: 0.026936s
+elapsed is 41.8135s
+detected_frame_count: 488
+center depthValue: 658
+min    depthValue: 630
+123
+camera_coord
+331.023
+140.751
+    658
+      1
+world_coord 
+-1182.06
+-1217.42
+ 528.025
+       1
+--------------------------------------
+center:[741, 386] radius:7
+detect once: 0.028973s
+elapsed is 41.9039s
+detected_frame_count: 489
+center depthValue: 668
+min    depthValue: 645
+123
+camera_coord
+332.262
+141.622
+    668
+      1
+world_coord 
+-1172.17
+-1218.45
+ 526.136
+       1
+--------------------------------------
+center:[740, 384] radius:8
+detect once: 0.027724s
+elapsed is 41.9704s
+detected_frame_count: 490
+center depthValue: 673
+min    depthValue: 643
+123
+camera_coord
+333.476
+140.127
+    673
+      1
+world_coord 
+-1167.02
+-1219.55
+ 527.112
+       1
+--------------------------------------
+center:[739, 384] radius:9
+detect once: 0.025489s
+elapsed is 42.0338s
+detected_frame_count: 491
+center depthValue: 671
+min    depthValue: 641
+123
+camera_coord
+331.216
+139.711
+    671
+      1
+world_coord 
+-1169.02
+-1217.33
+  527.73
+       1
+--------------------------------------
+center:[738, 387] radius:8
+detect once: 0.024952s
+elapsed is 42.086s
+detected_frame_count: 492
+center depthValue: 672
+min    depthValue: 645
+123
+camera_coord
+330.438
+143.746
+    672
+      1
+world_coord 
+-1168.45
+-1216.54
+ 523.614
+       1
+--------------------------------------
+center:[736, 386] radius:9
+detect once: 0.026575s
+elapsed is 42.1761s
+detected_frame_count: 493
+center depthValue: 675
+min    depthValue: 645
+123
+camera_coord
+329.359
+143.106
+    675
+      1
+world_coord 
+-1165.43
+ -1215.4
+ 523.943
+       1
+--------------------------------------
+center:[734, 386] radius:9
+detect once: 0.019955s
+elapsed is 42.2318s
+detected_frame_count: 494
+center depthValue: 686
+min    depthValue: 653
+123
+camera_coord
+332.131
+145.438
+    686
+      1
+world_coord 
+-1154.67
+-1217.93
+   520.5
+       1
+--------------------------------------
+center:[734, 385] radius:11
+detect once: 0.028611s
+elapsed is 42.2761s
+detected_frame_count: 495
+center depthValue: 678
+min    depthValue: 647
+123
+camera_coord
+328.258
+142.455
+    678
+      1
+world_coord 
+ -1162.4
+-1214.23
+ 524.283
+       1
+--------------------------------------
+center:[732, 386] radius:10
+detect once: 0.026831s
+elapsed is 42.329s
+detected_frame_count: 496
+center depthValue: 690
+min    depthValue: 657
+123
+camera_coord
+331.457
+146.287
+    690
+      1
+world_coord 
+-1150.79
+-1217.17
+ 519.247
+       1
+--------------------------------------
+center:[731, 386] radius:8
+detect once: 0.019871s
+elapsed is 42.3811s
+detected_frame_count: 497
+center depthValue: 691
+min    depthValue: 660
+123
+camera_coord
+330.631
+146.499
+    691
+      1
+world_coord 
+-1149.84
+-1216.32
+ 518.933
+       1
+--------------------------------------
+center:[732, 385] radius:10
+detect once: 0.027375s
+elapsed is 42.4257s
+detected_frame_count: 498
+center depthValue: 686
+min    depthValue: 655
+123
+camera_coord
+329.536
+144.136
+    686
+      1
+world_coord 
+-1154.59
+-1215.33
+ 521.794
+       1
+--------------------------------------
+center:[730, 386] radius:10
+detect once: 0.025048s
+elapsed is 42.479s
+detected_frame_count: 499
+center depthValue: 686
+min    depthValue: 658
+123
+camera_coord
+ 326.94
+145.438
+    686
+      1
+world_coord 
+-1154.78
+-1212.74
+ 520.497
+       1
+--------------------------------------
+center:[730, 384] radius:9
+detect once: 0.029781s
+elapsed is 42.529s
+detected_frame_count: 500
+center depthValue: 687
+min    depthValue: 661
+123
+camera_coord
+327.417
+143.042
+    687
+      1
+world_coord 
+-1153.53
+-1213.19
+ 522.778
+       1
+--------------------------------------
+center:[734, 387] radius:9
+detect once: 0.020866s
+elapsed is 42.6029s
+detected_frame_count: 501
+center depthValue: 689
+min    depthValue: 659
+123
+camera_coord
+333.584
+147.382
+    689
+      1
+world_coord 
+-1151.85
+-1219.32
+  518.26
+       1
+--------------------------------------
+center:[738, 388] radius:9
+detect once: 0.024206s
+elapsed is 42.6562s
+detected_frame_count: 502
+center depthValue: 694
+min    depthValue: 659
+123
+camera_coord
+341.256
+149.769
+    694
+      1
+world_coord 
+-1146.95
+-1226.89
+ 515.378
+       1
+--------------------------------------
+center:[762, 377] radius:14
+detect once: 0.018898s
+elapsed is 42.7426s
+detected_frame_count: 503
+center depthValue: 730
+min    depthValue: 706
+123
+camera_coord
+392.101
+142.296
+    730
+      1
+world_coord 
+-1109.27
+ -1276.9
+  519.15
+       1
+--------------------------------------
+center:[807, 366] radius:16
+detect once: 0.020651s
+elapsed is 42.8042s
+detected_frame_count: 504
+center depthValue: 862
+min    depthValue: 857
+123
+camera_coord
+536.382
+150.027
+    862
+      1
+world_coord 
+-975.605
+-1418.23
+  498.02
+       1
+--------------------------------------
+center:[876, 362] radius:7
+detect once: 0.02067s
+elapsed is 42.8469s
+detected_frame_count: 505
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[926, 351] radius:10
+detect once: 0.027598s
+elapsed is 42.9032s
+detected_frame_count: 506
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[938, 348] radius:14
+detect once: 0.0207s
+elapsed is 42.9597s
+detected_frame_count: 507
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[944, 348] radius:13
+detect once: 0.021925s
+elapsed is 42.9997s
+detected_frame_count: 508
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[944, 348] radius:15
+detect once: 0.026824s
+elapsed is 43.0459s
+detected_frame_count: 509
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[942, 346] radius:15
+detect once: 0.023009s
+elapsed is 43.1163s
+detected_frame_count: 510
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[936, 349] radius:13
+detect once: 0.022228s
+elapsed is 43.185s
+detected_frame_count: 511
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[917, 350] radius:10
+detect once: 0.028598s
+elapsed is 43.2406s
+detected_frame_count: 512
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[876, 353] radius:5
+detect once: 0.028244s
+elapsed is 43.305s
+detected_frame_count: 513
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[808, 354] radius:11
+detect once: 0.024595s
+elapsed is 43.3667s
+detected_frame_count: 514
+center depthValue: 747
+min    depthValue: 690
+123
+camera_coord
+466.236
+112.996
+    747
+      1
+world_coord 
+-1087.73
+-1350.54
+ 546.583
+       1
+--------------------------------------
+center:[786, 346] radius:20
+detect once: 0.025221s
+elapsed is 43.4216s
+detected_frame_count: 515
+center depthValue: 655
+min    depthValue: 617
+123
+camera_coord
+381.555
+89.1326
+    655
+      1
+world_coord 
+-1178.64
+-1267.86
+ 579.692
+       1
+--------------------------------------
+center:[740, 354] radius:15
+detect once: 0.021028s
+elapsed is 43.5128s
+detected_frame_count: 516
+center depthValue: 647
+min    depthValue: 634
+123
+camera_coord
+320.593
+97.8692
+    647
+      1
+world_coord 
+-1188.84
+-1207.13
+ 571.795
+       1
+--------------------------------------
+center:[718, 358] radius:13
+detect once: 0.019048s
+elapsed is 43.5596s
+detected_frame_count: 517
+center depthValue: 676
+min    depthValue: 648
+123
+camera_coord
+306.829
+107.389
+    676
+      1
+world_coord 
+-1161.28
+-1192.76
+ 559.355
+       1
+--------------------------------------
+center:[714, 360] radius:11
+detect once: 0.025721s
+elapsed is 43.6185s
+detected_frame_count: 518
+center depthValue: 738
+min    depthValue: 658
+123
+camera_coord
+329.385
+ 120.04
+    738
+      1
+world_coord 
+-1100.42
+-1213.98
+  540.44
+       1
+--------------------------------------
+center:[716, 362] radius:13
+detect once: 0.026514s
+elapsed is 43.6553s
+detected_frame_count: 519
+center depthValue: 736
+min    depthValue: 658
+123
+camera_coord
+331.277
+122.509
+    736
+      1
+world_coord 
+-1102.62
+-1215.92
+  538.19
+       1
+--------------------------------------
+center:[730, 362] radius:18
+detect once: 0.024225s
+elapsed is 43.7165s
+detected_frame_count: 520
+center depthValue: 677
+min    depthValue: 641
+123
+camera_coord
+322.651
+112.688
+    677
+      1
+world_coord 
+-1160.48
+-1208.57
+ 553.989
+       1
+--------------------------------------
+center:[750, 362] radius:19
+detect once: 0.028055s
+elapsed is 43.7955s
+detected_frame_count: 521
+center depthValue: 690
+min    depthValue: 639
+123
+camera_coord
+354.953
+114.852
+    690
+      1
+world_coord 
+-1147.06
+-1240.57
+ 550.521
+       1
+--------------------------------------
+center:[796, 362] radius:20
+detect once: 0.020506s
+elapsed is 43.8619s
+detected_frame_count: 522
+center depthValue: 681
+min    depthValue: 642
+123
+camera_coord
+409.583
+113.354
+    681
+      1
+world_coord 
+-1154.65
+-1295.37
+ 552.955
+       1
+--------------------------------------
+center:[949, 358] radius:12
+detect once: 0.018624s
+elapsed is 43.9603s
+detected_frame_count: 523
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[956, 347] radius:3
+detect once: 0.027666s
+elapsed is 44.0011s
+detected_frame_count: 524
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[958, 343] radius:2
+detect once: 0.02077s
+elapsed is 44.068s
+detected_frame_count: 525
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[952, 347] radius:10
+detect once: 0.024389s
+elapsed is 44.1159s
+detected_frame_count: 526
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[947, 348] radius:13
+detect once: 0.02645s
+elapsed is 44.1903s
+detected_frame_count: 527
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[941, 348] radius:14
+detect once: 0.027543s
+elapsed is 44.2352s
+detected_frame_count: 528
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[914, 346] radius:9
+detect once: 0.020237s
+elapsed is 44.2999s
+detected_frame_count: 529
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[772, 332] radius:16
+detect once: 0.020103s
+elapsed is 44.432s
+detected_frame_count: 530
+center depthValue: 718
+min    depthValue: 628
+123
+camera_coord
+399.238
+78.6247
+    718
+      1
+world_coord 
+-1114.53
+-1284.12
+ 583.706
+       1
+--------------------------------------
+center:[740, 335] radius:15
+detect once: 0.021306s
+elapsed is 44.475s
+detected_frame_count: 531
+center depthValue: 684
+min    depthValue: 642
+123
+camera_coord
+338.927
+78.7967
+    684
+      1
+world_coord 
+-1149.69
+-1224.59
+ 586.988
+       1
+--------------------------------------
+center:[711, 340] radius:14
+detect once: 0.023956s
+elapsed is 44.5535s
+detected_frame_count: 532
+center depthValue: 685
+min    depthValue: 655
+123
+camera_coord
+301.843
+85.4133
+    685
+      1
+world_coord 
+-1150.19
+-1187.52
+ 580.289
+       1
+--------------------------------------
+center:[705, 345] radius:13
+detect once: 0.025201s
+elapsed is 44.63s
+detected_frame_count: 533
+center depthValue: 729
+min    depthValue: 655
+123
+camera_coord
+312.957
+97.8187
+    729
+      1
+world_coord 
+-1107.46
+-1197.69
+ 563.455
+       1
+--------------------------------------
+center:[710, 346] radius:14
+detect once: 0.020214s
+elapsed is 44.6887s
+detected_frame_count: 534
+center depthValue: 730
+min    depthValue: 656
+123
+camera_coord
+320.291
+99.3386
+    730
+      1
+world_coord 
+-1106.46
+-1205.01
+ 561.844
+       1
+--------------------------------------
+center:[722, 346] radius:18
+detect once: 0.026505s
+elapsed is 44.7412s
+detected_frame_count: 535
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[749, 348] radius:17
+detect once: 0.026672s
+elapsed is 44.8146s
+detected_frame_count: 536
+center depthValue: 721
+min    depthValue: 639
+123
+camera_coord
+369.536
+100.851
+    721
+      1
+world_coord 
+-1114.48
+-1254.43
+ 561.281
+       1
+--------------------------------------
+center:[802, 349] radius:14
+detect once: 0.02276s
+elapsed is 44.8582s
+detected_frame_count: 537
+center depthValue: 837
+min    depthValue: 684
+123
+camera_coord
+512.909
+118.666
+    837
+      1
+world_coord 
+-997.777
+-1395.23
+ 531.758
+       1
+--------------------------------------
+center:[914, 351] radius:3
+detect once: 0.023395s
+elapsed is 44.9667s
+detected_frame_count: 538
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[934, 351] radius:8
+detect once: 0.020192s
+elapsed is 45.0148s
+detected_frame_count: 539
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[938, 350] radius:10
+detect once: 0.023821s
+elapsed is 45.0603s
+detected_frame_count: 540
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[940, 349] radius:11
+detect once: 0.023661s
+elapsed is 45.0972s
+detected_frame_count: 541
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[944, 348] radius:8
+detect once: 0.022003s
+elapsed is 45.1509s
+detected_frame_count: 542
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[942, 346] radius:9
+detect once: 0.021909s
+elapsed is 45.1976s
+detected_frame_count: 543
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[937, 344] radius:8
+detect once: 0.020732s
+elapsed is 45.2584s
+detected_frame_count: 544
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[918, 344] radius:4
+detect once: 0.025288s
+elapsed is 45.317s
+detected_frame_count: 545
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[956, 332] radius:5
+detect once: 0.02115s
+elapsed is 45.3842s
+detected_frame_count: 546
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[795, 334] radius:12
+detect once: 0.02268s
+elapsed is 45.4331s
+detected_frame_count: 547
+center depthValue: 733
+min    depthValue: 621
+123
+camera_coord
+439.472
+83.0501
+    733
+      1
+world_coord 
+-1099.18
+-1324.02
+ 577.788
+       1
+--------------------------------------
+center:[768, 332] radius:19
+detect once: 0.026487s
+elapsed is 45.5062s
+detected_frame_count: 548
+center depthValue: 612
+min    depthValue: 602
+123
+camera_coord
+335.667
+67.0171
+    612
+      1
+world_coord 
+-1220.15
+-1222.88
+ 606.067
+       1
+--------------------------------------
+center:[722, 338] radius:17
+detect once: 0.027328s
+elapsed is 45.5682s
+detected_frame_count: 549
+center depthValue: 639
+min    depthValue: 624
+123
+camera_coord
+ 294.87
+77.2516
+    639
+      1
+world_coord 
+-1195.25
+-1181.54
+ 593.109
+       1
+--------------------------------------
+center:[701, 342] radius:13
+detect once: 0.02616s
+elapsed is 45.6509s
+detected_frame_count: 550
+center depthValue: 662
+min    depthValue: 639
+123
+camera_coord
+279.185
+85.0587
+    662
+      1
+world_coord 
+-1173.53
+-1165.38
+ 582.985
+       1
+--------------------------------------
+center:[700, 346] radius:14
+detect once: 0.023175s
+elapsed is 45.7272s
+detected_frame_count: 551
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[704, 344] radius:13
+detect once: 0.028s
+elapsed is 45.775s
+detected_frame_count: 552
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[708, 344] radius:13
+detect once: 0.02804s
+elapsed is 45.8326s
+detected_frame_count: 553
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[712, 342] radius:13
+detect once: 0.023011s
+elapsed is 45.8876s
+detected_frame_count: 554
+center depthValue: 687
+min    depthValue: 627
+123
+camera_coord
+304.024
+88.2709
+    687
+      1
+world_coord 
+-1148.45
+-1189.66
+ 577.243
+       1
+--------------------------------------
+center:[713, 342] radius:13
+detect once: 0.028135s
+elapsed is 45.9422s
+detected_frame_count: 555
+center depthValue: 684
+min    depthValue: 623
+123
+camera_coord
+ 303.99
+87.8854
+    684
+      1
+world_coord 
+-1151.39
+-1189.69
+ 577.933
+       1
+--------------------------------------
+center:[714, 341] radius:14
+detect once: 0.026512s
+elapsed is 46.0048s
+detected_frame_count: 556
+center depthValue: 698
+min    depthValue: 615
+123
+camera_coord
+311.533
+88.3592
+    698
+      1
+world_coord 
+-1137.35
+-1196.93
+ 576.033
+       1
+--------------------------------------
+center:[716, 340] radius:15
+detect once: 0.025539s
+elapsed is 46.0849s
+detected_frame_count: 557
+center depthValue: 714
+min    depthValue: 603
+123
+camera_coord
+321.375
+89.0293
+    714
+      1
+world_coord 
+-1121.29
+-1206.41
+ 573.734
+       1
+--------------------------------------
+center:[718, 336] radius:14
+detect once: 0.025599s
+elapsed is 46.1668s
+detected_frame_count: 558
+center depthValue: 712
+min    depthValue: 580
+123
+camera_coord
+323.169
+83.3738
+    712
+      1
+world_coord 
+-1122.66
+-1208.24
+ 579.564
+       1
+--------------------------------------
+center:[718, 333] radius:8
+detect once: 0.020378s
+elapsed is 46.2265s
+detected_frame_count: 559
+center depthValue: 725
+min    depthValue: 568
+123
+camera_coord
+329.069
+80.7674
+    725
+      1
+world_coord 
+-1109.34
+-1213.84
+ 580.829
+       1
+--------------------------------------
+center:[721, 323] radius:9
+detect once: 0.029925s
+elapsed is 46.2856s
+detected_frame_count: 560
+center depthValue: 713
+min    depthValue: 551
+123
+camera_coord
+327.669
+65.8962
+    713
+      1
+world_coord 
+-1119.78
+-1212.67
+ 596.847
+       1
+--------------------------------------
+center:[732, 314] radius:12
+detect once: 0.025787s
+elapsed is 46.3569s
+detected_frame_count: 561
+center depthValue: 720
+min    depthValue: 694
+123
+camera_coord
+345.869
+54.2427
+    720
+      1
+world_coord 
+-1111.23
+-1230.67
+ 607.729
+       1
+--------------------------------------
+center:[750, 310] radius:12
+detect once: 0.025101s
+elapsed is 46.4071s
+detected_frame_count: 562
+center depthValue: 705
+min    depthValue: 477
+123
+camera_coord
+362.669
+47.7596
+    705
+      1
+world_coord 
+-1125.11
+-1247.77
+ 615.718
+       1
+--------------------------------------
+center:[770, 304] radius:15
+detect once: 0.022416s
+elapsed is 46.4969s
+detected_frame_count: 563
+center depthValue: 690
+min    depthValue: 436
+123
+camera_coord
+381.059
+38.8848
+    690
+      1
+world_coord 
+-1138.71
+-1266.46
+ 626.087
+       1
+--------------------------------------
+center:[794, 292] radius:17
+detect once: 0.024368s
+elapsed is 46.5523s
+detected_frame_count: 564
+center depthValue: 689
+min    depthValue: 559
+123
+camera_coord
+411.788
+23.1339
+    689
+      1
+world_coord 
+-1137.41
+-1297.15
+ 641.868
+       1
+--------------------------------------
+center:[814, 292] radius:18
+detect once: 0.024419s
+elapsed is 46.5906s
+detected_frame_count: 565
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[817, 286] radius:30
+detect once: 0.0234s
+elapsed is 46.6375s
+detected_frame_count: 566
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[811, 299] radius:34
+detect once: 0.025382s
+elapsed is 46.7082s
+detected_frame_count: 567
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[803, 334] radius:67
+detect once: 0.020285s
+elapsed is 46.7738s
+detected_frame_count: 568
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[722, 384] radius:64
+detect once: 0.022181s
+elapsed is 46.8398s
+detected_frame_count: 569
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------
+center:[586, 468] radius:73
+detect once: 0.02405s
+elapsed is 46.9228s
+detected_frame_count: 570
+center depthValue: 641
+min    depthValue: 168
+123
+camera_coord
+130.879
+235.673
+    641
+      1
+world_coord 
+ -1213.1
+-1018.01
+ 435.272
+       1
+--------------------------------------
+center:[510, 464] radius:30
+detect once: 0.022907s
+elapsed is 46.9696s
+detected_frame_count: 571
+center depthValue: 0
+min    depthValue: 0
+123
+camera_coord
+0
+0
+0
+1
+world_coord 
+-1829.3
+-900.63
+ 735.18
+      1
+--------------------------------------

@@ -29,10 +29,14 @@
 #include <opencv2/opencv.hpp>
 #include <mutex>
 
+//时间戳精准匹配模式
+#include <message_filters/subscriber.h>
+#include <message_filters/synchronizer.h>
+#include <message_filters/sync_policies/exact_time.h>
+
 #include <obj_detected/ball_pose.h>
 
 // #include <time.h>
-// #include <Eigen/Dense>
 #include <Eigen/Core>
 // #include <array>
 
@@ -78,16 +82,24 @@ private:
 	ros::AsyncSpinner spinner;
 	ros::NodeHandle nh;
 
-	ros::Subscriber suber_color;
-	ros::Subscriber suber_depth;
+	image_transport::ImageTransport it;
 
-// 消息同步
-	// message_filters::Synchronizer<ExactSyncPolicy> *syncExact;
+	image_transport::SubscriberFilter *subImageColor, *subImageDepth;
+	message_filters::Subscriber<sensor_msgs::CameraInfo> *subCameraInfoColor, *subCameraInfoDepth;
+
+	// ros::Subscriber suber_color;
+	// ros::Subscriber suber_depth;
+
+	// 消息同步
+
+	typedef message_filters::sync_policies::ExactTime<sensor_msgs::Image, sensor_msgs::Image, sensor_msgs::CameraInfo, sensor_msgs::CameraInfo> ExactSyncPolicy;
+	message_filters::Synchronizer<ExactSyncPolicy> *syncExact;
 
 	std::mutex lock;
 
 	cv::Mat color_frame, depth_frame;
 	cv::Mat lookupX, lookupY;
+	cv::Mat camera_Matrix_color, camera_Matrix_depth;
 
 	ros::Publisher ball_pose_puber;
 
@@ -96,11 +108,18 @@ private:
 
 	Matrix4f hand_eye_calib;
 
+	const size_t queueSize = 5;
+
+	bool get_camera_info;
+
 public:
 	Detector(const std::string &topic_color, const std::string &topic_depth, const std::string &topic_ball_pose_pub)
 		: topic_color_recv(topic_color), topic_depth_recv(topic_depth), spinner(1), nh("~"),
-		  color_update_flag(false), depth_update_flag(false), topic_ball_pose_pub(topic_ball_pose_pub), you_can_detect_it(false)
+		  color_update_flag(false), depth_update_flag(false), topic_ball_pose_pub(topic_ball_pose_pub), you_can_detect_it(false),
+		  it(nh), get_camera_info(true)
 	{
+		camera_Matrix_color = cv::Mat::zeros(3, 3, CV_64F);
+		camera_Matrix_depth = cv::Mat::zeros(3, 3, CV_64F);
 	}
 
 	~Detector() {}
@@ -117,10 +136,25 @@ private:
 		isRunning = true;
 
 		ball_pose_puber = nh.advertise<obj_detected::ball_pose>(topic_ball_pose_pub, 10);
-		suber_color = nh.subscribe(topic_color_recv, 1, &Detector::callback_color, this);
-		suber_depth = nh.subscribe(topic_depth_recv, 1, &Detector::callback_depth, this);
+
+		std::string topicCameraInfoColor = topic_color_recv.substr(0, topic_color_recv.rfind('/')) + "/camera_info";
+		std::string topicCameraInfoDepth = topic_depth_recv.substr(0, topic_depth_recv.rfind('/')) + "/camera_info";
+		image_transport::TransportHints hints("raw");
+		//如果换成compressed会不会好一点，但是之前一直用的都是raw
+		//这里为神码还要camerainfo呢
+		subImageColor = new image_transport::SubscriberFilter(it, topic_color_recv, queueSize, hints);
+		subImageDepth = new image_transport::SubscriberFilter(it, topic_depth_recv, queueSize, hints);
+		subCameraInfoColor = new message_filters::Subscriber<sensor_msgs::CameraInfo>(nh, topicCameraInfoColor, queueSize);
+		subCameraInfoDepth = new message_filters::Subscriber<sensor_msgs::CameraInfo>(nh, topicCameraInfoDepth, queueSize);
+
+		// suber_color = nh.subscribe(topic_color_recv, 1, &Detector::callback_color, this);
+		// suber_depth = nh.subscribe(topic_depth_recv, 1, &Detector::callback_depth, this);
 		// ros::AsyncSpinner spinner(3); // Use 3 threads
 		spinner.start();
+
+		//使用时间戳精准匹配模式
+		syncExact = new message_filters::Synchronizer<ExactSyncPolicy>(ExactSyncPolicy(queueSize), *subImageColor, *subImageDepth, *subCameraInfoColor, *subCameraInfoDepth);
+		syncExact->registerCallback(boost::bind(&Detector::callback_color_depth, this, _1, _2, _3, _4));
 
 		std::chrono::milliseconds duration(1);
 		while (!color_update_flag || !depth_update_flag)
@@ -132,6 +166,7 @@ private:
 		//这里分别输入宽和高，即col和row
 		createLookup(this->color_frame.cols, this->color_frame.rows);
 		// if (color_update_flag && depth_update_flag)
+
 		obj_detecting();
 	}
 
@@ -139,10 +174,73 @@ private:
 	{
 		spinner.stop();
 		isRunning = false;
+
+		delete subImageColor;
+		delete subImageDepth;
+		delete subCameraInfoColor;
+		delete subCameraInfoDepth;
+		delete syncExact;
 	}
 
+	void callback_color_depth(const sensor_msgs::Image::ConstPtr imageColor, const sensor_msgs::Image::ConstPtr imageDepth,
+							  const sensor_msgs::CameraInfo::ConstPtr cameraInfoColor, const sensor_msgs::CameraInfo::ConstPtr cameraInfoDepth)
+	{
+		ROS_INFO("callback please check the timestamp");
+		cv::Mat color, depth;
+		// cout << "来了老弟～" << endl;
+		//读取内参？
+		//这两步没看懂，先不抄了，这个相机信息到这里就终结了，他获取了相机矩阵，然后lookup了
+		//一会打印以下，看一看获取和不获取，信息是否一样
+		//似乎depth的相机矩阵并没有用到，所以你出现的意义是什么
+		//只在第一帧时获取一下，万一能节省点资源呢
+		if (get_camera_info)
+		{
+			readCameraInfo(cameraInfoColor, camera_Matrix_color);
+			readCameraInfo(cameraInfoDepth, camera_Matrix_depth);
+			get_camera_info = false;
+		}
+		readImage(imageColor, color);
+		readImage(imageDepth, depth);
+		// cout << " type " << color.type() << endl;
+		//他的type是16,但是没有找到16的define，懒得找了
+
+		if (color.type() == CV_16U)
+		{
+			cv::Mat tmp;
+			color.convertTo(tmp, CV_8U, 0.02);
+			cv::cvtColor(tmp, color, CV_GRAY2BGR);
+		}
+
+		lock.lock();
+		this->color_frame = color;
+		this->depth_frame = depth;
+		color_update_flag = true;
+		depth_update_flag = true;
+		recved_color_time = std::chrono::high_resolution_clock::now();
+		lock.unlock();
+	}
+
+	// 别问，问就是抄的
+	void readCameraInfo(const sensor_msgs::CameraInfo::ConstPtr cameraInfo, cv::Mat &cameraMatrix) const
+	{
+		double *itC = cameraMatrix.ptr<double>(0, 0);
+		for (size_t i = 0; i < 9; ++i, ++itC)
+		{
+			*itC = cameraInfo->K[i];
+		}
+	}
+
+	void readImage(const sensor_msgs::Image::ConstPtr msgImage, cv::Mat &image) const
+	{
+		cv_bridge::CvImageConstPtr pCvImage;
+		pCvImage = cv_bridge::toCvShare(msgImage, msgImage->encoding);
+		pCvImage->image.copyTo(image);
+	}
+
+	//callback_color和callback_depth废弃了
 	void callback_color(const sensor_msgs::Image::ConstPtr image_data)
 	{
+		cout << "彩色" << endl;
 		// 抄的readImage里的
 		// 声明一个CvImage指针
 		cv::Mat color_frame_callback;
@@ -212,20 +310,21 @@ private:
 					{
 						if (detected_frame_count == 1)
 						{
-							// cout << "firstle" << endl;
-							zero_time = std::chrono::high_resolution_clock::now();
+							cout << "firstle" << endl;
+							// zero_time = std::chrono::high_resolution_clock::now();
+							zero_time = recved_color_time;
+							elapsed = 0;
 						}
 						else
 						{
 							// 下边两行暂时废弃
 							// std::chrono::time_point<std::chrono::high_resolution_clock> now_time = std::chrono::high_resolution_clock::now();
 							// elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(recved_color_time - zero_time).count() / 1000.0;
-							elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(recved_color_time - zero_time).count();
-							// 微秒count
-							// elapsed = std::chrono::duration_cast<std::chrono::microseconds>(now_time - zero_time).count();
-
-							cout << "elapsed is " << elapsed / 1000.0 << "s" << endl;
+							// elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(recved_color_time - zero_time).count();
+							// 先计算微秒，然后除以1000得出毫秒
+							elapsed = std::chrono::duration_cast<std::chrono::microseconds>(recved_color_time - zero_time).count() / 1000.0;
 						}
+						cout << "elapsed is " << elapsed / 1000.0 << "s" << endl;
 						cout << "detected_frame_count: " << detected_frame_count++ << endl;
 
 						posXYZ camera_coord;
@@ -293,11 +392,19 @@ private:
 		//内参矩阵这个样子
 		// k << 263.525, 0, 240,
 		// 	0, 263.425, 135,
-		// 	0, 0, 1;
-		const float fx = 1.0f / (263.525 * 2);
-		const float fy = 1.0f / (263.425 * 2);
-		const float cx = 480;
-		const float cy = 270;
+		// // 	0, 0, 1;
+		// const float fx = 1.0f / (263.525 * 2);
+		// const float fy = 1.0f / (263.425 * 2);
+		// const float cx = 480;
+		// const float cy = 270;
+
+		const float fx = 1.0f / camera_Matrix_color.at<double>(0, 0);
+		const float fy = 1.0f / camera_Matrix_color.at<double>(1, 1);
+		const float cx = camera_Matrix_color.at<double>(0, 2);
+		const float cy = camera_Matrix_color.at<double>(1, 2);
+		cout << "fx    is " << camera_Matrix_color.at<double>(0, 0) << endl;
+		cout << "cx xy is " << cx << "  " << cy << endl;
+
 		float *it;
 
 		lookupY = cv::Mat(1, height, CV_32F);
@@ -430,22 +537,39 @@ private:
 	//获取识别到的圆心的深度信息
 	posXYZ get_depth_kinect(circle_xyr obj_info, cv::Mat &depth_img)
 	{
-
+		// cout << "深度尺寸为" << depth_img.cols << " " << depth_img.rows << endl;
 		//单位毫米
-		const float depth_value = depth_img.at<uint16_t>(obj_info.y, obj_info.x);
-		// const float depth_value = depth_img.at<uint16_t>(obj_info.y, obj_info.x) / 1000.0f;
-		// const float depth_value1 = depth_img.at<uint16_t>(obj_info.y+1, obj_info.x+1) / 1000.0f;
-		// const float depth_value2 = depth_img.at<uint16_t>(obj_info.y, obj_info.x+1) / 1000.0f;
-		// const float depth_value3 = depth_img.at<uint16_t>(obj_info.y+1, obj_info.x) / 1000.0f;
-		// const float depth_value4 = depth_img.at<uint16_t>(obj_info.y-1, obj_info.x-1) / 1000.0f;
-		cout << "depthValue: " << depth_value << endl;
+		float depth_value = depth_img.at<uint16_t>(obj_info.y, obj_info.x);
+		//找个范围内的×最小深度×值
+		const int left = (obj_info.x - obj_info.r) < 0 ? 0 : (obj_info.x - obj_info.r);
+		const int right = (obj_info.x + obj_info.r) > depth_img.cols ? depth_img.cols : (obj_info.x + obj_info.r);
+		const int top = (obj_info.y - obj_info.r) < 0 ? 0 : (obj_info.y - obj_info.r);
+		const int bottom = (obj_info.y + obj_info.r) > depth_img.rows ? depth_img.rows : (obj_info.y + obj_info.r);
+		// cout << "it is" << left << " " << right << " " << top << " " << bottom << endl;
+		int min_depth_value = depth_value;
+		for (int col = left; col < right + 1; col++)
+		{
+			for (int row = top; row < bottom + 1; row++)
+			{
+				int temp_depth = depth_img.at<uint16_t>(row, col);
+				// if ((depth_img.at<uint16_t>(row, col) < min_depth_value))
+				if ((temp_depth < min_depth_value) && (temp_depth > 1))
+				{
+					min_depth_value = depth_img.at<uint16_t>(row, col);
+				}
+			}
+		}
+		//这句暂时先注释
+
+		cout << "center depthValue: " << depth_value << endl;
+		cout << "min    depthValue: " << min_depth_value << endl;
+		//××最小深度赋值××
+		depth_value = min_depth_value;
 
 		// 这一行深度数据是彩色数据的第几行
 		const float y_pix = lookupY.at<float>(0, obj_info.y);
 		//这个是为了便利每一行的内容
 		const float x_pix = lookupX.at<float>(0, obj_info.x);
-		// cout << "xypixis" << x_pix << "  " << y_pix << endl;
-		// cout << "--------------------------------------" << endl;
 
 		posXYZ camera_coord;
 		camera_coord.z = depth_value;
