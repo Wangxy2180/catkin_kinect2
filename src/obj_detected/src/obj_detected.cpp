@@ -540,11 +540,19 @@ private:
 		// cout << "深度尺寸为" << depth_img.cols << " " << depth_img.rows << endl;
 		//单位毫米
 		float depth_value = depth_img.at<uint16_t>(obj_info.y, obj_info.x);
-		//找个范围内的×最小深度×值
-		const int left = (obj_info.x - obj_info.r) < 0 ? 0 : (obj_info.x - obj_info.r);
-		const int right = (obj_info.x + obj_info.r) > depth_img.cols ? depth_img.cols : (obj_info.x + obj_info.r);
-		const int top = (obj_info.y - obj_info.r) < 0 ? 0 : (obj_info.y - obj_info.r);
-		const int bottom = (obj_info.y + obj_info.r) > depth_img.rows ? depth_img.rows : (obj_info.y + obj_info.r);
+		//将搜索的矩形扩大
+		const int rect_radius = obj_info.r * 2;
+		// //找个范围内的×最小深度×值
+		//被封印的少年
+		// const int left = (obj_info.x - obj_info.r) < 0 ? 0 : (obj_info.x - obj_info.r);
+		// const int right = (obj_info.x + obj_info.r) > depth_img.cols ? depth_img.cols : (obj_info.x + obj_info.r);
+		// const int top = (obj_info.y - obj_info.r) < 0 ? 0 : (obj_info.y - obj_info.r);
+		// const int bottom = (obj_info.y + obj_info.r) > depth_img.rows ? depth_img.rows : (obj_info.y + obj_info.r);
+		//是不是应该右和下边界减1
+		const int left = (obj_info.x - rect_radius) < 0 ? 0 : (obj_info.x - rect_radius);
+		const int right = (obj_info.x + rect_radius) > depth_img.cols ? depth_img.cols - 1 : (obj_info.x + rect_radius);
+		const int top = (obj_info.y - rect_radius) < 0 ? 0 : (obj_info.y - rect_radius);
+		const int bottom = (obj_info.y + rect_radius) > depth_img.rows ? depth_img.rows - 1 : (obj_info.y + rect_radius);
 		// cout << "it is" << left << " " << right << " " << top << " " << bottom << endl;
 		int min_depth_value = depth_value;
 		for (int col = left; col < right + 1; col++)

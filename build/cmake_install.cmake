@@ -135,6 +135,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/free/catkin_kinect2/build/iai_kinect2/kinect2_bridge/cmake_install.cmake")
   include("/home/free/catkin_kinect2/build/iai_kinect2/kinect2_calibration/cmake_install.cmake")
   include("/home/free/catkin_kinect2/build/iai_kinect2/kinect2_viewer/cmake_install.cmake")
+  include("/home/free/catkin_kinect2/build/learning_ros_gyh21/cmake_install.cmake")
 
 endif()
 

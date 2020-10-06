@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="learning_ros_gyh21" type="learning_topic_person_suber" name="talker" output="screen" />
+    <node pkg="learning_ros_gyh21" type="learning_topic_person_puber" name="listener" output="screen" />
+    <!-- <node pkg="learning_ros_gyh21" type="learning_topic_person_suber" name="talker" /> -->
+    <!-- <node pkg="learning_ros_gyh21" type="learning_topic_person_puber" name="listener" /> -->
+</launch>

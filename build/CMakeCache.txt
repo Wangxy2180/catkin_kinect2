@@ -1065,8 +1065,14 @@ kinect2_viewer_BINARY_DIR:STATIC=/home/free/catkin_kinect2/build/iai_kinect2/kin
 //Value Computed by CMake
 kinect2_viewer_SOURCE_DIR:STATIC=/home/free/catkin_kinect2/src/iai_kinect2/kinect2_viewer
 
+//Value Computed by CMake
+learning_ros_gyh21_BINARY_DIR:STATIC=/home/free/catkin_kinect2/build/learning_ros_gyh21
+
+//Value Computed by CMake
+learning_ros_gyh21_SOURCE_DIR:STATIC=/home/free/catkin_kinect2/src/learning_ros_gyh21
+
 //Path to a library.
-lib:FILEPATH=/opt/ros/kinetic/lib/libcompressed_depth_image_transport.so
+lib:FILEPATH=/opt/ros/kinetic/lib/libtf2.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/kinetic/share/message_filters/cmake
@@ -1131,6 +1137,9 @@ smclib_DIR:PATH=/opt/ros/kinetic/share/smclib/cmake
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/kinetic/share/std_msgs/cmake
 
+//The directory containing a CMake configuration file for std_srvs.
+std_srvs_DIR:PATH=/opt/ros/kinetic/share/std_srvs/cmake
+
 //The directory containing a CMake configuration file for tf2.
 tf2_DIR:PATH=/opt/ros/kinetic/share/tf2/cmake
 
@@ -1145,6 +1154,9 @@ tf2_ros_DIR:PATH=/opt/ros/kinetic/share/tf2_ros/cmake
 
 //The directory containing a CMake configuration file for tf.
 tf_DIR:PATH=/opt/ros/kinetic/share/tf/cmake
+
+//The directory containing a CMake configuration file for turtlesim.
+turtlesim_DIR:PATH=/opt/ros/kinetic/share/turtlesim/cmake
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/kinetic/share/xmlrpcpp/cmake
@@ -1305,7 +1317,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

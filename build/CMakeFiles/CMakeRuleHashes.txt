@@ -9,6 +9,8 @@ e8e75fc48ffff56e39fb3c8e35d25f3b /home/free/catkin_kinect2/devel/include/darknet
 6b09f109e0879796cb41aeea59fe222e /home/free/catkin_kinect2/devel/include/darknet_ros_msgs/CheckForObjectsGoal.h
 9304f1676ba3c9eec1c400a2589f8ead /home/free/catkin_kinect2/devel/include/darknet_ros_msgs/CheckForObjectsResult.h
 af7bec34280d560a8d9f33488ea17cee /home/free/catkin_kinect2/devel/include/darknet_ros_msgs/ObjectCount.h
+2dcde63430b3db6bf12481d939790aaa /home/free/catkin_kinect2/devel/include/learning_ros_gyh21/Person.h
+26f22b75ca2b2a3116836406f2782519 /home/free/catkin_kinect2/devel/include/learning_ros_gyh21/Person_srv.h
 5073698f574bf49e5d940e65c186d13b /home/free/catkin_kinect2/devel/include/obj_detected/ball_pose.h
 b8e50859f9348acf0b0042a407b14ad1 /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/_BoundingBox.py
 c4180f8c2a778c99c3213bc2cab9dc52 /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/_BoundingBoxes.py
@@ -21,6 +23,10 @@ eed1147c233e14edff8d837deecae337 /home/free/catkin_kinect2/devel/lib/python2.7/d
 06b237071d6041f1886bd0254dd90c20 /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/_CheckForObjectsResult.py
 84303e458bac58d9c39d17e0f6979979 /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/_ObjectCount.py
 71781ee0796a90de689e77d8dd68e27a /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/__init__.py
+1b9158b730aeb8abc78515a9fa53dc75 /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/learning_ros_gyh21/msg/_Person.py
+490ae75f564d28953bf94cc5d4eb2b56 /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/learning_ros_gyh21/msg/__init__.py
+e81c6c52471d6169ae65bf3167c7bccd /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/learning_ros_gyh21/srv/_Person_srv.py
+383b9513402db3beff0846ad3b1712e1 /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/learning_ros_gyh21/srv/__init__.py
 915b94e533a52998b5fd6a41ed264500 /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/obj_detected/msg/__init__.py
 04e1d8d1b19a7655d0c1bacbe95dca50 /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/obj_detected/msg/_ball_pose.py
 b01f367e48e2d4a36e6ee3e5f66efb34 /home/free/catkin_kinect2/devel/share/common-lisp/ros/darknet_ros_msgs/msg/BoundingBox.lisp
@@ -33,6 +39,8 @@ ff435223a53ddb76e74b04cbd77b9193 /home/free/catkin_kinect2/devel/share/common-li
 90ceceee04141730db2998aa4fb4aaba /home/free/catkin_kinect2/devel/share/common-lisp/ros/darknet_ros_msgs/msg/CheckForObjectsGoal.lisp
 3303bcaf582e6272c6574316f33f1080 /home/free/catkin_kinect2/devel/share/common-lisp/ros/darknet_ros_msgs/msg/CheckForObjectsResult.lisp
 7e0ad7cdf41ea6578aae089f17c25540 /home/free/catkin_kinect2/devel/share/common-lisp/ros/darknet_ros_msgs/msg/ObjectCount.lisp
+dc6296223e7612069f5127822a3c191f /home/free/catkin_kinect2/devel/share/common-lisp/ros/learning_ros_gyh21/msg/Person.lisp
+422bcbfd7867af33693b155ca5221959 /home/free/catkin_kinect2/devel/share/common-lisp/ros/learning_ros_gyh21/srv/Person_srv.lisp
 331790e9cedd6b51c3c3a3daf997f993 /home/free/catkin_kinect2/devel/share/common-lisp/ros/obj_detected/msg/ball_pose.lisp
 27efd9b683b485c324a66dbccc64d468 /home/free/catkin_kinect2/devel/share/gennodejs/ros/darknet_ros_msgs/msg/BoundingBox.js
 0f0c308386bf21a8260520253a552c44 /home/free/catkin_kinect2/devel/share/gennodejs/ros/darknet_ros_msgs/msg/BoundingBoxes.js
@@ -44,6 +52,8 @@ df33590c203883699069322dd297108c /home/free/catkin_kinect2/devel/share/gennodejs
 7c975fd3c2b90afcdd180f04cb6fc98d /home/free/catkin_kinect2/devel/share/gennodejs/ros/darknet_ros_msgs/msg/CheckForObjectsGoal.js
 d944f156c1116f62ddcee20b149bedbf /home/free/catkin_kinect2/devel/share/gennodejs/ros/darknet_ros_msgs/msg/CheckForObjectsResult.js
 44009d180a2d422e3e6fe34d152ad197 /home/free/catkin_kinect2/devel/share/gennodejs/ros/darknet_ros_msgs/msg/ObjectCount.js
+e13a817d2b6cafead80eb3e8f7a3bda0 /home/free/catkin_kinect2/devel/share/gennodejs/ros/learning_ros_gyh21/msg/Person.js
+3693ad0ca0b5b8f380df5b2abcae9c8a /home/free/catkin_kinect2/devel/share/gennodejs/ros/learning_ros_gyh21/srv/Person_srv.js
 94ca34eb7d36ef566a2915c055d450e5 /home/free/catkin_kinect2/devel/share/gennodejs/ros/obj_detected/msg/ball_pose.js
 cd025a336149327567b369d21be4d7db /home/free/catkin_kinect2/devel/share/roseus/ros/darknet_ros_msgs/manifest.l
 737984424cb1d46b2ba740fda566f1f2 /home/free/catkin_kinect2/devel/share/roseus/ros/darknet_ros_msgs/msg/BoundingBox.l
@@ -56,6 +66,9 @@ a9d1c4b8c8d401fd735bef6ad8385eee /home/free/catkin_kinect2/devel/share/roseus/ro
 da89ff080f0dad0ee5736c05f37d8af9 /home/free/catkin_kinect2/devel/share/roseus/ros/darknet_ros_msgs/msg/CheckForObjectsGoal.l
 1b4361f3e86c5e4c68ebe58bbe314bce /home/free/catkin_kinect2/devel/share/roseus/ros/darknet_ros_msgs/msg/CheckForObjectsResult.l
 93ff38ef291b7720fed6e28e37725a98 /home/free/catkin_kinect2/devel/share/roseus/ros/darknet_ros_msgs/msg/ObjectCount.l
+e074c885662152be63fd1d0b24f10f85 /home/free/catkin_kinect2/devel/share/roseus/ros/learning_ros_gyh21/manifest.l
+c00abd26d3a8ee8773d2603d8509d6dd /home/free/catkin_kinect2/devel/share/roseus/ros/learning_ros_gyh21/msg/Person.l
+f4a68dfd229c98d724d319db4bef9db0 /home/free/catkin_kinect2/devel/share/roseus/ros/learning_ros_gyh21/srv/Person_srv.l
 06ec7819b5a68409b3d0456683fe21ff /home/free/catkin_kinect2/devel/share/roseus/ros/obj_detected/manifest.l
 03b9ef50bd561a55cd68ac6083b11e86 /home/free/catkin_kinect2/devel/share/roseus/ros/obj_detected/msg/ball_pose.l
 e44767ad4d3da6fbf226ba51e7308dc7 CMakeFiles/clean_test_results
@@ -87,6 +100,13 @@ dd057144d6b397474bea3ed23a4cb036 darknet_ros/darknet_ros_msgs/CMakeFiles/darknet
 dd057144d6b397474bea3ed23a4cb036 darknet_ros/darknet_ros_msgs/CMakeFiles/darknet_ros_msgs_generate_messages_lisp
 dd057144d6b397474bea3ed23a4cb036 darknet_ros/darknet_ros_msgs/CMakeFiles/darknet_ros_msgs_generate_messages_nodejs
 dd057144d6b397474bea3ed23a4cb036 darknet_ros/darknet_ros_msgs/CMakeFiles/darknet_ros_msgs_generate_messages_py
+3b9a7400f0f01cdfcc71af343a95cd5f learning_ros_gyh21/CMakeFiles/_learning_ros_gyh21_generate_messages_check_deps_Person
+b4634f978068feb6b5dd618417d582c2 learning_ros_gyh21/CMakeFiles/_learning_ros_gyh21_generate_messages_check_deps_Person_srv
+b05f319d2129e513e791d2cf623c5661 learning_ros_gyh21/CMakeFiles/learning_ros_gyh21_generate_messages_cpp
+b05f319d2129e513e791d2cf623c5661 learning_ros_gyh21/CMakeFiles/learning_ros_gyh21_generate_messages_eus
+b05f319d2129e513e791d2cf623c5661 learning_ros_gyh21/CMakeFiles/learning_ros_gyh21_generate_messages_lisp
+b05f319d2129e513e791d2cf623c5661 learning_ros_gyh21/CMakeFiles/learning_ros_gyh21_generate_messages_nodejs
+b05f319d2129e513e791d2cf623c5661 learning_ros_gyh21/CMakeFiles/learning_ros_gyh21_generate_messages_py
 da188b6243d68a289af28acb81827350 obj_detected/CMakeFiles/_obj_detected_generate_messages_check_deps_ball_pose
 74c342a85ec014e3f6e56239dd8fa37c obj_detected/CMakeFiles/obj_detected_generate_messages_cpp
 74c342a85ec014e3f6e56239dd8fa37c obj_detected/CMakeFiles/obj_detected_generate_messages_eus
