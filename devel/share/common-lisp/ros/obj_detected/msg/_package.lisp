@@ -3,5 +3,7 @@
   (:export
    "<BALL_POSE>"
    "BALL_POSE"
+   "<PRED_DRAW>"
+   "PRED_DRAW"
   ))
 

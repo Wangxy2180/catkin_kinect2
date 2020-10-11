@@ -35,6 +35,7 @@
 #include <message_filters/sync_policies/exact_time.h>
 
 #include <obj_detected/ball_pose.h>
+#include <obj_detected/pred_draw.h>
 
 // #include <time.h>
 #include <Eigen/Core>
@@ -57,6 +58,7 @@ typedef struct
 	float y;
 	float z;
 } posXYZ;
+// C++结构体可以舍弃typedef了
 
 //定义hsv空间下的“绿色”的色彩范围
 cv::Scalar green_lower = cv::Scalar(35, 83, 86);
@@ -108,18 +110,26 @@ private:
 
 	Matrix4f hand_eye_calib;
 
-	const size_t queueSize = 5;
+	const size_t queueSize;
 
 	bool get_camera_info;
 
+	const float obj_pos_non_move_range;
+	const float distance_to_wall;
+
+	posXYZ last_pos;
+
 public:
 	Detector(const std::string &topic_color, const std::string &topic_depth, const std::string &topic_ball_pose_pub)
-		: topic_color_recv(topic_color), topic_depth_recv(topic_depth), spinner(1), nh("~"),
+		: topic_color_recv(topic_color), topic_depth_recv(topic_depth), spinner(0), nh("~"),
 		  color_update_flag(false), depth_update_flag(false), topic_ball_pose_pub(topic_ball_pose_pub), you_can_detect_it(false),
-		  it(nh), get_camera_info(true)
+		  it(nh), queueSize(5), get_camera_info(true), obj_pos_non_move_range(0.01), distance_to_wall(3)
 	{
 		camera_Matrix_color = cv::Mat::zeros(3, 3, CV_64F);
 		camera_Matrix_depth = cv::Mat::zeros(3, 3, CV_64F);
+		last_pos.x = 0;
+		last_pos.y = 0;
+		last_pos.z = 0;
 	}
 
 	~Detector() {}
@@ -150,11 +160,13 @@ private:
 		// suber_color = nh.subscribe(topic_color_recv, 1, &Detector::callback_color, this);
 		// suber_depth = nh.subscribe(topic_depth_recv, 1, &Detector::callback_depth, this);
 		// ros::AsyncSpinner spinner(3); // Use 3 threads
-		spinner.start();
+		// spinner.start();
 
 		//使用时间戳精准匹配模式
 		syncExact = new message_filters::Synchronizer<ExactSyncPolicy>(ExactSyncPolicy(queueSize), *subImageColor, *subImageDepth, *subCameraInfoColor, *subCameraInfoDepth);
 		syncExact->registerCallback(boost::bind(&Detector::callback_color_depth, this, _1, _2, _3, _4));
+
+		spinner.start();
 
 		std::chrono::milliseconds duration(1);
 		while (!color_update_flag || !depth_update_flag)
@@ -165,21 +177,27 @@ private:
 		}
 		//这里分别输入宽和高，即col和row
 		createLookup(this->color_frame.cols, this->color_frame.rows);
-		// if (color_update_flag && depth_update_flag)
 
 		obj_detecting();
+		ROS_INFO("obj_detecting stopped");
 	}
 
 	void stop()
 	{
+
+		ROS_INFO("stop...1");
 		spinner.stop();
 		isRunning = false;
 
+		ROS_INFO("stop...2");
 		delete subImageColor;
 		delete subImageDepth;
 		delete subCameraInfoColor;
 		delete subCameraInfoDepth;
+
+		ROS_INFO("stop...3");
 		delete syncExact;
+		ROS_INFO("stoped...");
 	}
 
 	void callback_color_depth(const sensor_msgs::Image::ConstPtr imageColor, const sensor_msgs::Image::ConstPtr imageDepth,
@@ -334,17 +352,36 @@ private:
 
 						world_coord = coord_camera2world(camera_coord);
 
-						// 应该在这里把它发出去
-						obj_detected::ball_pose ball_pose_info;
-						//从相机坐标换到世界坐标了，单位米，先注释，不删吧
-						ball_pose_info.x = world_coord.x / 1000.0;
-						ball_pose_info.y = world_coord.y / 1000.0;
-						ball_pose_info.z = world_coord.z / 1000.0;
-						ball_pose_info.T = elapsed;
-						ball_pose_info.count = detected_frame_count;
+						// // 应该在这里把它发出去
+						// obj_detected::ball_pose ball_pose_info;
+						// //从相机坐标换到世界坐标了，单位米，先注释，不删吧
+						// ball_pose_info.x = world_coord.x / 1000.0;
+						// ball_pose_info.y = world_coord.y / 1000.0;
+						// ball_pose_info.z = world_coord.z / 1000.0;
+						// ball_pose_info.T = elapsed;
+						// ball_pose_info.count = detected_frame_count;
+
+						//判断pos的运动是否超出了范围
+						bool isMoving = moving_or_stationary(world_coord);
+
 						vis = draw_obj_info(color_img, obj_tennis_info, camera_coord, world_coord, elapsed);
-						if (camera_coord.z > 0)
+						if ((camera_coord.z > 0) && ((camera_coord.z / 1000.0) < distance_to_wall) && isMoving)
+						{
+							// 应该在这里把它发出去
+							obj_detected::ball_pose ball_pose_info;
+							//从相机坐标换到世界坐标了，单位米，先注释，不删吧
+							ball_pose_info.x = world_coord.x / 1000.0;
+							ball_pose_info.y = world_coord.y / 1000.0;
+							ball_pose_info.z = world_coord.z / 1000.0;
+							ball_pose_info.T = elapsed;
+							ball_pose_info.count = detected_frame_count;
 							ball_camera_pose_pub(ball_pose_info);
+						}
+						if(isMoving)
+						{
+							//在这画个图
+
+						}
 						cout << "--------------------------------------" << endl;
 					}
 					else
@@ -355,6 +392,40 @@ private:
 				}
 			}
 		}
+	}
+
+	bool moving_or_stationary(posXYZ cur_pos)
+	{
+		bool ret = false;
+		// if (detected_frame_count == 1)
+		// {
+		// 	last_pos = cur_pos;
+		// 	ret = true;
+		// }
+
+		// 只要有一个方向上移动距离超出了范围，就认定他发生了移动
+		// if (abs(last_pos.x - cur_pos.x) > (obj_pos_non_move_range * 1000) || abs(last_pos.y - cur_pos.y) > (obj_pos_non_move_range * 1000) || abs(last_pos.z - cur_pos.z) > (obj_pos_non_move_range * 1000))
+		if (is_over_range(last_pos.x, cur_pos.x) || is_over_range(last_pos.y, cur_pos.y) || is_over_range(last_pos.z, cur_pos.z))
+			ret = true;
+		else
+			ret = false;
+		// 更新last值
+		if (ret)
+		{
+			cout << "MOVING..." << ret << endl;
+			last_pos = cur_pos;
+		}
+		return ret;
+	}
+
+	// 好像多此一举啊，并不是
+	bool is_over_range(float last, float cur)
+	{
+		// 因为原始的世界坐标是毫米
+		if (abs(cur - last) > obj_pos_non_move_range * 1000)
+			return true;
+		else
+			return false;
 	}
 
 	circle_xyr detect_tennis_by_color(cv::Mat ColorImg)
@@ -591,7 +662,7 @@ private:
 
 	posXYZ coord_camera2world(posXYZ camera_coord_xyz)
 	{
-		cout << "123" << endl;
+		// cout << "123" << endl;
 
 		MatrixXf camera_coord(4, 1);
 		camera_coord << camera_coord_xyz.x, camera_coord_xyz.y, camera_coord_xyz.z, 1;
@@ -684,12 +755,6 @@ private:
 		ball_pose_puber.publish(pub_info);
 	}
 
-	// 		// Matrix3d k;
-
-	// 		// k << 263.525, 0, 240,
-	// 		// 	0, 263.425, 135,
-	// 		// 	0, 0, 1;
-
 	// 		// Eigen::MatrixXd uv(3, 1);
 	// 		// uv(0, 0) = z*center1.x;
 	// 		// uv(1, 0) = z*center1.y;
@@ -700,11 +765,6 @@ private:
 	// 		// cout << "相对于深度传感器(三个小红点的中心位置）的xyz（毫米为单位）"<<endl;
 
 	// 		// cout << "整体时间为" << (double)(clock() - start_time) / CLOCKS_PER_SEC << "s" << endl;
-	// 		// cout << "--------------------------------------" << endl;
-	// 	}
-	// }
-
-	/////////////////////////////////////////////////////////////////////////////
 };
 
 int main(int argc, char **argv)

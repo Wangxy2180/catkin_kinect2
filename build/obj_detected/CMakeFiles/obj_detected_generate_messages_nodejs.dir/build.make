@@ -53,15 +53,25 @@ CMAKE_BINARY_DIR = /home/free/catkin_kinect2/build
 # Include the progress variables for this target.
 include obj_detected/CMakeFiles/obj_detected_generate_messages_nodejs.dir/progress.make
 
+obj_detected/CMakeFiles/obj_detected_generate_messages_nodejs: /home/free/catkin_kinect2/devel/share/gennodejs/ros/obj_detected/msg/pred_draw.js
 obj_detected/CMakeFiles/obj_detected_generate_messages_nodejs: /home/free/catkin_kinect2/devel/share/gennodejs/ros/obj_detected/msg/ball_pose.js
 
 
+/home/free/catkin_kinect2/devel/share/gennodejs/ros/obj_detected/msg/pred_draw.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/free/catkin_kinect2/devel/share/gennodejs/ros/obj_detected/msg/pred_draw.js: /home/free/catkin_kinect2/src/obj_detected/msg/pred_draw.msg
+/home/free/catkin_kinect2/devel/share/gennodejs/ros/obj_detected/msg/pred_draw.js: /home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg
+/home/free/catkin_kinect2/devel/share/gennodejs/ros/obj_detected/msg/pred_draw.js: /opt/ros/kinetic/share/sensor_msgs/msg/Image.msg
+/home/free/catkin_kinect2/devel/share/gennodejs/ros/obj_detected/msg/pred_draw.js: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/free/catkin_kinect2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from obj_detected/pred_draw.msg"
+	cd /home/free/catkin_kinect2/build/obj_detected && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/free/catkin_kinect2/src/obj_detected/msg/pred_draw.msg -Iobj_detected:/home/free/catkin_kinect2/src/obj_detected/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p obj_detected -o /home/free/catkin_kinect2/devel/share/gennodejs/ros/obj_detected/msg
+
 /home/free/catkin_kinect2/devel/share/gennodejs/ros/obj_detected/msg/ball_pose.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
 /home/free/catkin_kinect2/devel/share/gennodejs/ros/obj_detected/msg/ball_pose.js: /home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/free/catkin_kinect2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from obj_detected/ball_pose.msg"
-	cd /home/free/catkin_kinect2/build/obj_detected && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg -Iobj_detected:/home/free/catkin_kinect2/src/obj_detected/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p obj_detected -o /home/free/catkin_kinect2/devel/share/gennodejs/ros/obj_detected/msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/free/catkin_kinect2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from obj_detected/ball_pose.msg"
+	cd /home/free/catkin_kinect2/build/obj_detected && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg -Iobj_detected:/home/free/catkin_kinect2/src/obj_detected/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p obj_detected -o /home/free/catkin_kinect2/devel/share/gennodejs/ros/obj_detected/msg
 
 obj_detected_generate_messages_nodejs: obj_detected/CMakeFiles/obj_detected_generate_messages_nodejs
+obj_detected_generate_messages_nodejs: /home/free/catkin_kinect2/devel/share/gennodejs/ros/obj_detected/msg/pred_draw.js
 obj_detected_generate_messages_nodejs: /home/free/catkin_kinect2/devel/share/gennodejs/ros/obj_detected/msg/ball_pose.js
 obj_detected_generate_messages_nodejs: obj_detected/CMakeFiles/obj_detected_generate_messages_nodejs.dir/build.make
 

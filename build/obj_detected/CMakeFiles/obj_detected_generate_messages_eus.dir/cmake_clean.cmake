@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/obj_detected_generate_messages_eus"
+  "/home/free/catkin_kinect2/devel/share/roseus/ros/obj_detected/msg/pred_draw.l"
   "/home/free/catkin_kinect2/devel/share/roseus/ros/obj_detected/msg/ball_pose.l"
   "/home/free/catkin_kinect2/devel/share/roseus/ros/obj_detected/manifest.l"
 )

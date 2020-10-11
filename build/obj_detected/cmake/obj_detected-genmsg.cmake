@@ -1,8 +1,8 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "obj_detected: 1 messages, 0 services")
+message(STATUS "obj_detected: 2 messages, 0 services")
 
-set(MSG_I_FLAGS "-Iobj_detected:/home/free/catkin_kinect2/src/obj_detected/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Iobj_detected:/home/free/catkin_kinect2/src/obj_detected/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,6 +17,11 @@ add_custom_target(obj_detected_generate_messages ALL)
 
 
 
+get_filename_component(_filename "/home/free/catkin_kinect2/src/obj_detected/msg/pred_draw.msg" NAME_WE)
+add_custom_target(_obj_detected_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "obj_detected" "/home/free/catkin_kinect2/src/obj_detected/msg/pred_draw.msg" "obj_detected/ball_pose:sensor_msgs/Image:std_msgs/Header"
+)
+
 get_filename_component(_filename "/home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg" NAME_WE)
 add_custom_target(_obj_detected_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "obj_detected" "/home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg" ""
@@ -28,6 +33,12 @@ add_custom_target(_obj_detected_generate_messages_check_deps_${_filename}
 
 ### Section generating for lang: gencpp
 ### Generating Messages
+_generate_msg_cpp(obj_detected
+  "/home/free/catkin_kinect2/src/obj_detected/msg/pred_draw.msg"
+  "${MSG_I_FLAGS}"
+  "/home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg;/opt/ros/kinetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/obj_detected
+)
 _generate_msg_cpp(obj_detected
   "/home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg"
   "${MSG_I_FLAGS}"
@@ -49,6 +60,8 @@ add_custom_target(obj_detected_generate_messages_cpp
 add_dependencies(obj_detected_generate_messages obj_detected_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/free/catkin_kinect2/src/obj_detected/msg/pred_draw.msg" NAME_WE)
+add_dependencies(obj_detected_generate_messages_cpp _obj_detected_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg" NAME_WE)
 add_dependencies(obj_detected_generate_messages_cpp _obj_detected_generate_messages_check_deps_${_filename})
 
@@ -61,6 +74,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS obj_detected_generate_messages_cpp)
 
 ### Section generating for lang: geneus
 ### Generating Messages
+_generate_msg_eus(obj_detected
+  "/home/free/catkin_kinect2/src/obj_detected/msg/pred_draw.msg"
+  "${MSG_I_FLAGS}"
+  "/home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg;/opt/ros/kinetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/obj_detected
+)
 _generate_msg_eus(obj_detected
   "/home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg"
   "${MSG_I_FLAGS}"
@@ -82,6 +101,8 @@ add_custom_target(obj_detected_generate_messages_eus
 add_dependencies(obj_detected_generate_messages obj_detected_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/free/catkin_kinect2/src/obj_detected/msg/pred_draw.msg" NAME_WE)
+add_dependencies(obj_detected_generate_messages_eus _obj_detected_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg" NAME_WE)
 add_dependencies(obj_detected_generate_messages_eus _obj_detected_generate_messages_check_deps_${_filename})
 
@@ -94,6 +115,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS obj_detected_generate_messages_eus)
 
 ### Section generating for lang: genlisp
 ### Generating Messages
+_generate_msg_lisp(obj_detected
+  "/home/free/catkin_kinect2/src/obj_detected/msg/pred_draw.msg"
+  "${MSG_I_FLAGS}"
+  "/home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg;/opt/ros/kinetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/obj_detected
+)
 _generate_msg_lisp(obj_detected
   "/home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg"
   "${MSG_I_FLAGS}"
@@ -115,6 +142,8 @@ add_custom_target(obj_detected_generate_messages_lisp
 add_dependencies(obj_detected_generate_messages obj_detected_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/free/catkin_kinect2/src/obj_detected/msg/pred_draw.msg" NAME_WE)
+add_dependencies(obj_detected_generate_messages_lisp _obj_detected_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg" NAME_WE)
 add_dependencies(obj_detected_generate_messages_lisp _obj_detected_generate_messages_check_deps_${_filename})
 
@@ -127,6 +156,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS obj_detected_generate_messages_lisp
 
 ### Section generating for lang: gennodejs
 ### Generating Messages
+_generate_msg_nodejs(obj_detected
+  "/home/free/catkin_kinect2/src/obj_detected/msg/pred_draw.msg"
+  "${MSG_I_FLAGS}"
+  "/home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg;/opt/ros/kinetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/obj_detected
+)
 _generate_msg_nodejs(obj_detected
   "/home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg"
   "${MSG_I_FLAGS}"
@@ -148,6 +183,8 @@ add_custom_target(obj_detected_generate_messages_nodejs
 add_dependencies(obj_detected_generate_messages obj_detected_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/free/catkin_kinect2/src/obj_detected/msg/pred_draw.msg" NAME_WE)
+add_dependencies(obj_detected_generate_messages_nodejs _obj_detected_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg" NAME_WE)
 add_dependencies(obj_detected_generate_messages_nodejs _obj_detected_generate_messages_check_deps_${_filename})
 
@@ -160,6 +197,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS obj_detected_generate_messages_node
 
 ### Section generating for lang: genpy
 ### Generating Messages
+_generate_msg_py(obj_detected
+  "/home/free/catkin_kinect2/src/obj_detected/msg/pred_draw.msg"
+  "${MSG_I_FLAGS}"
+  "/home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg;/opt/ros/kinetic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/obj_detected
+)
 _generate_msg_py(obj_detected
   "/home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg"
   "${MSG_I_FLAGS}"
@@ -181,6 +224,8 @@ add_custom_target(obj_detected_generate_messages_py
 add_dependencies(obj_detected_generate_messages obj_detected_generate_messages_py)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/free/catkin_kinect2/src/obj_detected/msg/pred_draw.msg" NAME_WE)
+add_dependencies(obj_detected_generate_messages_py _obj_detected_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg" NAME_WE)
 add_dependencies(obj_detected_generate_messages_py _obj_detected_generate_messages_check_deps_${_filename})
 
@@ -203,6 +248,9 @@ endif()
 if(TARGET std_msgs_generate_messages_cpp)
   add_dependencies(obj_detected_generate_messages_cpp std_msgs_generate_messages_cpp)
 endif()
+if(TARGET sensor_msgs_generate_messages_cpp)
+  add_dependencies(obj_detected_generate_messages_cpp sensor_msgs_generate_messages_cpp)
+endif()
 
 if(geneus_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/obj_detected)
   # install generated code
@@ -213,6 +261,9 @@ if(geneus_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ob
 endif()
 if(TARGET std_msgs_generate_messages_eus)
   add_dependencies(obj_detected_generate_messages_eus std_msgs_generate_messages_eus)
+endif()
+if(TARGET sensor_msgs_generate_messages_eus)
+  add_dependencies(obj_detected_generate_messages_eus sensor_msgs_generate_messages_eus)
 endif()
 
 if(genlisp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/obj_detected)
@@ -225,6 +276,9 @@ endif()
 if(TARGET std_msgs_generate_messages_lisp)
   add_dependencies(obj_detected_generate_messages_lisp std_msgs_generate_messages_lisp)
 endif()
+if(TARGET sensor_msgs_generate_messages_lisp)
+  add_dependencies(obj_detected_generate_messages_lisp sensor_msgs_generate_messages_lisp)
+endif()
 
 if(gennodejs_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/obj_detected)
   # install generated code
@@ -235,6 +289,9 @@ if(gennodejs_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_D
 endif()
 if(TARGET std_msgs_generate_messages_nodejs)
   add_dependencies(obj_detected_generate_messages_nodejs std_msgs_generate_messages_nodejs)
+endif()
+if(TARGET sensor_msgs_generate_messages_nodejs)
+  add_dependencies(obj_detected_generate_messages_nodejs sensor_msgs_generate_messages_nodejs)
 endif()
 
 if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/obj_detected)
@@ -247,4 +304,7 @@ if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/obj_
 endif()
 if(TARGET std_msgs_generate_messages_py)
   add_dependencies(obj_detected_generate_messages_py std_msgs_generate_messages_py)
+endif()
+if(TARGET sensor_msgs_generate_messages_py)
+  add_dependencies(obj_detected_generate_messages_py sensor_msgs_generate_messages_py)
 endif()

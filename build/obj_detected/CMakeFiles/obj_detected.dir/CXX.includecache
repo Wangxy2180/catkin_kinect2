@@ -6,22 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/free/catkin_kinect2/devel/include/obj_detected/ball_pose.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-
 /home/free/catkin_kinect2/src/obj_detected/src/obj_detected.cpp
 iostream
 -

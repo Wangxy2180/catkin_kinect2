@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.0.2)
 project(obj_detected)
 
+## set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g ")
+## set (CMAKE_BUILD_TYPE Debug)
+
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
 
@@ -55,6 +58,7 @@ find_package(catkin REQUIRED COMPONENTS
  add_message_files(
    FILES
   ball_pose.msg
+  pred_draw.msg
 #   Message2.msg
  )
 
@@ -76,6 +80,7 @@ find_package(catkin REQUIRED COMPONENTS
  generate_messages(
    DEPENDENCIES
    std_msgs  # Or other packages containing msgs
+   sensor_msgs
  )
 
 ################################################
@@ -218,4 +223,3 @@ target_link_libraries(obj_detected
 ${OpenCV_LIBRARIES}
 ${catkin_LIBRARIES})
 add_definitions(-std=c++11)
-set(CMAKE_BUILD_TYPE "Debug")

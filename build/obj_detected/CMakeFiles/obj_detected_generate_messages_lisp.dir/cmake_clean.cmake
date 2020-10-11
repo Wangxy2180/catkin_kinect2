@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/obj_detected_generate_messages_lisp"
+  "/home/free/catkin_kinect2/devel/share/common-lisp/ros/obj_detected/msg/pred_draw.lisp"
   "/home/free/catkin_kinect2/devel/share/common-lisp/ros/obj_detected/msg/ball_pose.lisp"
 )
 

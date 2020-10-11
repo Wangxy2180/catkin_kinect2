@@ -53,21 +53,32 @@ CMAKE_BINARY_DIR = /home/free/catkin_kinect2/build
 # Include the progress variables for this target.
 include obj_detected/CMakeFiles/obj_detected_generate_messages_py.dir/progress.make
 
+obj_detected/CMakeFiles/obj_detected_generate_messages_py: /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/obj_detected/msg/_pred_draw.py
 obj_detected/CMakeFiles/obj_detected_generate_messages_py: /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/obj_detected/msg/_ball_pose.py
 obj_detected/CMakeFiles/obj_detected_generate_messages_py: /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/obj_detected/msg/__init__.py
 
 
+/home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/obj_detected/msg/_pred_draw.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/obj_detected/msg/_pred_draw.py: /home/free/catkin_kinect2/src/obj_detected/msg/pred_draw.msg
+/home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/obj_detected/msg/_pred_draw.py: /home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg
+/home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/obj_detected/msg/_pred_draw.py: /opt/ros/kinetic/share/sensor_msgs/msg/Image.msg
+/home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/obj_detected/msg/_pred_draw.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/free/catkin_kinect2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG obj_detected/pred_draw"
+	cd /home/free/catkin_kinect2/build/obj_detected && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/free/catkin_kinect2/src/obj_detected/msg/pred_draw.msg -Iobj_detected:/home/free/catkin_kinect2/src/obj_detected/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p obj_detected -o /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/obj_detected/msg
+
 /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/obj_detected/msg/_ball_pose.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
 /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/obj_detected/msg/_ball_pose.py: /home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/free/catkin_kinect2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG obj_detected/ball_pose"
-	cd /home/free/catkin_kinect2/build/obj_detected && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg -Iobj_detected:/home/free/catkin_kinect2/src/obj_detected/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p obj_detected -o /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/obj_detected/msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/free/catkin_kinect2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG obj_detected/ball_pose"
+	cd /home/free/catkin_kinect2/build/obj_detected && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg -Iobj_detected:/home/free/catkin_kinect2/src/obj_detected/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p obj_detected -o /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/obj_detected/msg
 
 /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/obj_detected/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/obj_detected/msg/__init__.py: /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/obj_detected/msg/_pred_draw.py
 /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/obj_detected/msg/__init__.py: /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/obj_detected/msg/_ball_pose.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/free/catkin_kinect2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for obj_detected"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/free/catkin_kinect2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for obj_detected"
 	cd /home/free/catkin_kinect2/build/obj_detected && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/obj_detected/msg --initpy
 
 obj_detected_generate_messages_py: obj_detected/CMakeFiles/obj_detected_generate_messages_py
+obj_detected_generate_messages_py: /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/obj_detected/msg/_pred_draw.py
 obj_detected_generate_messages_py: /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/obj_detected/msg/_ball_pose.py
 obj_detected_generate_messages_py: /home/free/catkin_kinect2/devel/lib/python2.7/dist-packages/obj_detected/msg/__init__.py
 obj_detected_generate_messages_py: obj_detected/CMakeFiles/obj_detected_generate_messages_py.dir/build.make

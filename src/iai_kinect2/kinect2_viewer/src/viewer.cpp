@@ -205,6 +205,7 @@ private:
     {
       imageViewerThread.join();
     }
+    ROS_INFO("stop...");
   }
 
   void callback(const sensor_msgs::Image::ConstPtr imageColor, const sensor_msgs::Image::ConstPtr imageDepth,

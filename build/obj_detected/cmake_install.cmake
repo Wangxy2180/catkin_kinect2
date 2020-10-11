@@ -33,7 +33,10 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/obj_detected/msg" TYPE FILE FILES "/home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/obj_detected/msg" TYPE FILE FILES
+    "/home/free/catkin_kinect2/src/obj_detected/msg/ball_pose.msg"
+    "/home/free/catkin_kinect2/src/obj_detected/msg/pred_draw.msg"
+    )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")

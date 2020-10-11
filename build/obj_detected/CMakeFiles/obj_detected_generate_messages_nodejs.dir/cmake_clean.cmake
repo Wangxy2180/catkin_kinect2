@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/obj_detected_generate_messages_nodejs"
+  "/home/free/catkin_kinect2/devel/share/gennodejs/ros/obj_detected/msg/pred_draw.js"
   "/home/free/catkin_kinect2/devel/share/gennodejs/ros/obj_detected/msg/ball_pose.js"
 )
 
