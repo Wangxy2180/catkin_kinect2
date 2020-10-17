@@ -56,26 +56,16 @@ CMAKE_BINARY_DIR = /home/free/catkin_kinect2/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
 
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
 
-.PHONY : list_install_components/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
+.PHONY : rebuild_cache/fast
 
 # Special rule for the target test
 test:
@@ -98,6 +88,16 @@ install/local: preinstall
 install/local/fast: install/local
 
 .PHONY : install/local/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
@@ -122,16 +122,16 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
 
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
 
-.PHONY : rebuild_cache/fast
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -166,6 +166,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+darknet_ros/darknet_ros/CMakeFiles/clean_test_results_darknet_ros.dir/rule:
+	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/clean_test_results_darknet_ros.dir/rule
+.PHONY : darknet_ros/darknet_ros/CMakeFiles/clean_test_results_darknet_ros.dir/rule
+
+# Convenience name for target.
+clean_test_results_darknet_ros: darknet_ros/darknet_ros/CMakeFiles/clean_test_results_darknet_ros.dir/rule
+
+.PHONY : clean_test_results_darknet_ros
+
+# fast build rule for target.
+clean_test_results_darknet_ros/fast:
+	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/clean_test_results_darknet_ros.dir/build.make darknet_ros/darknet_ros/CMakeFiles/clean_test_results_darknet_ros.dir/build
+.PHONY : clean_test_results_darknet_ros/fast
+
+# Convenience name for target.
 darknet_ros/darknet_ros/CMakeFiles/run_tests_darknet_ros_rostest_test_object_detection.test.dir/rule:
 	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/run_tests_darknet_ros_rostest_test_object_detection.test.dir/rule
 .PHONY : darknet_ros/darknet_ros/CMakeFiles/run_tests_darknet_ros_rostest_test_object_detection.test.dir/rule
@@ -179,36 +194,6 @@ run_tests_darknet_ros_rostest_test_object_detection.test: darknet_ros/darknet_ro
 run_tests_darknet_ros_rostest_test_object_detection.test/fast:
 	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/run_tests_darknet_ros_rostest_test_object_detection.test.dir/build.make darknet_ros/darknet_ros/CMakeFiles/run_tests_darknet_ros_rostest_test_object_detection.test.dir/build
 .PHONY : run_tests_darknet_ros_rostest_test_object_detection.test/fast
-
-# Convenience name for target.
-darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
-.PHONY : darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_cpp: darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
-
-.PHONY : actionlib_generate_messages_cpp
-
-# fast build rule for target.
-actionlib_generate_messages_cpp/fast:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/build
-.PHONY : actionlib_generate_messages_cpp/fast
-
-# Convenience name for target.
-darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 darknet_ros/darknet_ros/CMakeFiles/_run_tests_darknet_ros_rostest.dir/rule:
@@ -226,186 +211,6 @@ _run_tests_darknet_ros_rostest/fast:
 .PHONY : _run_tests_darknet_ros_rostest/fast
 
 # Convenience name for target.
-darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-.PHONY : darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_eus: darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_eus
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-.PHONY : rosgraph_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_py.dir/rule:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_py.dir/rule
-.PHONY : darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_py.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_py: darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_py.dir/rule
-
-.PHONY : actionlib_generate_messages_py
-
-# fast build rule for target.
-actionlib_generate_messages_py/fast:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_py.dir/build.make darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_py.dir/build
-.PHONY : actionlib_generate_messages_py/fast
-
-# Convenience name for target.
-darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-.PHONY : darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_nodejs: darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
-.PHONY : rosgraph_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-darknet_ros/darknet_ros/CMakeFiles/_run_tests_darknet_ros_rostest_test_object_detection.test.dir/rule:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/_run_tests_darknet_ros_rostest_test_object_detection.test.dir/rule
-.PHONY : darknet_ros/darknet_ros/CMakeFiles/_run_tests_darknet_ros_rostest_test_object_detection.test.dir/rule
-
-# Convenience name for target.
-_run_tests_darknet_ros_rostest_test_object_detection.test: darknet_ros/darknet_ros/CMakeFiles/_run_tests_darknet_ros_rostest_test_object_detection.test.dir/rule
-
-.PHONY : _run_tests_darknet_ros_rostest_test_object_detection.test
-
-# fast build rule for target.
-_run_tests_darknet_ros_rostest_test_object_detection.test/fast:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/_run_tests_darknet_ros_rostest_test_object_detection.test.dir/build.make darknet_ros/darknet_ros/CMakeFiles/_run_tests_darknet_ros_rostest_test_object_detection.test.dir/build
-.PHONY : _run_tests_darknet_ros_rostest_test_object_detection.test/fast
-
-# Convenience name for target.
-darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_cpp: darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-.PHONY : roscpp_generate_messages_cpp
-
-# fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
-
-# Convenience name for target.
-darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_py: darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_py/fast:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-.PHONY : rosgraph_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make darknet_ros/darknet_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-.PHONY : darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_nodejs: darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-
-.PHONY : roscpp_generate_messages_nodejs
-
-# fast build rule for target.
-roscpp_generate_messages_nodejs/fast:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
-.PHONY : roscpp_generate_messages_nodejs/fast
-
-# Convenience name for target.
-darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_py: darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-.PHONY : roscpp_generate_messages_py
-
-# fast build rule for target.
-roscpp_generate_messages_py/fast:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_py.dir/build.make darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_py.dir/build
-.PHONY : roscpp_generate_messages_py/fast
-
-# Convenience name for target.
-darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_eus.dir/rule:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_eus.dir/rule
-.PHONY : darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_eus: darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_eus.dir/rule
-
-.PHONY : actionlib_generate_messages_eus
-
-# fast build rule for target.
-actionlib_generate_messages_eus/fast:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_eus.dir/build.make darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_eus.dir/build
-.PHONY : actionlib_generate_messages_eus/fast
-
-# Convenience name for target.
-darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-.PHONY : darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_lisp: darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-
-.PHONY : actionlib_generate_messages_lisp
-
-# fast build rule for target.
-actionlib_generate_messages_lisp/fast:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/build
-.PHONY : actionlib_generate_messages_lisp/fast
-
-# Convenience name for target.
-darknet_ros/darknet_ros/CMakeFiles/run_tests_darknet_ros_rostest.dir/rule:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/run_tests_darknet_ros_rostest.dir/rule
-.PHONY : darknet_ros/darknet_ros/CMakeFiles/run_tests_darknet_ros_rostest.dir/rule
-
-# Convenience name for target.
-run_tests_darknet_ros_rostest: darknet_ros/darknet_ros/CMakeFiles/run_tests_darknet_ros_rostest.dir/rule
-
-.PHONY : run_tests_darknet_ros_rostest
-
-# fast build rule for target.
-run_tests_darknet_ros_rostest/fast:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/run_tests_darknet_ros_rostest.dir/build.make darknet_ros/darknet_ros/CMakeFiles/run_tests_darknet_ros_rostest.dir/build
-.PHONY : run_tests_darknet_ros_rostest/fast
-
-# Convenience name for target.
 darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule:
 	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 .PHONY : darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
@@ -419,21 +224,6 @@ actionlib_generate_messages_nodejs: darknet_ros/darknet_ros/CMakeFiles/actionlib
 actionlib_generate_messages_nodejs/fast:
 	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
 .PHONY : actionlib_generate_messages_nodejs/fast
-
-# Convenience name for target.
-darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/rule:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/rule
-.PHONY : darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/rule
-
-# Convenience name for target.
-darknet_ros_lib: darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/rule
-
-.PHONY : darknet_ros_lib
-
-# fast build rule for target.
-darknet_ros_lib/fast:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/build.make darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/build
-.PHONY : darknet_ros_lib/fast
 
 # Convenience name for target.
 darknet_ros/darknet_ros/CMakeFiles/darknet_ros.dir/rule:
@@ -451,19 +241,64 @@ darknet_ros/fast:
 .PHONY : darknet_ros/fast
 
 # Convenience name for target.
-darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+darknet_ros/darknet_ros/CMakeFiles/_run_tests_darknet_ros_rostest_test_object_detection.test.dir/rule:
+	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/_run_tests_darknet_ros_rostest_test_object_detection.test.dir/rule
+.PHONY : darknet_ros/darknet_ros/CMakeFiles/_run_tests_darknet_ros_rostest_test_object_detection.test.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_lisp: darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+_run_tests_darknet_ros_rostest_test_object_detection.test: darknet_ros/darknet_ros/CMakeFiles/_run_tests_darknet_ros_rostest_test_object_detection.test.dir/rule
 
-.PHONY : roscpp_generate_messages_lisp
+.PHONY : _run_tests_darknet_ros_rostest_test_object_detection.test
 
 # fast build rule for target.
-roscpp_generate_messages_lisp/fast:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-.PHONY : roscpp_generate_messages_lisp/fast
+_run_tests_darknet_ros_rostest_test_object_detection.test/fast:
+	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/_run_tests_darknet_ros_rostest_test_object_detection.test.dir/build.make darknet_ros/darknet_ros/CMakeFiles/_run_tests_darknet_ros_rostest_test_object_detection.test.dir/build
+.PHONY : _run_tests_darknet_ros_rostest_test_object_detection.test/fast
+
+# Convenience name for target.
+darknet_ros/darknet_ros/CMakeFiles/run_tests_darknet_ros_rostest.dir/rule:
+	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/run_tests_darknet_ros_rostest.dir/rule
+.PHONY : darknet_ros/darknet_ros/CMakeFiles/run_tests_darknet_ros_rostest.dir/rule
+
+# Convenience name for target.
+run_tests_darknet_ros_rostest: darknet_ros/darknet_ros/CMakeFiles/run_tests_darknet_ros_rostest.dir/rule
+
+.PHONY : run_tests_darknet_ros_rostest
+
+# fast build rule for target.
+run_tests_darknet_ros_rostest/fast:
+	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/run_tests_darknet_ros_rostest.dir/build.make darknet_ros/darknet_ros/CMakeFiles/run_tests_darknet_ros_rostest.dir/build
+.PHONY : run_tests_darknet_ros_rostest/fast
+
+# Convenience name for target.
+darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
+	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+.PHONY : darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+actionlib_generate_messages_lisp: darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+
+.PHONY : actionlib_generate_messages_lisp
+
+# fast build rule for target.
+actionlib_generate_messages_lisp/fast:
+	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+.PHONY : actionlib_generate_messages_lisp/fast
+
+# Convenience name for target.
+darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_eus.dir/rule:
+	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_eus.dir/rule
+.PHONY : darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+actionlib_generate_messages_eus: darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_eus.dir/rule
+
+.PHONY : actionlib_generate_messages_eus
+
+# fast build rule for target.
+actionlib_generate_messages_eus/fast:
+	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_eus.dir/build.make darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_eus.dir/build
+.PHONY : actionlib_generate_messages_eus/fast
 
 # Convenience name for target.
 darknet_ros/darknet_ros/CMakeFiles/darknet_ros_object_detection-test.dir/rule:
@@ -481,19 +316,49 @@ darknet_ros_object_detection-test/fast:
 .PHONY : darknet_ros_object_detection-test/fast
 
 # Convenience name for target.
-darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-.PHONY : darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
+	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+.PHONY : darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_eus: darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+actionlib_generate_messages_cpp: darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 
-.PHONY : roscpp_generate_messages_eus
+.PHONY : actionlib_generate_messages_cpp
 
 # fast build rule for target.
-roscpp_generate_messages_eus/fast:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_eus.dir/build.make darknet_ros/darknet_ros/CMakeFiles/roscpp_generate_messages_eus.dir/build
-.PHONY : roscpp_generate_messages_eus/fast
+actionlib_generate_messages_cpp/fast:
+	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+.PHONY : actionlib_generate_messages_cpp/fast
+
+# Convenience name for target.
+darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_py.dir/rule:
+	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_py.dir/rule
+.PHONY : darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_py.dir/rule
+
+# Convenience name for target.
+actionlib_generate_messages_py: darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_py.dir/rule
+
+.PHONY : actionlib_generate_messages_py
+
+# fast build rule for target.
+actionlib_generate_messages_py/fast:
+	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_py.dir/build.make darknet_ros/darknet_ros/CMakeFiles/actionlib_generate_messages_py.dir/build
+.PHONY : actionlib_generate_messages_py/fast
+
+# Convenience name for target.
+darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/rule:
+	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/rule
+.PHONY : darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/rule
+
+# Convenience name for target.
+darknet_ros_lib: darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/rule
+
+.PHONY : darknet_ros_lib
+
+# fast build rule for target.
+darknet_ros_lib/fast:
+	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/build.make darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/build
+.PHONY : darknet_ros_lib/fast
 
 # Convenience name for target.
 darknet_ros/darknet_ros/CMakeFiles/run_tests_darknet_ros.dir/rule:
@@ -509,21 +374,6 @@ run_tests_darknet_ros: darknet_ros/darknet_ros/CMakeFiles/run_tests_darknet_ros.
 run_tests_darknet_ros/fast:
 	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/run_tests_darknet_ros.dir/build.make darknet_ros/darknet_ros/CMakeFiles/run_tests_darknet_ros.dir/build
 .PHONY : run_tests_darknet_ros/fast
-
-# Convenience name for target.
-darknet_ros/darknet_ros/CMakeFiles/clean_test_results_darknet_ros.dir/rule:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f CMakeFiles/Makefile2 darknet_ros/darknet_ros/CMakeFiles/clean_test_results_darknet_ros.dir/rule
-.PHONY : darknet_ros/darknet_ros/CMakeFiles/clean_test_results_darknet_ros.dir/rule
-
-# Convenience name for target.
-clean_test_results_darknet_ros: darknet_ros/darknet_ros/CMakeFiles/clean_test_results_darknet_ros.dir/rule
-
-.PHONY : clean_test_results_darknet_ros
-
-# fast build rule for target.
-clean_test_results_darknet_ros/fast:
-	cd /home/free/catkin_kinect2/build && $(MAKE) -f darknet_ros/darknet_ros/CMakeFiles/clean_test_results_darknet_ros.dir/build.make darknet_ros/darknet_ros/CMakeFiles/clean_test_results_darknet_ros.dir/build
-.PHONY : clean_test_results_darknet_ros/fast
 
 # Convenience name for target.
 darknet_ros/darknet_ros/CMakeFiles/_run_tests_darknet_ros.dir/rule:
@@ -2328,37 +2178,27 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... list_install_components"
-	@echo "... edit_cache"
+	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... install/local"
-	@echo "... run_tests_darknet_ros_rostest_test_object_detection.test"
-	@echo "... actionlib_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
+	@echo "... list_install_components"
 	@echo "... install/strip"
-	@echo "... _run_tests_darknet_ros_rostest"
-	@echo "... rosgraph_msgs_generate_messages_eus"
-	@echo "... actionlib_generate_messages_py"
-	@echo "... rosgraph_msgs_generate_messages_nodejs"
-	@echo "... _run_tests_darknet_ros_rostest_test_object_detection.test"
-	@echo "... roscpp_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_py"
-	@echo "... rosgraph_msgs_generate_messages_lisp"
-	@echo "... roscpp_generate_messages_nodejs"
-	@echo "... roscpp_generate_messages_py"
-	@echo "... actionlib_generate_messages_eus"
-	@echo "... actionlib_generate_messages_lisp"
-	@echo "... install"
-	@echo "... run_tests_darknet_ros_rostest"
-	@echo "... rebuild_cache"
-	@echo "... actionlib_generate_messages_nodejs"
-	@echo "... darknet_ros_lib"
-	@echo "... darknet_ros"
-	@echo "... roscpp_generate_messages_lisp"
-	@echo "... darknet_ros_object_detection-test"
-	@echo "... roscpp_generate_messages_eus"
-	@echo "... run_tests_darknet_ros"
 	@echo "... clean_test_results_darknet_ros"
+	@echo "... run_tests_darknet_ros_rostest_test_object_detection.test"
+	@echo "... _run_tests_darknet_ros_rostest"
+	@echo "... actionlib_generate_messages_nodejs"
+	@echo "... darknet_ros"
+	@echo "... _run_tests_darknet_ros_rostest_test_object_detection.test"
+	@echo "... run_tests_darknet_ros_rostest"
+	@echo "... actionlib_generate_messages_lisp"
+	@echo "... actionlib_generate_messages_eus"
+	@echo "... install"
+	@echo "... darknet_ros_object_detection-test"
+	@echo "... actionlib_generate_messages_cpp"
+	@echo "... edit_cache"
+	@echo "... actionlib_generate_messages_py"
+	@echo "... darknet_ros_lib"
+	@echo "... run_tests_darknet_ros"
 	@echo "... _run_tests_darknet_ros"
 	@echo "... __/darknet/examples/art.o"
 	@echo "... __/darknet/examples/art.i"

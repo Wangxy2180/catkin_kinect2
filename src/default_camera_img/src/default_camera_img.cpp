@@ -9,7 +9,7 @@ using namespace ros;
 int main(int argc, char **argv)
 {
   setlocale(LC_CTYPE, "zh_CN.utf8");
-  cv::VideoCapture capture(0);
+  cv::VideoCapture capture(1);
 
   if (!capture.isOpened())
   {

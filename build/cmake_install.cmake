@@ -127,6 +127,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/free/catkin_kinect2/build/gtest/cmake_install.cmake")
   include("/home/free/catkin_kinect2/build/iai_kinect2/iai_kinect2/cmake_install.cmake")
+  include("/home/free/catkin_kinect2/build/ros_test/cmake_install.cmake")
   include("/home/free/catkin_kinect2/build/darknet_ros/darknet_ros_msgs/cmake_install.cmake")
   include("/home/free/catkin_kinect2/build/darknet_ros/darknet_ros/cmake_install.cmake")
   include("/home/free/catkin_kinect2/build/default_camera_img/cmake_install.cmake")

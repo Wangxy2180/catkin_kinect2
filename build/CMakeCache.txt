@@ -1095,6 +1095,12 @@ obj_detected_SOURCE_DIR:STATIC=/home/free/catkin_kinect2/src/obj_detected
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/kinetic/share/pluginlib/cmake
 
+//Value Computed by CMake
+ros_test_BINARY_DIR:STATIC=/home/free/catkin_kinect2/build/ros_test
+
+//Value Computed by CMake
+ros_test_SOURCE_DIR:STATIC=/home/free/catkin_kinect2/src/ros_test
+
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/kinetic/share/rosconsole/cmake
 
@@ -1317,7 +1323,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

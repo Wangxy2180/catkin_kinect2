@@ -35,7 +35,7 @@
 #include <message_filters/sync_policies/exact_time.h>
 
 #include <obj_detected/ball_pose.h>
-#include <obj_detected/pred_draw.h>
+// #include <obj_detected/pred_draw.h>
 
 // #include <time.h>
 #include <Eigen/Core>
@@ -612,7 +612,7 @@ private:
 		//单位毫米
 		float depth_value = depth_img.at<uint16_t>(obj_info.y, obj_info.x);
 		//将搜索的矩形扩大
-		const int rect_radius = obj_info.r * 2;
+		const int rect_radius = obj_info.r * 1;
 		// //找个范围内的×最小深度×值
 		//被封印的少年
 		// const int left = (obj_info.x - obj_info.r) < 0 ? 0 : (obj_info.x - obj_info.r);
