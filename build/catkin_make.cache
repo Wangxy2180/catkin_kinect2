@@ -1,2 +1,0 @@
-darknet_ros/darknet_ros:darknet_ros/darknet_ros_msgs:default_camera_img:iai_kinect2/iai_kinect2:iai_kinect2/kinect2_bridge:iai_kinect2/kinect2_calibration:iai_kinect2/kinect2_registration:iai_kinect2/kinect2_viewer:learning_ros_gyh21:obj_detected:ros_test
--DCATKIN_DEVEL_PREFIX=/home/free/catkin_kinect2/devel -DCMAKE_INSTALL_PREFIX=/home/free/catkin_kinect2/install -G Unix Makefiles

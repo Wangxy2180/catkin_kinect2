@@ -1,8 +1,0 @@
-prefix=/home/free/catkin_kinect2/install
-
-Name: default_camera_img
-Description: Description of default_camera_img
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

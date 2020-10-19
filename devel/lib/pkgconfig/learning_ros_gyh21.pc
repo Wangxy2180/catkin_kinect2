@@ -1,8 +1,0 @@
-prefix=/home/free/catkin_kinect2/devel
-
-Name: learning_ros_gyh21
-Description: Description of learning_ros_gyh21
-Version: 0.0.0
-Cflags: -I/home/free/catkin_kinect2/devel/include
-Libs: -L${prefix}/lib 
-Requires: geometry_msgs roscpp rospy std_msgs turtlesim message_runtime
